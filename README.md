@@ -32,10 +32,10 @@ and immerse into the arts &
 
 ### Background
 
-- Ph.D. Candidature (Neural computations underlying one-shot learning of paired associations), National Unviersity of Singapore: 2018-2023
-- Center for Brains, Minds and Machines (CBMM) Summer School, Massachusetts Institute of Technology: 2019
-- Research Engineer (Inferring social roles & relationships using computer vision), A\*STAR Artificial Intellignce Initiative (A\*AI): 2017-2018
-- [B.Sc. Life Sciences + University Scholars Programme (USP) + Special Programme in Science (SPS): 2013-2017](https://www.facebook.com/nus.singapore/videos/10155508729748540/)
+- 2018 - 2023: Ph.D. Candidature (Neural computations underlying one-shot learning of paired associations), National Unviersity of Singapore: 2018-2023
+- 2019: Center for Brains, Minds and Machines (CBMM) Summer School, Massachusetts Institute of Technology: 2019
+- 2017 - 2018: Research Engineer (Inferring social roles & relationships using computer vision), A\*STAR Artificial Intellignce Initiative (A\*AI): 2017-2018
+- 2013 - 2017: [B.Sc. Life Sciences + University Scholars Programme (USP) + Special Programme in Science (SPS)](https://www.facebook.com/nus.singapore/videos/10155508729748540/)
 
 ### Awards
 
