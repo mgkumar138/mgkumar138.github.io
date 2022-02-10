@@ -6,11 +6,11 @@ Besides research, I love to tour (either on my [motorcycle](https://news.nus.edu
 
 ### Publications
 
-•	Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2022). A nonlinear hidden layer enables actor-critic agents to learn multiple paired association navigation. Cerebral Cortex. https://doi.org/10.1093/cercor/bhab456
+•	Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2022). A nonlinear hidden layer enables actor-critic agents to learn multiple paired association navigation. ***Cerebral Cortex***. [https://doi.org/10.1093/cercor/bhab456](https://doi.org/10.1093/cercor/bhab456)
 
-•	Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2021). One-shot learning of paired associations by a reservoir computing model with Hebbian plasticity. arXiv preprint arXiv:2106.03580. https://arxiv.org/abs/2106.03580 
+•	Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2021). One-shot learning of paired associations by a reservoir computing model with Hebbian plasticity. *arXiv preprint arXiv:2106.03580*. [https://arxiv.org/abs/2106.03580](https://arxiv.org/abs/2106.03580)
 
-•	Kumar M. G., Kai Keng Ang, Rosa Q. So. (2017). Reject Option to reduce False Detection Rates for EEG-Motor Imagery based BCI. In Engineering in Medicine and Biology Society, EMBC 2017. 39th Annual International Conference of the IEEE. https://doi.org/10.1109/EMBC.2017.8037479
+•	Kumar M. G., Kai Keng Ang, Rosa Q. So. (2017). Reject Option to reduce False Detection Rates for EEG-Motor Imagery based BCI. In Engineering in Medicine and Biology Society, EMBC 2017. ***39th Annual International Conference of the IEEE***. [https://doi.org/10.1109/EMBC.2017.8037479](https://doi.org/10.1109/EMBC.2017.8037479)
 
 
 ### Background
