@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+## Welcome to Ganesh's page!
 
-You can use the [editor on GitHub](https://github.com/mgkumar138/mgkumar138.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+I am Neuroscience Ph.D. candidate at the National University of Singapore (NUS) under the Integrative Sciences and Engineering Programme (ISEP). I am curious about how we learn the structure of our world and can utilize prior knowledge to solve new problems quickly. My thesis is to develop biologically plausible neural network models and reinforcement learning rules that is able to learn new paired associations in one-shot (after a single training exposure). I am advised by [Dr Andrew Tan](https://nus.edu.sg/lsi/principal-investigators-3/dr-andrew-tan-yong-yi/) and [Dr Shih Cheng Yen](https://cde.nus.edu.sg/idp/staff/yen-shih-cheng/). My research work is supported by the NUS Graduate School Scholarship (NGSS). 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Besides research, I am an avid backpacker, love to tour on my motorcycle and enjoy the theatre scene!
 
-### Markdown
+### Publications
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+•	Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2022). A nonlinear hidden layer enables actor-critic agents to learn multiple paired association navigation. Cerebral Cortex. https://doi.org/10.1093/cercor/bhab456
+•	Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2021). One-shot learning of paired associations by a reservoir computing model with Hebbian plasticity. arXiv preprint arXiv:2106.03580. https://arxiv.org/abs/2106.03580
+•	Kumar M. G., Kai Keng Ang, Rosa Q. So. (2017). Reject Option to reduce False Detection Rates for EEG-Motor Imagery based BCI. In Engineering in Medicine and Biology Society, EMBC 2017. 39th Annual International Conference of the IEEE. https://doi.org/10.1109/EMBC.2017.8037479
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### Research History
+- Ph.D. Candidature, National Unviersity of Singapore: 2018-2023
+- Center for Brains, Minds and Machines (CBMM) Summer School, Massachusetts Institute of Technology: 2019
+- Research Engineer, A\*STAR Artificial Intellignce Initiative (A\*AI): 2017-2018
+- B.Sc. Life Sciences + University Scholars Programme (USP) + Special Programme in Science (SPS): 2013-2017
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+### Contact
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mgkumar138/mgkumar138.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+m_ganeshkumar@u.nus.edu
