@@ -2,7 +2,7 @@
 
 I am Neuroscience Ph.D. candidate at the National University of Singapore (NUS) under the Integrative Sciences and Engineering Programme (ISEP). I am curious about how we learn the structure of our world and can utilize prior knowledge to solve new problems quickly. My thesis is to develop biologically plausible neural network models and reinforcement learning rules that is able to learn new paired associations in one-shot (after a single training exposure). I am advised by [Dr Andrew Tan](https://nus.edu.sg/lsi/principal-investigators-3/dr-andrew-tan-yong-yi/) and [Dr Shih Cheng Yen](https://cde.nus.edu.sg/idp/staff/yen-shih-cheng/). My research work is supported by the NUS Graduate School Scholarship (NGSS). 
 
-Besides research, I am an avid backpacker, love to tour on my motorcycle and enjoy the theatre scene!
+Besides research, I love to tour (either on my motorcycle or backpacking), dabble in entrepreneurship (specifically in Education Technology), and immerse into the arts & theatre scene!
 
 ### Publications
 
@@ -14,12 +14,24 @@ Besides research, I am an avid backpacker, love to tour on my motorcycle and enj
 
 
 ### Research History
-- Ph.D. Candidature, National Unviersity of Singapore: 2018-2023
+
+- Ph.D. Candidature (Neural computations underlying one-shot learning of paired associations), National Unviersity of Singapore: 2018-2023
 - Center for Brains, Minds and Machines (CBMM) Summer School, Massachusetts Institute of Technology: 2019
-- Research Engineer, A\*STAR Artificial Intellignce Initiative (A\*AI): 2017-2018
+- Research Engineer (Inferring social roles & relationships using computer vision), A\*STAR Artificial Intellignce Initiative (A\*AI): 2017-2018
 - B.Sc. Life Sciences + University Scholars Programme (USP) + Special Programme in Science (SPS): 2013-2017
 
+### Awards
+
+- [CBMM-Fujitsu Laboratories Fellow 2019](https://cbmm.mit.edu/summer-school/fellows)
+- NUS Graduate School Scholarship 2018
+- [NUSSU Medal for Outstanding Achievement 2017](https://www.usp.nus.edu.sg/curriculum/awards-and-recognition/award-winners-of-class-2017/)
+- USP Senior Honor Roll 2017
+- A\*STAR Undergraduate Scholarship 2013
 
 ### Contact
 
-m_ganeshkumar@u.nus.edu
+Look forward to connecting with you!
+m_ganeshkumar{at}u{dot}nus{dot}edu
+[GitHub](www.github.com/mgkumar138)
+[LinkedIn](www.linkedin.com/in/m-ganesh-kumar)
+[Twitter](https://twitter.com/Ganeshk92)
