@@ -3,12 +3,16 @@
 <img align="left" src="ganesh_informal_square.jpg" width="25%" id="hp"/> 
 
 <body>
-I am Neuroscience Ph.D. candidate at the National University of Singapore (NUS) under the Integrative Sciences and Engineering Programme (ISEP). 
-I am curious about how we learn the structure of our world and can utilize prior knowledge to solve new problems quickly. 
-My thesis is to develop biologically plausible neural network models and reinforcement learning rules that is able to 
-learn new paired associations in one-shot (after a single training exposure). 
+I am Neuroscience Ph.D. candidate at the National University of Singapore (NUS) under the Integrative Sciences and Engineering Programme (ISEP).
 I am advised by <a href="https://nus.edu.sg/lsi/principal-investigators-3/dr-andrew-tan-yong-yi/">Dr Andrew Tan</a> and 
 <a href="https://cde.nus.edu.sg/idp/staff/yen-shih-cheng/">Dr Shih Cheng Yen</a>. 
+<br>
+<br>
+I am curious about how we learn the structure of our world and utilize our prior knowledge to solve new problems quickly. 
+<br>
+<br>
+My thesis is to develop biologically plausible neural network models and reinforcement learning rules that is able to 
+learn new paired associations in one-shot (after a single training exposure). 
 My research work is supported by the NUS Graduate School Scholarship (NGSS). 
 <br>
 <br>
@@ -22,9 +26,9 @@ and immerse into the arts &
 
 ### Publications
 
-- Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2022). A nonlinear hidden layer enables actor-critic agents to learn multiple paired association navigation. ***Cerebral Cortex***. [https://doi.org/10.1093/cercor/bhab456](https://doi.org/10.1093/cercor/bhab456)
+- Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2022). A nonlinear hidden layer enables actor-critic agents to learn multiple paired association navigation. ***Cerebral Cortex***. [https://doi.org/10.1093/cercor/bhab456](https://doi.org/10.1093/cercor/bhab456) ) [GitHub](https://github.com/mgkumar138/TDHL_6PA)
 
-- Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2021). One-shot learning of paired associations by a reservoir computing model with Hebbian plasticity. *arXiv preprint arXiv:2106.03580*. [https://arxiv.org/abs/2106.03580](https://arxiv.org/abs/2106.03580)
+- Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2021). One-shot learning of paired associations by a reservoir computing model with Hebbian plasticity. *arXiv preprint arXiv:2106.03580*. [https://arxiv.org/abs/2106.03580](https://arxiv.org/abs/2106.03580) [GitHub](https://github.com/mgkumar138/Oneshot_Reservoir
 
 - Kumar M. G., Kai Keng Ang, Rosa Q. So. (2017). Reject Option to reduce False Detection Rates for EEG-Motor Imagery based BCI. In Engineering in Medicine and Biology Society, EMBC 2017. ***39th Annual International Conference of the IEEE***. [https://doi.org/10.1109/EMBC.2017.8037479](https://doi.org/10.1109/EMBC.2017.8037479)
 
