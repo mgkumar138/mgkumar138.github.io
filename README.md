@@ -11,6 +11,7 @@ I am advised by <a href="https://nus.edu.sg/lsi/principal-investigators-3/dr-and
 <a href="https://cde.nus.edu.sg/idp/staff/yen-shih-cheng/">Dr Shih Cheng Yen</a>. 
 My research work is supported by the NUS Graduate School Scholarship (NGSS). 
 <br>
+<br>
 Besides research, I love to tour (either on my 
 <a href="https://news.nus.edu.sg/record-breaking-trip-to-gain-experience/">motorcycle</a> or backpacking), 
 dabble in entrepreneurship (specifically in <a href="www.nugen.ai">Education Technology</a>, 
