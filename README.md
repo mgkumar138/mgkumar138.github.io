@@ -1,6 +1,6 @@
 ## Welcome to Ganesh's page!
 
-<img align="left" src="ganesh_informal_square.jpg" width="30%" id="hp"/> 
+<img align="left" src="ganesh_informal_square.jpg" width="25%" id="hp"/> 
 
 <body>
 I am Neuroscience Ph.D. candidate at the National University of Singapore (NUS) under the Integrative Sciences and Engineering Programme (ISEP). 
@@ -17,6 +17,7 @@ dabble in entrepreneurship (specifically in <a href="www.nugen.ai">Education Tec
 and immerse into the arts & 
 <a href="https://news.nus.edu.sg/news-reports/sangae-muzhangu-won-gold-saadhana-project-won-platinum">theatre</a> scene!
 </body>
+
 
 ### Publications
 
