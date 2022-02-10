@@ -1,6 +1,6 @@
 ## Welcome to Ganesh's page!
 
-<img align="left" src="ganesh_informal_square.jpg" width="20%" id="hp"/> 
+<img align="left" src="ganesh_informal_square.jpg" width="25%" id="hp"/> 
 
 <body>
 I am Neuroscience Ph.D. candidate at the National University of Singapore (NUS) under the Integrative Sciences and Engineering Programme (ISEP). 
