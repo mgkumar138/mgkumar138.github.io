@@ -31,7 +31,7 @@ Besides research, I love to tour (either on my [motorcycle](https://news.nus.edu
 ### Contact
 
 Look forward to connecting with you!
-m_ganeshkumar{at}u{dot}nus{dot}edu
-[GitHub](www.github.com/mgkumar138)
-[LinkedIn](www.linkedin.com/in/m-ganesh-kumar)
-[Twitter](https://twitter.com/Ganeshk92)
++ m_ganeshkumar{at}u{dot}nus{dot}edu
++ [GitHub](www.github.com/mgkumar138)
++ [LinkedIn](www.linkedin.com/in/m-ganesh-kumar)
++ [Twitter](https://twitter.com/Ganeshk92)
