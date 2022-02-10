@@ -2,7 +2,7 @@
 
 I am Neuroscience Ph.D. candidate at the National University of Singapore (NUS) under the Integrative Sciences and Engineering Programme (ISEP). I am curious about how we learn the structure of our world and can utilize prior knowledge to solve new problems quickly. My thesis is to develop biologically plausible neural network models and reinforcement learning rules that is able to learn new paired associations in one-shot (after a single training exposure). I am advised by [Dr Andrew Tan](https://nus.edu.sg/lsi/principal-investigators-3/dr-andrew-tan-yong-yi/) and [Dr Shih Cheng Yen](https://cde.nus.edu.sg/idp/staff/yen-shih-cheng/). My research work is supported by the NUS Graduate School Scholarship (NGSS). 
 
-Besides research, I love to tour (either on my motorcycle or backpacking), dabble in entrepreneurship (specifically in Education Technology), and immerse into the arts & theatre scene!
+Besides research, I love to tour (either on my [motorcycle](https://news.nus.edu.sg/record-breaking-trip-to-gain-experience/) or backpacking), dabble in entrepreneurship (specifically in [Education Technology](www.nugen.ai), and immerse into the arts & [theatre](https://news.nus.edu.sg/news-reports/sangae-muzhangu-won-gold-saadhana-project-won-platinum) scene!
 
 ### Publications
 
@@ -13,12 +13,12 @@ Besides research, I love to tour (either on my motorcycle or backpacking), dabbl
 •	Kumar M. G., Kai Keng Ang, Rosa Q. So. (2017). Reject Option to reduce False Detection Rates for EEG-Motor Imagery based BCI. In Engineering in Medicine and Biology Society, EMBC 2017. 39th Annual International Conference of the IEEE. https://doi.org/10.1109/EMBC.2017.8037479
 
 
-### Research History
+### Background
 
 - Ph.D. Candidature (Neural computations underlying one-shot learning of paired associations), National Unviersity of Singapore: 2018-2023
 - Center for Brains, Minds and Machines (CBMM) Summer School, Massachusetts Institute of Technology: 2019
 - Research Engineer (Inferring social roles & relationships using computer vision), A\*STAR Artificial Intellignce Initiative (A\*AI): 2017-2018
-- B.Sc. Life Sciences + University Scholars Programme (USP) + Special Programme in Science (SPS): 2013-2017
+- [B.Sc. Life Sciences + University Scholars Programme (USP) + Special Programme in Science (SPS): 2013-2017](https://www.facebook.com/nus.singapore/videos/10155508729748540/)
 
 ### Awards
 
