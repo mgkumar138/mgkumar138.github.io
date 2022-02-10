@@ -1,5 +1,7 @@
 ## Welcome to Ganesh's page!
 
+![ProfilePic](ganesh_informal_square.jpg)
+
 I am Neuroscience Ph.D. candidate at the National University of Singapore (NUS) under the Integrative Sciences and Engineering Programme (ISEP). I am curious about how we learn the structure of our world and can utilize prior knowledge to solve new problems quickly. My thesis is to develop biologically plausible neural network models and reinforcement learning rules that is able to learn new paired associations in one-shot (after a single training exposure). I am advised by [Dr Andrew Tan](https://nus.edu.sg/lsi/principal-investigators-3/dr-andrew-tan-yong-yi/) and [Dr Shih Cheng Yen](https://cde.nus.edu.sg/idp/staff/yen-shih-cheng/). My research work is supported by the NUS Graduate School Scholarship (NGSS). 
 
 Besides research, I love to tour (either on my [motorcycle](https://news.nus.edu.sg/record-breaking-trip-to-gain-experience/) or backpacking), dabble in entrepreneurship (specifically in [Education Technology](www.nugen.ai), and immerse into the arts & [theatre](https://news.nus.edu.sg/news-reports/sangae-muzhangu-won-gold-saadhana-project-won-platinum) scene!
