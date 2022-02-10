@@ -25,17 +25,17 @@ and immerse into the arts &
 
 - Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2022). A nonlinear hidden layer enables actor-critic agents to learn multiple paired association navigation. ***Cerebral Cortex***. [https://doi.org/10.1093/cercor/bhab456](https://doi.org/10.1093/cercor/bhab456) [[GitHub](https://github.com/mgkumar138/TDHL_6PA)]
 
-- Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2021). One-shot learning of paired associations by a reservoir computing model with Hebbian plasticity. *arXiv preprint arXiv:2106.03580*. [https://arxiv.org/abs/2106.03580](https://arxiv.org/abs/2106.03580) [[GitHub](https://github.com/mgkumar138/Oneshot_Reservoir)]
+- Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2021). One-shot learning of paired associations by a reservoir computing model with Hebbian plasticity. ***arXiv preprint arXiv:2106.03580***. [https://arxiv.org/abs/2106.03580](https://arxiv.org/abs/2106.03580) [[GitHub](https://github.com/mgkumar138/Oneshot_Reservoir)]
 
 - Kumar M. G., Kai Keng Ang, Rosa Q. So. (2017). Reject Option to reduce False Detection Rates for EEG-Motor Imagery based BCI. In Engineering in Medicine and Biology Society, EMBC 2017. ***39th Annual International Conference of the IEEE***. [https://doi.org/10.1109/EMBC.2017.8037479](https://doi.org/10.1109/EMBC.2017.8037479)
 
 
 ### Background
 
-- 2018 - 2023: Ph.D. Candidature (Neural computations underlying one-shot learning of paired associations), National Unviersity of Singapore: 2018-2023
-- 2019: Center for Brains, Minds and Machines (CBMM) Summer School, Massachusetts Institute of Technology: 2019
-- 2017 - 2018: Research Engineer (Inferring social roles & relationships using computer vision), A\*STAR Artificial Intellignce Initiative (A\*AI): 2017-2018
-- 2013 - 2017: [B.Sc. Life Sciences + University Scholars Programme (USP) + Special Programme in Science (SPS)](https://www.facebook.com/nus.singapore/videos/10155508729748540/)
+- **2018 - 2023**: Ph.D. Candidature (Neural computations underlying one-shot learning of paired associations), National Unviersity of Singapore
+- **2019**: Center for Brains, Minds and Machines (CBMM) Summer School, Massachusetts Institute of Technology
+- **2017 - 2018**: Research Engineer (Inferring social roles & relationships using computer vision), A\*STAR Artificial Intellignce Initiative (A\*AI)
+- **2013 - 2017**: [B.Sc. Life Sciences + University Scholars Programme (USP) + Special Programme in Science (SPS)](https://www.facebook.com/nus.singapore/videos/10155508729748540/)
 
 ### Awards
 
