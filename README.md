@@ -14,7 +14,7 @@ My research work is supported by the NUS Graduate School Scholarship (NGSS).
 <br>
 Besides research, I love to tour (either on my 
 <a href="https://news.nus.edu.sg/record-breaking-trip-to-gain-experience/">motorcycle</a> or backpacking), 
-dabble in entrepreneurship (specifically in <a href="www.nugen.ai">Education Technology</a>, 
+dabble in entrepreneurship (specifically in <a href="https://nugen.ai">Education Technology</a>, 
 and immerse into the arts & 
 <a href="https://news.nus.edu.sg/news-reports/sangae-muzhangu-won-gold-saadhana-project-won-platinum">theatre</a> scene!
 </body>
