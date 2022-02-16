@@ -30,6 +30,14 @@ and immerse into the arts &
 - Kumar M. G., Kai Keng Ang, Rosa Q. So. (2017). Reject Option to reduce False Detection Rates for EEG-Motor Imagery based BCI. In Engineering in Medicine and Biology Society, EMBC 2017. ***39th Annual International Conference of the IEEE***. [https://doi.org/10.1109/EMBC.2017.8037479](https://doi.org/10.1109/EMBC.2017.8037479)
 
 
+### Conferences
+
+- Computational and Systems Neuroscience (COSYNE) 2022
+- Neuroscience meeting 2021, Society for Neuroscience (SfN)
+- Neuroscience to Artificially Intelligent Systems (NAIsys) 2020, Cold Spring Harbour Laboratory
+_ Neuromatch conference 1.0 2020, Neuromatch Academy 
+- Bernstein Conference 2019, Bernstein network computational Neuroscience
+
 ### Background
 
 - **2018 - 2023**: Ph.D. Candidature (Neural computations underlying one-shot learning of paired associations), National Unviersity of Singapore
