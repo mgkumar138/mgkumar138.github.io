@@ -35,7 +35,7 @@ and immerse into the arts &
 - Computational and Systems Neuroscience (COSYNE) 2022
 - Neuroscience meeting 2021, Society for Neuroscience (SfN)
 - Neuroscience to Artificially Intelligent Systems (NAIsys) 2020, Cold Spring Harbour Laboratory
-_ Neuromatch conference 1.0 2020, Neuromatch Academy 
+- Neuromatch conference 1.0 2020, Neuromatch Academy 
 - Bernstein Conference 2019, Bernstein network computational Neuroscience
 
 ### Background
