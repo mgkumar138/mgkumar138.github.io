@@ -15,7 +15,7 @@ learn new paired associations in one-shot (after a single training exposure).
 <br>
 Besides research, I love to tour (either on my 
 <a href="https://news.nus.edu.sg/record-breaking-trip-to-gain-experience/">motorcycle</a> or backpacking), 
-dabble in entrepreneurship (specifically in <a href="https://nugen.ai">Education Technology</a>, 
+dabble in entrepreneurship (e.g. <a href="https://nugen.ai">Education Technology</a>), 
 and immerse into the arts & 
 <a href="https://news.nus.edu.sg/news-reports/sangae-muzhangu-won-gold-saadhana-project-won-platinum">theatre</a> scene!
 </body>
@@ -36,7 +36,7 @@ and immerse into the arts &
 - Neuroscience meeting 2021, Society for Neuroscience (SfN)
 - Neuroscience to Artificially Intelligent Systems (NAIsys) 2020, Cold Spring Harbour Laboratory
 - Neuromatch conference 1.0 2020, Neuromatch Academy 
-- Bernstein Conference 2019, Bernstein network computational Neuroscience
+- Bernstein Conference 2019, Bernstein Network Computational Neuroscience
 
 ### Background
 
