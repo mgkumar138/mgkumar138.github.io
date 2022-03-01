@@ -50,7 +50,7 @@ and immerse into the arts &
 - [CBMM-Fujitsu Laboratories Fellow 2019](https://cbmm.mit.edu/summer-school/fellows)
 - NUS Graduate School Scholarship 2018
 - [NUSSU Medal for Outstanding Achievement 2017](https://www.usp.nus.edu.sg/curriculum/awards-and-recognition/award-winners-of-class-2017/)
-- USP Senior Honor Roll 2017
+- University Scholars Programme (USP) Senior Honor Roll 2017
 - A\*STAR Undergraduate Scholarship 2013
 
 ### Contact
