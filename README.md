@@ -57,7 +57,7 @@ and immerse into the arts &
 
 Look forward to connecting with you!
 + m_ganeshkumar{at}u{dot}nus{dot}edu
-+ [GitHub](www.github.com/mgkumar138)
-+ [LinkedIn](www.linkedin.com/in/m-ganesh-kumar)
++ [GitHub](https://github.com/mgkumar138)
++ [LinkedIn](https:/www.linkedin.com/in/m-ganesh-kumar)
 + [Google Scholar](https://scholar.google.com/citations?hl=en&user=sFfy1q4AAAAJ)
 + [Twitter](https://twitter.com/Ganeshk92)
