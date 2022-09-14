@@ -3,14 +3,21 @@
 <img align="left" src="ganesh_informal_square.jpg" width="25%" id="hp"/> 
 
 <body>
-I am Neuroscience Ph.D. candidate at the National University of Singapore (NUS) under the Integrative Sciences and Engineering Programme (ISEP).
-I am advised by <a href="https://nus.edu.sg/lsi/principal-investigators-3/dr-andrew-tan-yong-yi/">Dr Andrew Tan</a> and 
-<a href="https://cde.nus.edu.sg/idp/staff/yen-shih-cheng/">Dr Shih Cheng Yen</a>. 
+I am a Neuroscience Ph.D. candidate at the National University of Singapore (NUS) under the Integrative Sciences and Engineering Programme (ISEP) 
+and the Department of Electrical and Computer Engineering.
+I am co-advised by <a href="https://nus.edu.sg/lsi/principal-investigators-3/dr-andrew-tan-yong-yi/">Andrew Tan</a> and 
+<a href="https://cde.nus.edu.sg/idp/staff/yen-shih-cheng/">Shih-Cheng Yen</a> and, collaborate with 
+<a href="http://camilolibedinsky.com/">Camilo Libedinsky</a> and 
+<a href="https://www.a-star.edu.sg/cfar/about-cfar/our-team/dr-cheston-tan">Cheston Tan</a>. 
 <br>
 <br>
-I am curious about how we learn the structure of our world and utilize our prior knowledge to solve new problems quickly. 
-My thesis is to develop biologically plausible neural network models and reinforcement learning rules that is able to 
-learn new paired associations in one-shot (after a single training exposure). 
+I am curious about how we learn world models and utilize them to solve new problems quickly. 
+My thesis is to develop biologically plausible neural network models and reinforcement learning rules to 
+learn multiple new paired associations in a spatial navigation task after a single trial (One-shot learning). 
+I am also developing video datasets and neuro-symbolic models to perform visual reasoning (Grounded intelligence).
+Prior to my PhD, I worked on human EEG and macaque spike data based Brain-Computer Interfaces to control wheelchair.
+Based on these experiences, I hope to develop strategies to improve learning outcomes in children and alleviate 
+learning disabilities for patients with ADHD, depression and autism.
 <br>
 <br>
 Besides research, I love to tour (either on my 
@@ -23,6 +30,8 @@ and immerse into the arts &
 
 ### Publications
 
+- Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (In prep.). One-shot learning of paired association navigation with schemas and reward-modulated Hebbian plasticity.
+
 - Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2022). A nonlinear hidden layer enables actor-critic agents to learn multiple paired association navigation. ***Cerebral Cortex***. [https://doi.org/10.1093/cercor/bhab456](https://doi.org/10.1093/cercor/bhab456) [[GitHub](https://github.com/mgkumar138/TDHL_6PA)]
 
 - Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2021). One-shot learning of paired associations by a reservoir computing model with Hebbian plasticity. ***arXiv preprint arXiv:2106.03580***. [https://arxiv.org/abs/2106.03580](https://arxiv.org/abs/2106.03580) [[GitHub](https://github.com/mgkumar138/Oneshot_Reservoir)]
@@ -32,7 +41,7 @@ and immerse into the arts &
 
 ### Conferences
 
-- Computational and Systems Neuroscience (COSYNE) 2022
+- Computational and Systems Neuroscience (COSYNE) 2022: Kumar et al. (2022). One-shot learning of paired associations by a reservoir computing model with Hebbian plasticity. Cosyne Abstracts 2022.
 - Neuroscience meeting 2021, Society for Neuroscience (SfN)
 - Neuroscience to Artificially Intelligent Systems (NAIsys) 2020, Cold Spring Harbour Laboratory
 - Neuromatch conference 1.0 2020, Neuromatch Academy 
