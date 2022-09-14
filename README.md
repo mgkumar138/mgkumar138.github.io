@@ -19,6 +19,7 @@ Prior to my PhD, I worked on Brain-Computer Interfaces to control wheelchair usi
 <br>
 <br>
 I am curious about how we learn world models and utilize them to solve new problems quickly. 
+I take inspiration from algorithms used to develop artificial intelligence and computational neuroscience.
 My aspiration is to develop strategies (e.g. Human-Computer Interfaces, Brain Stimulation etc.) to improve learning outcomes in children and alleviate 
 learning disabilities for patients with ADHD, depression and autism.
 <br>
