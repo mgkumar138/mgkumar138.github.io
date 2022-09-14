@@ -12,14 +12,14 @@ I am co-advised by <a href="https://nus.edu.sg/lsi/principal-investigators-3/dr-
 <a href="https://www.a-star.edu.sg/cfar/about-cfar/our-team/dr-cheston-tan">Cheston Tan</a>. 
 <br>
 <br>
-I am curious about how we learn world models and utilize them to solve new problems quickly.
-<br> 
 My thesis was to develop biologically plausible neural network models and reinforcement learning rules to 
 learn multiple new paired associations in a spatial navigation task after a single trial (One-shot learning). 
 I am also developing video datasets and neuro-symbolic models to perform visual reasoning (Grounded intelligence).
 Prior to my PhD, I worked on Brain-Computer Interfaces to control wheelchair using either human EEG or macaque intracortical spike data.
 <br>
-My aspiration is to develop strategies to improve learning outcomes in children and alleviate 
+<br>
+I am curious about how we learn world models and utilize them to solve new problems quickly. 
+My aspiration is to develop strategies (e.g. Human-Computer Interfaces, Brain Stimulation etc.) to improve learning outcomes in children and alleviate 
 learning disabilities for patients with ADHD, depression and autism.
 <br>
 <br>
