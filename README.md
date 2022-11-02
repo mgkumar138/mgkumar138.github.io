@@ -3,25 +3,27 @@
 <img align="left" src="ganesh_informal_square.jpg" width="25%" id="hp"/> 
 
 <body>
-I am a research scientist at the Center for Frontier AI Research (CFAR), Institute of High Performance Computing (IHPC), A*STAR.
+I am generally curious about how we learn models of thee world and utilize them to solve new problems quickly. 
+To satisfy my curiosity, I take inspiration from artificial intelligence and computational neuroscience.
+My aspiration is to develop strategies (e.g. Human-Computer Interfaces, Brain Stimulation etc.) to improve learning outcomes in children and alleviate 
+learning disabilities for patients with ADHD, depression and autism.
+<br>
+<br>
+Currently, I am a research scientist at the Center for Frontier AI Research (CFAR), Institute of High Performance Computing (IHPC), A*STAR advised by 
+<a href="https://www.a-star.edu.sg/cfar/about-cfar/our-team/dr-cheston-tan">Cheston Tan</a> 
+developing  datasets and neuro-symbolic models to perform visual reasoning (Grounded intelligence).
+<br>
+<br>
 I am also a Neuroscience Ph.D. candidate at the National University of Singapore (NUS) under the Integrative Sciences and Engineering Programme (ISEP) 
 and the Department of Electrical and Computer Engineering.
 I am co-advised by <a href="https://nus.edu.sg/lsi/principal-investigators-3/dr-andrew-tan-yong-yi/">Andrew Tan</a> and 
 <a href="https://cde.nus.edu.sg/idp/staff/yen-shih-cheng/">Shih-Cheng Yen</a> and, collaborate with 
-<a href="http://camilolibedinsky.com/">Camilo Libedinsky</a> and 
-<a href="https://www.a-star.edu.sg/cfar/about-cfar/our-team/dr-cheston-tan">Cheston Tan</a>. 
+<a href="http://camilolibedinsky.com/">Camilo Libedinsky</a>. 
 <br>
 <br>
 My thesis was to develop biologically plausible neural network models and reinforcement learning rules to 
 learn multiple new paired associations in a spatial navigation task after a single trial (One-shot learning). 
-I am also developing video datasets and neuro-symbolic models to perform visual reasoning (Grounded intelligence).
 Prior to my PhD, I worked on Brain-Computer Interfaces to control wheelchair using either human EEG or macaque intracortical spike data.
-<br>
-<br>
-I am curious about how we learn world models and utilize them to solve new problems quickly. 
-I take inspiration from algorithms used to develop artificial intelligence and computational neuroscience.
-My aspiration is to develop strategies (e.g. Human-Computer Interfaces, Brain Stimulation etc.) to improve learning outcomes in children and alleviate 
-learning disabilities for patients with ADHD, depression and autism.
 <br>
 <br>
 Besides research, I love to tour (either on my 
@@ -54,7 +56,7 @@ and immerse into the arts &
 ### Background
 
 - **2018 - 2023**: Ph.D. Candidature (Neural computations underlying one-shot learning of paired associations), National Unviersity of Singapore
-- **2019**: Center for Brains, Minds and Machines (CBMM) Summer School, Massachusetts Institute of Technology
+- **2019**: Center for Brains, Minds and Machines (CBMM) Summer School 2019, Massachusetts Institute of Technology
 - **2017 - 2018**: Research Engineer (Inferring social roles & relationships using computer vision), A\*STAR Artificial Intellignce Initiative (A\*AI)
 - **2013 - 2017**: [B.Sc. Life Sciences + University Scholars Programme (USP) + Special Programme in Science (SPS)](https://www.facebook.com/nus.singapore/videos/10155508729748540/)
 
