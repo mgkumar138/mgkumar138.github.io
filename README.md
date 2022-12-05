@@ -33,6 +33,12 @@ and immerse into the arts &
 <a href="https://news.nus.edu.sg/news-reports/sangae-muzhangu-won-gold-saadhana-project-won-platinum">theatre</a> scene!
 </body>
 
+### Experience
+
+- **2018 - 2023**: Ph.D. Candidature (Neural computations underlying one-shot learning of paired associations), National Unviersity of Singapore
+- **2019**: Center for Brains, Minds and Machines (CBMM) Summer School 2019, Massachusetts Institute of Technology
+- **2017 - 2018**: Research Engineer (Inferring social roles & relationships using computer vision), A\*STAR Artificial Intellignce Initiative (A\*AI)
+- **2013 - 2017**: [B.Sc. Life Sciences + University Scholars Programme (USP) + Special Programme in Science (SPS)](https://www.facebook.com/nus.singapore/videos/10155508729748540/)
 
 ### Publications
 
@@ -53,13 +59,6 @@ and immerse into the arts &
 - Neuromatch conference 1.0 2020, Neuromatch Academy 
 - Bernstein Conference 2019, Bernstein Network Computational Neuroscience
 
-### Background
-
-- **2018 - 2023**: Ph.D. Candidature (Neural computations underlying one-shot learning of paired associations), National Unviersity of Singapore
-- **2019**: Center for Brains, Minds and Machines (CBMM) Summer School 2019, Massachusetts Institute of Technology
-- **2017 - 2018**: Research Engineer (Inferring social roles & relationships using computer vision), A\*STAR Artificial Intellignce Initiative (A\*AI)
-- **2013 - 2017**: [B.Sc. Life Sciences + University Scholars Programme (USP) + Special Programme in Science (SPS)](https://www.facebook.com/nus.singapore/videos/10155508729748540/)
-
 ### Awards
 
 - [CBMM-Fujitsu Laboratories Fellow 2019](https://cbmm.mit.edu/summer-school/fellows)
@@ -76,3 +75,4 @@ Look forward to connecting with you!
 + [LinkedIn](https://www.linkedin.com/in/m-ganesh-kumar/)
 + [Google Scholar](https://scholar.google.com/citations?hl=en&user=sFfy1q4AAAAJ)
 + [Twitter](https://twitter.com/Ganeshk92)
++ <a href="Resume_Ganesh_301122.pdf">CV</a>
