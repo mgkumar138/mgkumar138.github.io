@@ -4,24 +4,25 @@
 
 <body>
 I am generally curious about how we learn models of the world and utilize them to solve new problems quickly. 
-To explore this question, I take inspiration from neuroscience to develop cognitive artificial intelligence systems.
-My aspiration is to develop strategies (e.g. Human-Computer Interfaces, Brain Stimulation etc.) to improve learning outcomes in children and alleviate 
-learning disabilities for patients with ADHD, depression and autism.
+To explore this question, I take inspiration from neuroscience to develop artificially intelligent systems.
+My aspiration is to use intelligent technologies to improve learning outcomes 
+(e.g. Human-Computer Interfaces, Brain Stimulation etc.) and alleviate 
+learning disabilities that are associated with neurological disorders.
 <br>
 <br>
-Currently, I am a research scientist at the Center for Frontier AI Research (CFAR), Institute of High Performance Computing (IHPC), A*STAR advised by 
+Currently, I am a research scientist at the Centre for Frontier AI Research (CFAR), Institute of High Performance Computing (IHPC), A*STAR advised by 
 <a href="https://www.a-star.edu.sg/cfar/about-cfar/our-team/dr-cheston-tan">Cheston Tan</a>. Some of the projects include 
-developing  datasets and neuro-symbolic models to perform visual reasoning (Grounded intelligence).
+developing datasets and neuro-symbolic models to perform visual reasoning (Grounded Intelligence).
 <br>
 <br>
 I completed my Ph.D. in Computational Neuroscience at the National University of Singapore (NUS) under the Integrative Sciences and Engineering Programme (ISEP) 
 and the Department of Electrical and Computer Engineering.
 I was co-advised by <a href="https://nus.edu.sg/lsi/principal-investigators-3/dr-andrew-tan-yong-yi/">Andrew Tan</a> and 
-<a href="https://cde.nus.edu.sg/idp/staff/yen-shih-cheng/">Shih-Cheng Yen</a> and, collaborate with 
+<a href="https://cde.nus.edu.sg/idp/staff/yen-shih-cheng/">Shih-Cheng Yen</a> and collaborated with 
 <a href="http://camilolibedinsky.com/">Camilo Libedinsky</a>. 
 <br>
 <br>
-My thesis was to develop a reinforcement learning agent that used biologically plausible neural network models and learning rules to 
+My doctoral thesis was to develop a neural network-based reinforcement learning agent that used biologically plausible learning rules to 
 learn multiple new paired associations after a single trial (One-shot learning) in a spatial navigation context. 
 Prior to my PhD, I worked on Brain-Computer Interfaces to control wheelchair using either human EEG or macaque intracortical spike data.
 <br>
@@ -56,6 +57,7 @@ and immerse into the arts &
 
 
 ### Conferences
+
 - Neuroscience Singapore 2022, Society for Neuroscience Singapore Chapter [Oral] 
 - Computational and Systems Neuroscience (COSYNE) 2022: Kumar et al. (2022). One-shot learning of paired associations by a reservoir computing model with Hebbian plasticity. Cosyne Abstracts 2022.
 - Neuroscience meeting 2021, Society for Neuroscience (SfN) [Poster]
