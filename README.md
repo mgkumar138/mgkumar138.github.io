@@ -5,7 +5,7 @@
 <body>
 I am generally curious about how we learn models of the world and utilize them to solve new problems quickly. 
 To explore this question, I take inspiration from neuroscience to develop artificially intelligent systems.
-My aspiration is to use intelligent technologies to improve learning outcomes 
+Conversely, my aspiration is to use intelligent technologies to improve learning outcomes 
 (e.g. Human-Computer Interfaces, Brain Stimulation etc.) and alleviate 
 learning disabilities that are associated with neurological disorders.
 <br>
@@ -67,6 +67,7 @@ and immerse into the arts &
 
 ### Awards
 
+- Annual Symposium of the Society for Neuroscience 2022, Singapore Chapter - Best Flash Talk 
 - [CBMM-Fujitsu Laboratories Fellow 2019](https://cbmm.mit.edu/summer-school/fellows)
 - NUS Graduate School Scholarship 2018
 - [NUSSU Medal for Outstanding Achievement 2017](https://www.usp.nus.edu.sg/curriculum/awards-and-recognition/award-winners-of-class-2017/)
