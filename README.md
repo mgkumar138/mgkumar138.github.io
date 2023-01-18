@@ -3,16 +3,17 @@
 <img align="left" src="ganesh_informal_square.jpg" width="25%" id="hp"/> 
 
 <body>
-I am generally curious about how we learn models of the world and utilize them to solve new problems quickly. 
+We poses the amazing ability to learn models of our world and utilize them to solve new problems quickly.
 To explore this question, I take inspiration from neuroscience to develop artificially intelligent systems.
-Conversely, my aspiration is to use intelligent technologies to improve learning outcomes 
+Conversely, the current theory is that these world models are distorted in people suffering from psychiatric disorders. 
+Hence, my aspiration is to develop intelligent technologies to improve learning outcomes 
 (e.g. Human-Computer Interfaces, Brain Stimulation etc.) and alleviate 
-learning disabilities that are associated with neurological disorders.
+learning disabilities that might be associated with these disorders.
 <br>
 <br>
 Currently, I am a research scientist at the Centre for Frontier AI Research (CFAR), Institute of High Performance Computing (IHPC), A*STAR advised by 
-<a href="https://www.a-star.edu.sg/cfar/about-cfar/our-team/dr-cheston-tan">Cheston Tan</a>. Some of the projects include 
-developing datasets and neuro-symbolic models to perform visual reasoning (Grounded Intelligence).
+<a href="https://www.a-star.edu.sg/cfar/about-cfar/our-team/dr-cheston-tan">Cheston Tan</a>. Some projects include 
+grounded visual reasoning, model-based reinforcement learning and meta-learning using dynamical models.
 <br>
 <br>
 I completed my Ph.D. in Computational Neuroscience at the National University of Singapore (NUS) under the Integrative Sciences and Engineering Programme (ISEP) 
@@ -27,11 +28,10 @@ learn multiple new paired associations after a single trial (One-shot learning) 
 Prior to my PhD, I worked on Brain-Computer Interfaces to control wheelchair using either human EEG or macaque intracortical spike data.
 <br>
 <br>
-Besides research, I love to tour (either on my 
-<a href="https://news.nus.edu.sg/record-breaking-trip-to-gain-experience/">motorcycle</a> or backpacking), 
-dabble in entrepreneurship (e.g. <a href="https://nugen.ai">Education Technology</a>), 
-and immerse into the arts & 
-<a href="https://news.nus.edu.sg/news-reports/sangae-muzhangu-won-gold-saadhana-project-won-platinum">theatre</a> scene!
+Besides research, I co-founded <a href="https://nugen.ai">Nugen.ai</a> that hopes to characterize 
+affective states during learning to aid parents and teachers in personalizing education. 
+I also love to tour either on my <a href="https://news.nus.edu.sg/record-breaking-trip-to-gain-experience/">motorcycle</a> or backpacking, 
+and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzhangu-won-gold-saadhana-project-won-platinum">arts</a> scene.
 </body>
 
 ### Experience
@@ -47,7 +47,11 @@ and immerse into the arts &
 
 ### Publications
 
-- Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (In prep.). One-shot learning of paired association navigation using schemas and reward-modulated Hebbian plasticity. (In. prep.)
+- Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2023). One-shot learning of paired association navigation using schemas and reward-modulated Hebbian plasticity. (In. prep.)
+
+- Sheng, C., Kumar, M. G., Tan, C. (2023). DetermiNet: A Large-Scale Dataset for Complex Visually-Grounded Referencing using Determiners. (Under review.)
+
+- Tan, H. M., Kumar, M. G., Tan, A. Y. Y. & Yen, S. C. (2023). Spatial Representations "Right Here" and "Out There" in the Hippocampus. (Under review.) 
 
 - Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2022). A nonlinear hidden layer enables actor-critic agents to learn multiple paired association navigation. ***Cerebral Cortex***. [https://doi.org/10.1093/cercor/bhab456](https://doi.org/10.1093/cercor/bhab456) [[GitHub](https://github.com/mgkumar138/TDHL_6PA)]
 
