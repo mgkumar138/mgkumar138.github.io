@@ -3,21 +3,20 @@
 <img align="left" src="ganesh_informal_square.jpg" width="25%" id="hp"/> 
 
 <body>
-We poses the amazing ability to learn models of our world and utilize them to solve new problems quickly.
+We possess the amazing ability to learn models of our world and utilize them to solve new problems quickly.
 To explore this question, I take inspiration from neuroscience to develop artificially intelligent systems.
-Conversely, the current theory is that these world models are distorted in people suffering from psychiatric disorders. 
+At the same time, these world models are distorted in those suffering from neurological disorders. 
 Hence, my aspiration is to develop intelligent technologies to improve learning outcomes 
 (e.g. Human-Computer Interfaces, Brain Stimulation etc.) and alleviate 
-learning disabilities that might be associated with these disorders.
+learning disabilities that are associated with these disorders.
 <br>
 <br>
-Currently, I am a research scientist at the Centre for Frontier AI Research (CFAR), Institute of High Performance Computing (IHPC), A*STAR advised by 
+Currently, I am a research scientist at the Centre for Frontier AI Research (CFAR), A*STAR advised by 
 <a href="https://www.a-star.edu.sg/cfar/about-cfar/our-team/dr-cheston-tan">Cheston Tan</a>. Some projects include 
-grounded visual reasoning, model-based reinforcement learning and meta-learning using dynamical models.
+developing multi-modal reasoning datasets and reinforcement learning systems.
 <br>
 <br>
-I completed my Ph.D. in Computational Neuroscience at the National University of Singapore (NUS) under the Integrative Sciences and Engineering Programme (ISEP) 
-and the Department of Electrical and Computer Engineering.
+In 2022, I completed my Ph.D. in Computational Neuroscience at the National University of Singapore (NUS) under the Integrative Sciences and Engineering Programme (ISEP).
 I was co-advised by <a href="https://nus.edu.sg/lsi/principal-investigators-3/dr-andrew-tan-yong-yi/">Andrew Tan</a> and 
 <a href="https://cde.nus.edu.sg/idp/staff/yen-shih-cheng/">Shih-Cheng Yen</a> and collaborated with 
 <a href="http://camilolibedinsky.com/">Camilo Libedinsky</a>. 
@@ -25,7 +24,9 @@ I was co-advised by <a href="https://nus.edu.sg/lsi/principal-investigators-3/dr
 <br>
 My doctoral thesis was to develop a neural network-based reinforcement learning agent that used biologically plausible learning rules to 
 learn multiple new paired associations after a single trial (One-shot learning) in a spatial navigation context. 
-Prior to my PhD, I worked on Brain-Computer Interfaces to control wheelchair using either human EEG or macaque intracortical spike data.
+
+I completed my B.Sc in Life Sciences in 2017 at the National University of Singapore where 
+I worked on Brain-Computer Interfaces to control wheelchair using either human EEG or macaque intracortical spike data.
 <br>
 <br>
 Besides research, I co-founded <a href="https://nugen.ai">Nugen.ai</a> that hopes to characterize 
@@ -35,7 +36,7 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 </body>
 
 ### Experience
-- **2022 - Present**: Research Scientist (Unsupervised multi-modal learning), Centre for Frontier AI Research, A*STAR
+- **2022 - Present**: Research Scientist (Multi-modal reasoning), Centre for Frontier AI Research, A*STAR
 
 - **2018 - 2022**: Ph.D. Candidature (Biologically plausible computations underlying one-shot learning of paired associations), National Unviersity of Singapore
 
@@ -49,9 +50,11 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 
 - Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2023). One-shot learning of paired association navigation using schemas and reward-modulated Hebbian plasticity. (In. prep.)
 
-- Sheng, C., Kumar, M. G., Tan, C. (2023). DetermiNet: A Large-Scale Dataset for Complex Visually-Grounded Referencing using Determiners. (Under review.)
+- Lee, C.\*, Kumar, M. G.\*, Tan, C. (2023). DetermiNet: A Large-Scale Dataset for Complex Visually-Grounded Referencing using Determiners. (Under review.)
 
 - Tan, H. M., Kumar, M. G., Tan, A. Y. Y. & Yen, S. C. (2023). Spatial Representations "Right Here" and "Out There" in the Hippocampus. (Under review.) 
+
+- Kumar M. G. (2023). Biologically plausible computations underlying one-shot learning of paired associations . ***Scholarbank@NUS***. [https://scholarbank.nus.edu.sg/handle/10635/238485](https://scholarbank.nus.edu.sg/handle/10635/238485)
 
 - Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2022). A nonlinear hidden layer enables actor-critic agents to learn multiple paired association navigation. ***Cerebral Cortex***. [https://doi.org/10.1093/cercor/bhab456](https://doi.org/10.1093/cercor/bhab456) [[GitHub](https://github.com/mgkumar138/TDHL_6PA)]
 
