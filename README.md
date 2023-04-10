@@ -20,11 +20,11 @@ In 2022, I completed my Ph.D. in Computational Neuroscience at the National Univ
 I was co-advised by <a href="https://nus.edu.sg/lsi/principal-investigators-3/dr-andrew-tan-yong-yi/">Andrew Tan</a> and 
 <a href="https://cde.nus.edu.sg/idp/staff/yen-shih-cheng/">Shih-Cheng Yen</a> and collaborated with 
 <a href="http://camilolibedinsky.com/">Camilo Libedinsky</a>. 
-<br>
-<br>
+
 My doctoral thesis was to develop a neural network-based reinforcement learning agent that used biologically plausible learning rules to 
 learn multiple new paired associations after a single trial (One-shot learning) in a spatial navigation context. 
-
+<br>
+<br>
 I completed my B.Sc in Life Sciences in 2017 at the National University of Singapore where 
 I worked on Brain-Computer Interfaces to control wheelchair using either human EEG or macaque intracortical spike data.
 <br>
