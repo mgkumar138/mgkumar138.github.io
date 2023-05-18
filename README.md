@@ -4,11 +4,15 @@
 
 <body>
 We possess the amazing ability to learn models of our world and utilize them to solve new problems quickly.
-To explore this question, I take inspiration from neuroscience to develop artificially intelligent systems.
-At the same time, these world models are distorted in those suffering from neurological disorders. 
-Hence, my aspiration is to develop intelligent technologies to improve learning outcomes 
+To explore this question, I develop artificially intelligent systems to simulate and further develop the theoretical accounts of learning and intelligence.
+At the same time, it has been shown that world models are distorted in those suffering from neurological disorders. 
+Hence, my aspiration is to develop technologies to improve learning outcomes 
 (e.g. Human-Computer Interfaces, Brain Stimulation etc.) and alleviate 
 learning disabilities that are associated with these disorders.
+<br>
+<br>
+To pursue this line of research, I was recently awarded a postdoctoral fellowship at the Harvard University 
+Machine Learning Foundations Group starting in September 2023. 
 <br>
 <br>
 Currently, I am a research scientist at the Centre for Frontier AI Research (CFAR), A*STAR advised by 
@@ -20,7 +24,8 @@ In 2022, I completed my Ph.D. in Computational Neuroscience at the National Univ
 I was co-advised by <a href="https://nus.edu.sg/lsi/principal-investigators-3/dr-andrew-tan-yong-yi/">Andrew Tan</a> and 
 <a href="https://cde.nus.edu.sg/idp/staff/yen-shih-cheng/">Shih-Cheng Yen</a> and collaborated with 
 <a href="http://camilolibedinsky.com/">Camilo Libedinsky</a>. 
-
+<br>
+<br>
 My doctoral thesis was to develop a neural network-based reinforcement learning agent that used biologically plausible learning rules to 
 learn multiple new paired associations after a single trial (One-shot learning) in a spatial navigation context. 
 <br>
@@ -36,7 +41,8 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 </body>
 
 ### Experience
-- **2022 - Present**: Research Scientist (Multi-modal reasoning), Centre for Frontier AI Research, A*STAR
+
+- **2022 - 2023**: Research Scientist (Multi-modal reasoning), Centre for Frontier AI Research, A*STAR
 
 - **2018 - 2022**: Ph.D. Candidature (Biologically plausible computations underlying one-shot learning of paired associations), National Unviersity of Singapore
 
@@ -48,17 +54,19 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 
 ### Publications
 
-- Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2023). One-shot learning of paired association navigation using schemas and reward-modulated Hebbian plasticity. (In. prep.)
+- Guertler, L., Kumar, M. G., Tan, C. (2023). Maximizing Fine-Tuning Performance by Augmenting LLMs to Utilize Depth-Wise Information. (Under review.)
+
+- Guertler, L., Kumar, M. G., Tan, C. (2023). NoiseOut: Learning to Gate Improves Robustness in Deep Neural Networks. (Under review.)
 
 - Lee, C.\*, Kumar, M. G.\*, Tan, C. (2023). DetermiNet: A Large-Scale Dataset for Complex Visually-Grounded Referencing using Determiners. (Under review.)
 
-- Tan, H. M., Kumar, M. G., Tan, A. Y. Y. & Yen, S. C. (2023). Spatial Representations "Right Here" and "Out There" in the Hippocampus. (Under review.) 
+- Tan, H. M., Kumar, M. G., Tan, A. Y. Y. & Yen, S. C. (2023). Spatial Representations "Right Here" and "Out There" in the Hippocampus. (Under review.)
+
+- Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2023). One-shot learning of paired association navigation with biologically plausible schemas. ***arXiv preprint arXiv:2106.03580***. [https://arxiv.org/abs/2106.03580](https://arxiv.org/abs/2106.03580)[[GitHub](https://github.com/mgkumar138/schema4one)]
 
 - Kumar M. G. (2023). Biologically plausible computations underlying one-shot learning of paired associations . ***Scholarbank@NUS***. [https://scholarbank.nus.edu.sg/handle/10635/238485](https://scholarbank.nus.edu.sg/handle/10635/238485)
 
 - Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2022). A nonlinear hidden layer enables actor-critic agents to learn multiple paired association navigation. ***Cerebral Cortex***. [https://doi.org/10.1093/cercor/bhab456](https://doi.org/10.1093/cercor/bhab456) [[GitHub](https://github.com/mgkumar138/TDHL_6PA)]
-
-- Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2021). One-shot learning of paired associations by a reservoir computing model with Hebbian plasticity. ***arXiv preprint arXiv:2106.03580***. [https://arxiv.org/abs/2106.03580](https://arxiv.org/abs/2106.03580) [[GitHub](https://github.com/mgkumar138/Oneshot_Reservoir)]
 
 - Kumar M. G., Kai Keng Ang, Rosa Q. So. (2017). Reject Option to reduce False Detection Rates for EEG-Motor Imagery based BCI. In Engineering in Medicine and Biology Society, EMBC 2017. ***39th Annual International Conference of the IEEE***. [https://doi.org/10.1109/EMBC.2017.8037479](https://doi.org/10.1109/EMBC.2017.8037479)
 
@@ -74,6 +82,7 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 
 ### Awards
 
+- Postdoctoral fellowship 2023, Harvard University
 - Annual Symposium of the Society for Neuroscience 2022, Singapore Chapter - Best Flash Talk 
 - [CBMM-Fujitsu Laboratories Fellow 2019](https://cbmm.mit.edu/summer-school/fellows)
 - NUS Graduate School Scholarship 2018
