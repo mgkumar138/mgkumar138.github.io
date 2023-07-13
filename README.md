@@ -18,6 +18,7 @@ learning outcomes and alleviate learning disabilities associated with neurologic
 </p>
 
 ### Research background
+<p align="justify">
 I will be joining the Harvard Machine Learning Foundations Group as a postdoctoral fellowship in September 2023. 
 <br>
 <br>
@@ -44,7 +45,7 @@ Besides research, I co-founded <a href="https://nugen.ai">Nugen.ai</a> that hope
 affective states during learning to aid parents and teachers in personalizing education. 
 I also love to tour either on my <a href="https://news.nus.edu.sg/record-breaking-trip-to-gain-experience/">motorcycle</a> or backpacking, 
 and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzhangu-won-gold-saadhana-project-won-platinum">arts</a> scene.
-
+</p>
 
 ### Experience
 
