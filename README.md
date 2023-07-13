@@ -4,7 +4,6 @@
 
 
 ### Research interest
-<body>
 Even as a child, we learn models of our world and utilize them to solve new problems quickly.
 How does the brain learn world models and use them to predict the next state, best action and utility? 
 At the same time, it has been shown that world models are distorted in those suffering from neurological disorders. 
@@ -19,6 +18,7 @@ My aspiration is to then develop technologies to improve learning outcomes
 learning disabilities that are associated with these disorders.
 <br>
 <br>
+### Experience
 I will be joining the Harvard Machine Learning Foundations Group as a postdoctoral fellowship in September 2023. 
 <br>
 <br>
