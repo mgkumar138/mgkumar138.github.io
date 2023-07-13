@@ -18,6 +18,8 @@ My aspiration is to then develop technologies to improve learning outcomes
 (e.g. Human-Computer Interfaces, Brain Stimulation etc.) and alleviate 
 learning disabilities that are associated with these disorders.
 <body>
+<br>
+<br>
 
 ### Experience
 </body>
