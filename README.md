@@ -2,22 +2,31 @@
 
 <img align="left" src="ganesh_informal_square.jpg" width="25%" id="hp"/> 
 
+
+### Research interest
 <body>
-We possess the amazing ability to learn models of our world and utilize them to solve new problems quickly.
-To explore this question, I develop artificially intelligent systems to simulate and further develop the theoretical accounts of learning and intelligence.
+Even as a child, we learn models of our world and utilize them to solve new problems quickly.
+How does the brain learn world models and use them to predict the next state, best action and utility? 
 At the same time, it has been shown that world models are distorted in those suffering from neurological disorders. 
-Hence, my aspiration is to develop technologies to improve learning outcomes 
+<br>
+<br>
+To explore these questions, I develop artificially intelligent systems, based on theory and experimental results, 
+to develop our understanding of learning and intelligence, and how it might fail.
+<br>
+<br>
+My aspiration is to then develop technologies to improve learning outcomes 
 (e.g. Human-Computer Interfaces, Brain Stimulation etc.) and alleviate 
 learning disabilities that are associated with these disorders.
-<br>
-<br>
-To pursue this line of research, I was recently awarded a postdoctoral fellowship at the Harvard University 
-Machine Learning Foundations Group starting in September 2023. 
+
+
+### Experience
+</body>
+I will be joining the Harvard Machine Learning Foundations Group as a postdoctoral fellowship in September 2023. 
 <br>
 <br>
 Currently, I am a research scientist at the Centre for Frontier AI Research (CFAR), A*STAR advised by 
-<a href="https://www.a-star.edu.sg/cfar/about-cfar/our-team/dr-cheston-tan">Cheston Tan</a>. Some projects include 
-developing multi-modal reasoning datasets and reinforcement learning systems.
+<a href="https://www.a-star.edu.sg/cfar/about-cfar/our-team/dr-cheston-tan">Cheston Tan</a> 
+developing multi-modal reasoning datasets and models.
 <br>
 <br>
 In 2022, I completed my Ph.D. in Computational Neuroscience at the National University of Singapore (NUS) under the Integrative Sciences and Engineering Programme (ISEP).
@@ -38,9 +47,9 @@ Besides research, I co-founded <a href="https://nugen.ai">Nugen.ai</a> that hope
 affective states during learning to aid parents and teachers in personalizing education. 
 I also love to tour either on my <a href="https://news.nus.edu.sg/record-breaking-trip-to-gain-experience/">motorcycle</a> or backpacking, 
 and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzhangu-won-gold-saadhana-project-won-platinum">arts</a> scene.
-</body>
 
-### Experience
+
+### Timeline
 
 - **2022 - 2023**: Research Scientist (Multi-modal reasoning), Centre for Frontier AI Research, A*STAR
 
@@ -54,15 +63,11 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 
 ### Publications
 
-- Guertler, L., Kumar, M. G., Tan, C. (2023). Maximizing Fine-Tuning Performance by Augmenting LLMs to Utilize Depth-Wise Information. (Under review.)
-
 - Guertler, L., Kumar, M. G., Tan, C. (2023). NoiseOut: Learning to Gate Improves Robustness in Deep Neural Networks. (Under review.)
 
-- Lee, C.\*, Kumar, M. G.\*, Tan, C. (2023). DetermiNet: A Large-Scale Dataset for Complex Visually-Grounded Referencing using Determiners. (Under review.)
+- Lee, C.\*, Kumar, M. G.\*, Tan, C. (2023). DetermiNet: A Large-Scale Diagnostic Dataset for Complex Visually-Grounded Referencing using Determiners. (Under review.)
 
-- Tan, H. M., Kumar, M. G., Tan, A. Y. Y. & Yen, S. C. (2023). Spatial Representations "Right Here" and "Out There" in the Hippocampus. (Under review.)
-
-- Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2023). One-shot learning of paired association navigation with biologically plausible schemas. ***arXiv preprint arXiv:2106.03580***. [https://arxiv.org/abs/2106.03580](https://arxiv.org/abs/2106.03580)[[GitHub](https://github.com/mgkumar138/schema4one)]
+- Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2023). One-shot learning of paired association navigation with biologically plausible schemas. ***arXiv preprint arXiv:2106.03580***. [https://arxiv.org/abs/2106.03580](https://arxiv.org/abs/2106.03580) [[GitHub](https://github.com/mgkumar138/schema4one)]
 
 - Kumar M. G. (2023). Biologically plausible computations underlying one-shot learning of paired associations . ***Scholarbank@NUS***. [https://scholarbank.nus.edu.sg/handle/10635/238485](https://scholarbank.nus.edu.sg/handle/10635/238485)
 
@@ -85,10 +90,10 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 - Postdoctoral fellowship 2023, Harvard University
 - Annual Symposium of the Society for Neuroscience 2022, Singapore Chapter - Best Flash Talk 
 - [CBMM-Fujitsu Laboratories Fellow 2019](https://cbmm.mit.edu/summer-school/fellows)
-- NUS Graduate School Scholarship 2018
+- Graduate School Scholarship 2018, National University of Singapore
 - [NUSSU Medal for Outstanding Achievement 2017](https://www.usp.nus.edu.sg/curriculum/awards-and-recognition/award-winners-of-class-2017/)
 - University Scholars Programme (USP) Senior Honor Roll 2017
-- A\*STAR Undergraduate Scholarship 2013
+- Undergraduate Scholarship 2013, A\*STAR 
 
 ### Contact
 
