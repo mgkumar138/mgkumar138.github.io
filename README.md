@@ -4,20 +4,19 @@
 
 
 ### Research interest
-Even as a child, we learn models of our world and utilize them to solve new problems quickly.
-How does the brain learn world models and use them to predict the next state, best action and utility? 
-At the same time, it has been shown that world models are distorted in those suffering from neurological disorders. 
+We experience how the world works and learn internal world models to solve new problems quickly.
+How does the brain learn these internal representations and use them to predict the next state, best action and utility? 
+It has also been shown that these world models are distorted in those suffering from neurological disorders. 
+If we can rectify these world models, can we solve neurological disorders?
 <br>
 <br>
 To explore these questions, I develop artificially intelligent systems, based on theory and experimental results, 
-to develop our understanding of learning and intelligence, and how it might fail.
-<br>
-<br>
+to develop our understanding of learning and intelligence, and how it might fail. 
 My aspiration is to then develop technologies to improve learning outcomes 
 (e.g. Human-Computer Interfaces, Brain Stimulation etc.) and alleviate 
 learning disabilities that are associated with these disorders.
-<br>
-<br>
+
+
 ### Experience
 I will be joining the Harvard Machine Learning Foundations Group as a postdoctoral fellowship in September 2023. 
 <br>
