@@ -13,8 +13,7 @@ If we can rectify these world models, can we solve neurological disorders?
 <br>
 To explore these questions, I develop artificially intelligent systems, grounded to theory and experiments, 
 to understand learning computations for intelligence, and how it might fail. 
-I hope to develop technologies to improve 
-learning outcomes and alleviate learning disabilities associated with disorders.
+I hope to develop technologies to improve learning outcomes and alleviate learning disabilities.
 </p>
 
 ### Research background
