@@ -11,10 +11,10 @@ It has also been shown that these world models are distorted in those suffering 
 If we can rectify these world models, can we solve neurological disorders?
 <br>
 <br>
-To explore these questions, I develop artificially intelligent systems, based on theory and experiments, 
-to clarify learning computations for intelligence, and how it might fail. 
-My hope is to develop technologies to improve 
-learning outcomes and alleviate learning disabilities associated with neurological disorders.
+To explore these questions, I develop artificially intelligent systems, grounded to theory and experiments, 
+to understand learning computations for intelligence, and how it might fail. 
+I hope to develop technologies to improve 
+learning outcomes and alleviate learning disabilities associated with disorders.
 </p>
 
 ### Research background
