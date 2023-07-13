@@ -3,7 +3,7 @@
 <img align="left" src="ganesh_informal_square.jpg" width="25%" id="hp"/> 
 
 
-### Research interest
+### Research interests
 We experience how the world works and learn internal world models to solve new problems quickly.
 How does the brain learn these internal representations and use them to predict the next state, best action and utility? 
 It has also been shown that these world models are distorted in those suffering from neurological disorders. 
@@ -17,7 +17,7 @@ My aspiration is to then develop technologies to improve learning outcomes
 learning disabilities that are associated with these disorders.
 
 
-### Experience
+### Research background
 I will be joining the Harvard Machine Learning Foundations Group as a postdoctoral fellowship in September 2023. 
 <br>
 <br>
@@ -46,7 +46,7 @@ I also love to tour either on my <a href="https://news.nus.edu.sg/record-breakin
 and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzhangu-won-gold-saadhana-project-won-platinum">arts</a> scene.
 
 
-### Timeline
+### Experience
 
 - **2022 - 2023**: Research Scientist (Multi-modal reasoning), Centre for Frontier AI Research, A*STAR
 
