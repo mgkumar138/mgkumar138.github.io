@@ -18,7 +18,7 @@ I hope to develop technologies to improve learning outcomes and alleviate learni
 
 ### Research background
 <p align="justify">
-I will be joining the Harvard Machine Learning Foundations Group as a postdoctoral fellowship in September 2023. 
+I will be joining the Harvard Machine Learning Foundations Group as a postdoctoral fellow in September 2023. 
 <br>
 <br>
 Currently, I am a research scientist at the Centre for Frontier AI Research (CFAR), A*STAR advised by 
