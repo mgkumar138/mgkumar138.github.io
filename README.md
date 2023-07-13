@@ -17,12 +17,10 @@ to develop our understanding of learning and intelligence, and how it might fail
 My aspiration is to then develop technologies to improve learning outcomes 
 (e.g. Human-Computer Interfaces, Brain Stimulation etc.) and alleviate 
 learning disabilities that are associated with these disorders.
-<body>
+
 <br>
 <br>
 
-### Experience
-</body>
 I will be joining the Harvard Machine Learning Foundations Group as a postdoctoral fellowship in September 2023. 
 <br>
 <br>
