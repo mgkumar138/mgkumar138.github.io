@@ -46,13 +46,15 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 
 ### Experience
 
-- **2022 - 2023**: Research Scientist (Multi-modal reasoning), Centre for Frontier AI Research, A*STAR
+- **2023 - 2024**: Postdoctoral Fellow (Theory of representational learning)
 
-- **2018 - 2022**: Ph.D. Candidature (Biologically plausible computations underlying one-shot learning of paired associations), National Unviersity of Singapore
+- **2022 - 2023**: Research Scientist (Vision-Text model reasoning), Centre for Frontier AI Research, A*STAR
+
+- **2018 - 2022**: Ph.D. Candidature (Biologically plausible One-shot learning), National Unviersity of Singapore
 
 - **2019**: Center for Brains, Minds and Machines (CBMM) Summer School 2019, Massachusetts Institute of Technology
 
-- **2017 - 2018**: Research Engineer (Inferring social roles & relationships using computer vision), A\*STAR Artificial Intellignce Initiative (A\*AI)
+- **2017 - 2018**: Research Engineer (Social roles & relationships recognition), A\*STAR Artificial Intellignce Initiative (A\*AI)
 
 - **2013 - 2017**: [B.Sc. Life Sciences + University Scholars Programme (USP) + Special Programme in Science (SPS)](https://www.facebook.com/nus.singapore/videos/10155508729748540/)
 
@@ -60,7 +62,7 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 
 - Guertler, L., Kumar, M. G., Tan, C. (2023). NoiseOut: Learning to Gate Improves Robustness in Deep Neural Networks. (Under review.)
 
-- Lee, C.\*, Kumar, M. G.\*, Tan, C. (2023). DetermiNet: A Large-Scale Diagnostic Dataset for Complex Visually-Grounded Referencing using Determiners. (Under review.)
+- Lee, C.\*, Kumar, M. G.\*, Tan, C. (2023). DetermiNet: A Large-Scale Diagnostic Dataset for Complex Visually-Grounded Referencing using Determiners. (***International Conference on Computer Vision, ICCV 2023***)
 
 - Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2023). One-shot learning of paired association navigation with biologically plausible schemas. ***arXiv preprint arXiv:2106.03580***. [https://arxiv.org/abs/2106.03580](https://arxiv.org/abs/2106.03580) [[GitHub](https://github.com/mgkumar138/schema4one)]
 
