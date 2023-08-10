@@ -48,7 +48,7 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 
 - **2023 - 2024**: Postdoctoral Fellow (Theory of representational learning)
 
-- **2022 - 2023**: Research Scientist (Vision-Text model reasoning), Centre for Frontier AI Research, A*STAR
+- **2022 - 2023**: Research Scientist (Vision-Language Model reasoning), Centre for Frontier AI Research, A*STAR
 
 - **2018 - 2022**: Ph.D. Candidature (Biologically plausible One-shot learning), National Unviersity of Singapore
 
@@ -59,6 +59,8 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 - **2013 - 2017**: [B.Sc. Life Sciences + University Scholars Programme (USP) + Special Programme in Science (SPS)](https://www.facebook.com/nus.singapore/videos/10155508729748540/)
 
 ### Publications
+
+- Lin, Z.\*, Azaman, H.\*, Kumar, M. G., Tan, C. (2023). Composing Word Groups using Visually Grounded Reinforcement Learning. (Under review.)
 
 - Guertler, L., Kumar, M. G., Tan, C. (2023). NoiseOut: Learning to Gate Improves Robustness in Deep Neural Networks. (Under review.)
 
@@ -75,6 +77,7 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 
 ### Conferences
 
+- International Conference on Computer Vision, ICCV 2023 [Poster]
 - Neuroscience Singapore 2022, Society for Neuroscience Singapore Chapter [Oral] 
 - Computational and Systems Neuroscience (COSYNE) 2022: Kumar et al. (2022). One-shot learning of paired associations by a reservoir computing model with Hebbian plasticity. Cosyne Abstracts 2022.
 - Neuroscience meeting 2021, Society for Neuroscience (SfN) [Poster]
