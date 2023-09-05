@@ -18,20 +18,26 @@ I hope to develop technologies to improve learning outcomes and alleviate learni
 
 ### Research background
 <p align="justify">
-I will be joining the Harvard Machine Learning Foundations Group as a postdoctoral fellow in September 2023. 
+Currently, I am a postdoctoral fellow at the Harvard Machine Learning Foundations Group, 
+working on Neuroscience inspired Reinforcement Learning. I am advised by 
+<a href="https://pehlevan.seas.harvard.edu/people/cengiz-pehlevan">Cengiz Pehlevan</a>, 
+<a href="https://seas.harvard.edu/person/demba-ba">Demba Ba</a>,
+<a href="http://lucasjanson.fas.harvard.edu/">Lucas Janson</a> and
+<a href="https://www.boazbarak.org/">Boaz Barak</a>. 
 <br>
 <br>
-Currently, I am a research scientist at the Centre for Frontier AI Research (CFAR), A*STAR advised by 
-<a href="https://www.a-star.edu.sg/cfar/about-cfar/our-team/dr-cheston-tan">Cheston Tan</a> 
-developing multi-modal reasoning datasets and models.
+Previously, I was a research scientist at the Centre for Frontier AI Research (CFAR), A*STAR developing 
+vision-language reasoning datasets and models. I was advised by 
+<a href="https://www.a-star.edu.sg/cfar/about-cfar/our-team/dr-cheston-tan">Cheston Tan</a>.
 <br>
 <br>
-In 2022, I completed my Ph.D. in Computational Neuroscience at the National University of Singapore (NUS) under the Integrative Sciences and Engineering Programme (ISEP).
+In 2022, I completed my Ph.D. in Computational Neuroscience at the National University of Singapore (NUS) 
+under the Integrative Sciences and Engineering Programme (ISEP).
+My doctoral thesis was to develop a biologically plausible reinforcement learning agent that learned 
+new paired associations after a single example. 
 I was co-advised by <a href="https://nus.edu.sg/lsi/principal-investigators-3/dr-andrew-tan-yong-yi/">Andrew Tan</a> and 
 <a href="https://cde.nus.edu.sg/idp/staff/yen-shih-cheng/">Shih-Cheng Yen</a> and collaborated with 
 <a href="http://camilolibedinsky.com/">Camilo Libedinsky</a>. 
-My doctoral thesis was to develop a biologically plausible reinforcement learning agent that learned 
-new paired associations after a single example. 
 <br>
 <br>
 I completed my B.Sc in Life Sciences in 2017 at the National University of Singapore where 
@@ -46,9 +52,9 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 
 ### Experience
 
-- **2023 - 2024**: Postdoctoral Fellow (Theory of representational learning)
+- **2023 - 2024**: Postdoctoral Fellow (Theory of representational learning), Harvard School of Engineering and Applied Sciences
 
-- **2022 - 2023**: Research Scientist (Vision-Language Model reasoning), Centre for Frontier AI Research, A*STAR
+- **2022 - 2023**: Research Scientist (Vision-Language reasoning), Centre for Frontier AI Research, A*STAR
 
 - **2018 - 2022**: Ph.D. Candidature (Biologically plausible One-shot learning), National Unviersity of Singapore
 
@@ -87,7 +93,7 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 
 ### Awards
 
-- Postdoctoral fellowship 2023, Harvard University
+- Postdoctoral Fellowship in Computer Science 2023, Harvard University
 - Annual Symposium of the Society for Neuroscience 2022, Singapore Chapter - Best Flash Talk 
 - [CBMM-Fujitsu Laboratories Fellow 2019](https://cbmm.mit.edu/summer-school/fellows)
 - Graduate School Scholarship 2018, National University of Singapore
