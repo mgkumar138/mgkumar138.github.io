@@ -52,7 +52,7 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 
 ### Experience
 
-- **2023 - 2024**: Postdoctoral Fellow (Theory of representational learning), Harvard School of Engineering and Applied Sciences
+- **2023 - 2024**: Postdoctoral Fellow (Theory of representational learning), Harvard University School of Engineering and Applied Sciences
 
 - **2022 - 2023**: Research Scientist (Vision-Language reasoning), Centre for Frontier AI Research, A*STAR
 
@@ -64,7 +64,7 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 
 - **2013 - 2017**: [B.Sc. Life Sciences + University Scholars Programme (USP) + Special Programme in Science (SPS)](https://www.facebook.com/nus.singapore/videos/10155508729748540/)
 
-### Publications
+### Selected Publications
 
 - Lin, Z.\*, Azaman, H.\*, Kumar, M. G., Tan, C. (2023). Composing Word Groups using Visually Grounded Reinforcement Learning. (Under review.)
 
@@ -109,4 +109,4 @@ Look forward to connecting with you!
 + [LinkedIn](https://www.linkedin.com/in/m-ganesh-kumar/)
 + [Google Scholar](https://scholar.google.com/citations?hl=en&user=sFfy1q4AAAAJ)
 + [Twitter](https://twitter.com/Ganeshk92)
-+ <a href="Resume_Ganesh_170723.pdf">CV</a>
++ <a href="Resume_Ganesh_100923.pdf">CV</a>
