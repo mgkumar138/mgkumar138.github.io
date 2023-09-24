@@ -70,7 +70,7 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 
 - Guertler, L., Kumar, M. G., Tan, C. (2023). NoiseOut: Learning to Gate Improves Robustness in Deep Neural Networks. (Under review.)
 
-- Lee, C.\*, Kumar, M. G.\*, Tan, C. (2023). DetermiNet: A Large-Scale Diagnostic Dataset for Complex Visually-Grounded Referencing using Determiners. (***International Conference on Computer Vision, ICCV 2023***)
+- Lee, C.\*, Kumar, M. G.\*, Tan, C. (2023). DetermiNet: A Large-Scale Diagnostic Dataset for Complex Visually-Grounded Referencing using Determiners. ***International Conference on Computer Vision, ICCV 2023***
 
 - Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2023). One-shot learning of paired association navigation with biologically plausible schemas. ***arXiv preprint arXiv:2106.03580***. [https://arxiv.org/abs/2106.03580](https://arxiv.org/abs/2106.03580) [[GitHub](https://github.com/mgkumar138/schema4one)]
 
