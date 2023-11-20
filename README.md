@@ -1,6 +1,6 @@
 ## Welcome to Ganesh's page!
 
-<img align="left" src="ganesh_informal_square.jpg" width="25%" id="hp"/> 
+<img align="left" src="./files/ganesh_informal_square.jpg" width="25%" id="hp"/> 
 
 
 ### Research interests
@@ -85,7 +85,7 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 
 - International Conference on Computer Vision, ICCV 2023 [Poster]
 - Neuroscience Singapore 2022, Society for Neuroscience Singapore Chapter [Oral] 
-- Computational and Systems Neuroscience (COSYNE) 2022: Kumar et al. (2022). One-shot learning of paired associations by a reservoir computing model with Hebbian plasticity. Cosyne Abstracts 2022.
+- Computational and Systems Neuroscience (COSYNE) 2022: Kumar et al. (2022). One-shot learning of paired associations by a reservoir computing model with Hebbian plasticity. Cosyne Abstracts 2022. <a href="./files/Kumar_2022_One-shot learning of paired associations by a reservoir computing model with Hebbian plasticity.pdf">[Abstract]</a>
 - Neuroscience meeting 2021, Society for Neuroscience (SfN) [Poster]
 - Neuroscience to Artificially Intelligent Systems (NAIsys) 2020, Cold Spring Harbour Laboratory [Poster]
 - Neuromatch conference 1.0 2020, Neuromatch Academy [Oral]
@@ -109,4 +109,4 @@ Look forward to connecting with you!
 + [LinkedIn](https://www.linkedin.com/in/m-ganesh-kumar/)
 + [Google Scholar](https://scholar.google.com/citations?hl=en&user=sFfy1q4AAAAJ)
 + [Twitter](https://twitter.com/Ganeshk92)
-+ <a href="Resume_Ganesh_100923.pdf">CV</a>
++ <a href="./files/Resume_Ganesh_290923.pdf">CV</a>
