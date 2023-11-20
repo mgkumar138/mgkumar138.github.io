@@ -83,7 +83,7 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 
 ### Conferences
 
-- International Conference on Computer Vision, ICCV 2023 [Poster]
+- International Conference on Computer Vision, ICCV 2023 <a href="./files/ICCV23_Poster.pdf">[Poster]</a>
 - Neuroscience Singapore 2022, Society for Neuroscience Singapore Chapter [Oral] 
 - Computational and Systems Neuroscience (COSYNE) 2022: Kumar et al. (2022). One-shot learning of paired associations by a reservoir computing model with Hebbian plasticity. Cosyne Abstracts 2022. <a href="./files/Kumar_2022_One-shot learning of paired associations by a reservoir computing model with Hebbian plasticity.pdf">[Abstract]</a>
 - Neuroscience meeting 2021, Society for Neuroscience (SfN) [Poster]
