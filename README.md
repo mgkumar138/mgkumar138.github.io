@@ -70,11 +70,11 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 
 - Lee, C.\*, Kumar, M. G.\*, Tan, C. (2023). DetermiNet: A Large-Scale Diagnostic Dataset for Complex Visually-Grounded Referencing using Determiners. ***International Conference on Computer Vision (ICCV) 2023*** [https://arxiv.org/abs/2309.03483](https://arxiv.org/abs/2309.03483) [[GitHub](https://github.com/clarence-lee-sheng/DetermiNet)] <a href="./files/ICCV23_Poster.pdf">[Poster]</a>
 
-- Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2023). One-shot learning of paired association navigation with biologically plausible schemas. ***arXiv preprint arXiv:2106.03580***. [https://arxiv.org/abs/2106.03580](https://arxiv.org/abs/2106.03580) [[GitHub](https://github.com/mgkumar138/schema4one)]
-
-- Kumar M. G. (2023). Biologically plausible computations underlying one-shot learning of paired associations . ***Scholarbank@NUS***. [https://scholarbank.nus.edu.sg/handle/10635/238485](https://scholarbank.nus.edu.sg/handle/10635/238485)
+- Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2023). One-shot learning of paired association navigation with biologically plausible schemas. ***arXiv preprint arXiv:2106.03580***. [https://arxiv.org/abs/2106.03580](https://arxiv.org/abs/2106.03580) [[GitHub](https://github.com/mgkumar138/schema4one)] <a href="./files/RL@Harvard Ganesh Poster 290823.pdf">[Poster]</a>
 
 - Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2022). A nonlinear hidden layer enables actor-critic agents to learn multiple paired association navigation. ***Cerebral Cortex***. [https://doi.org/10.1093/cercor/bhab456](https://doi.org/10.1093/cercor/bhab456) [[GitHub](https://github.com/mgkumar138/TDHL_6PA)]
+
+- Kumar M. G. (2023). Biologically plausible computations underlying one-shot learning of paired associations . ***Scholarbank@NUS***. [https://scholarbank.nus.edu.sg/handle/10635/238485](https://scholarbank.nus.edu.sg/handle/10635/238485)
 
 - Kumar M. G., Kai Keng Ang, Rosa Q. So. (2017). Reject Option to reduce False Detection Rates for EEG-Motor Imagery based BCI. In Engineering in Medicine and Biology Society, EMBC 2017. ***39th Annual International Conference of the IEEE***. [https://doi.org/10.1109/EMBC.2017.8037479](https://doi.org/10.1109/EMBC.2017.8037479)
 
