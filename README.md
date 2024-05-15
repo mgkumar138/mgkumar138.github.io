@@ -52,7 +52,7 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 
 ### Experience
 
-- **2023 - 2024**: Postdoctoral Fellow (Theory of representational learning), Harvard University School of Engineering and Applied Sciences
+- **2023 - 2024**: Postdoctoral Fellow (Theory of representational learning), School of Engineering and Applied Sciences, Harvard University 
 
 - **2022 - 2023**: Research Scientist (Vision-Language reasoning), Centre for Frontier AI Research, A*STAR
 
