@@ -6,12 +6,12 @@
 ### Research interests
 <p align="justify">
 We experience how the world works and learn internal world models to solve new problems quickly.
-How does the brain learn these internal representations and use them to predict the next state, best action and utility? 
-It has also been shown that these world models are distorted in those suffering from neurological disorders. 
-If we can rectify these world models, can we solve neurological disorders?
+How does the brain learn these models and use them to predict the next state, best action and utility? 
+It has also been suggested that the distortion of these world models contribute to psychiatric disorders. 
+Can we develop interpretable models to understand these disorders, and eventually devise tools to alleivate them? 
 <br>
 <br>
-To explore these questions, I develop artificially intelligent systems, grounded to theory and experiments, 
+To explore these questions, I develop artificially intelligent agents, grounded to theory and experiments, 
 to understand learning computations for intelligence, and how it might fail. 
 Based on these insights, I hope to develop technologies that can improve learning outcomes and alleviate learning disabilities.
 </p>
@@ -19,7 +19,7 @@ Based on these insights, I hope to develop technologies that can improve learnin
 ### Research background
 <p align="justify">
 Currently, I am a postdoctoral fellow at the Harvard Machine Learning Foundations Group, 
-working on Neuroscience inspired Reinforcement Learning. I am advised by 
+developing Reinforcement Learning agents to understand and predict neural phenomena. I am advised by 
 <a href="https://pehlevan.seas.harvard.edu/people/cengiz-pehlevan">Cengiz Pehlevan</a>, 
 <a href="https://seas.harvard.edu/person/demba-ba">Demba Ba</a>,
 <a href="http://lucasjanson.fas.harvard.edu/">Lucas Janson</a> and
@@ -64,13 +64,11 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 
 - **2013 - 2017**: [B.Sc. Life Sciences + University Scholars Programme (USP) + Special Programme in Science (SPS)](https://www.facebook.com/nus.singapore/videos/10155508729748540/)
 
-### Selected Publications
+### Selected Full Publications
 
-- Lin, Z.\*, Azaman, H.\*, Kumar, M. G., Tan, C. (2023). Composing Word Groups using Visually Grounded Reinforcement Learning. (Under review.)
+- Lin, Z.\*, Azaman, H.\*, Kumar, M. G., Tan, C. (2023). Composing Word Groups using Visually Grounded Reinforcement Learning. ***Computer Vision and Pattern Recognition (CVPR) workshops 2024*** [https://arxiv.org/abs/2309.04504](https://arxiv.org/abs/2309.04504) [[GitHub](https://github.com/haidiazaman/RL-concept-learning-project)] <a href="./files/RL_compositionality_CVPR24.pdf">[Poster]</a>
 
-- Guertler, L., Kumar, M. G., Tan, C. (2023). NoiseOut: Learning to Gate Improves Robustness in Deep Neural Networks. (Under review.)
-
-- Lee, C.\*, Kumar, M. G.\*, Tan, C. (2023). DetermiNet: A Large-Scale Diagnostic Dataset for Complex Visually-Grounded Referencing using Determiners. ***International Conference on Computer Vision, ICCV 2023***
+- Lee, C.\*, Kumar, M. G.\*, Tan, C. (2023). DetermiNet: A Large-Scale Diagnostic Dataset for Complex Visually-Grounded Referencing using Determiners. ***International Conference on Computer Vision (ICCV) 2023*** [https://arxiv.org/abs/2309.03483](https://arxiv.org/abs/2309.03483) [[GitHub](https://github.com/clarence-lee-sheng/DetermiNet)] <a href="./files/ICCV23_Poster.pdf">[Poster]</a>
 
 - Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2023). One-shot learning of paired association navigation with biologically plausible schemas. ***arXiv preprint arXiv:2106.03580***. [https://arxiv.org/abs/2106.03580](https://arxiv.org/abs/2106.03580) [[GitHub](https://github.com/mgkumar138/schema4one)]
 
@@ -82,10 +80,9 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 
 
 ### Conferences
-
-- International Conference on Computer Vision, ICCV 2023 <a href="./files/ICCV23_Poster.pdf">[Poster]</a>
+- Cognitive Computational Neuroscience (CCN) 2024: Kumar & Pehlevan (2024). Place fields organize along goal trajectory with reinforcement learning. CCN Abstracts 2024. <a href="./files/CCN24_place_fields_goal_RL.pdf">[ShortPaper]</a>
 - Neuroscience Singapore 2022, Society for Neuroscience Singapore Chapter [Oral] 
-- Computational and Systems Neuroscience (COSYNE) 2022: Kumar et al. (2022). One-shot learning of paired associations by a reservoir computing model with Hebbian plasticity. Cosyne Abstracts 2022. <a href="./files/Kumar_2022_One-shot learning of paired associations by a reservoir computing model with Hebbian plasticity.pdf">[Abstract]</a>
+- Computational and Systems Neuroscience (COSYNE) 2022: Kumar et al. (2022). One-shot learning of paired associations by a reservoir computing model with Hebbian plasticity. Cosyne Abstracts 2022. <a href="./files/Kumar_2022_One-shot learning of paired associations by a reservoir computing model with Hebbian plasticity.pdf">[ShortPaper]</a>
 - Neuroscience meeting 2021, Society for Neuroscience (SfN) [Poster]
 - Neuroscience to Artificially Intelligent Systems (NAIsys) 2020, Cold Spring Harbour Laboratory [Poster]
 - Neuromatch conference 1.0 2020, Neuromatch Academy [Oral]
@@ -109,4 +106,4 @@ Look forward to connecting with you!
 + [LinkedIn](https://www.linkedin.com/in/m-ganesh-kumar/)
 + [Google Scholar](https://scholar.google.com/citations?hl=en&user=sFfy1q4AAAAJ)
 + [Twitter](https://twitter.com/Ganeshk92)
-+ <a href="./files/Resume_Ganesh_290923.pdf">CV</a>
++ <a href="./files/Resume_Ganesh_200424.pdf">CV</a>
