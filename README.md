@@ -74,9 +74,9 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 
 - Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2022). A nonlinear hidden layer enables actor-critic agents to learn multiple paired association navigation. ***Cerebral Cortex***. [https://doi.org/10.1093/cercor/bhab456](https://doi.org/10.1093/cercor/bhab456) [[GitHub](https://github.com/mgkumar138/TDHL_6PA)]
 
-- Kumar M. G. (2023). Biologically plausible computations underlying one-shot learning of paired associations . ***Scholarbank@NUS***. [https://scholarbank.nus.edu.sg/handle/10635/238485](https://scholarbank.nus.edu.sg/handle/10635/238485)
-
 - Kumar M. G., Kai Keng Ang, Rosa Q. So. (2017). Reject Option to reduce False Detection Rates for EEG-Motor Imagery based BCI. In Engineering in Medicine and Biology Society, EMBC 2017. ***39th Annual International Conference of the IEEE***. [https://doi.org/10.1109/EMBC.2017.8037479](https://doi.org/10.1109/EMBC.2017.8037479)
+
+- Kumar M. G. (2023). Biologically plausible computations underlying one-shot learning of paired associations . ***Scholarbank@NUS***. [https://scholarbank.nus.edu.sg/handle/10635/238485](https://scholarbank.nus.edu.sg/handle/10635/238485) <a href="./files/KumarMG_2022.pdf">[Thesis]</a>
 
 
 ### Conferences
