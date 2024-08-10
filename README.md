@@ -6,20 +6,20 @@
 ### Research interests
 <p align="justify">
 We experience how the world works and learn internal world models to solve new problems quickly.
-How does the brain learn these models and use them to predict the next state, best action and utility? 
+How does the brain learn these models and use them to predict the next best action? 
 It has also been suggested that the distortion of these world models contribute to psychiatric disorders. 
 Can we develop interpretable models to understand these disorders, and eventually devise tools to alleivate them? 
 <br>
 <br>
 To explore these questions, I develop artificially intelligent agents, grounded to theory and experiments, 
 to understand learning computations for intelligence, and how it might fail. 
-Based on these insights, I hope to develop technologies that can improve learning outcomes and alleviate learning disabilities.
+Based on these insights, I hope to improve existing artificial systems, and develop technologies that can improve learning outcomes and alleviate learning disabilities.
 </p>
 
 ### Research background
 <p align="justify">
 Currently, I am a postdoctoral fellow at the Harvard Machine Learning Foundations Group, 
-developing Reinforcement Learning agents to understand and predict neural phenomena. I am advised by 
+developing reinforcement learning agents to understand representational learning in biological and artificial systems. I am advised by 
 <a href="https://pehlevan.seas.harvard.edu/people/cengiz-pehlevan">Cengiz Pehlevan</a>, 
 <a href="https://seas.harvard.edu/person/demba-ba">Demba Ba</a>,
 <a href="http://lucasjanson.fas.harvard.edu/">Lucas Janson</a> and
@@ -51,6 +51,8 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 </p>
 
 ### Experience
+
+- **2024**: Analytical Connectionism Summer School, Center for Computational Neuroscience, Flatiron Institute
 
 - **2023 - 2024**: Postdoctoral Fellow (Theory of representational learning), School of Engineering and Applied Sciences, Harvard University 
 
