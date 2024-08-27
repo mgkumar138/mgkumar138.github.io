@@ -105,8 +105,9 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 Look forward to connecting with you!
 + m_ganeshkumar{at}u{dot}nus{dot}edu
 + [ORCID](https://orcid.org/0000-0001-5559-6428) 
++ [Google Scholar](https://scholar.google.com/citations?hl=en&user=sFfy1q4AAAAJ)
++ [Semantic Scholar](https://www.semanticscholar.org/author/M-Ganesh-Kumar/48465210)
 + [GitHub](https://github.com/mgkumar138)
 + [LinkedIn](https://www.linkedin.com/in/m-ganesh-kumar/)
 + [Twitter](https://twitter.com/Ganeshk92)
-+ [Google Scholar](https://scholar.google.com/citations?hl=en&user=sFfy1q4AAAAJ)
 + <a href="./files/Resume_Ganesh_200424.pdf">CV</a>
