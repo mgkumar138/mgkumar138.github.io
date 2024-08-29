@@ -54,7 +54,7 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 
 - **2024**: Analytical Connectionism Summer School, Center for Computational Neuroscience, Flatiron Institute
 
-- **2023 - 2024**: Postdoctoral Fellow (Theory of representational learning), School of Engineering and Applied Sciences, Harvard University 
+- **2023 - 2025**: Postdoctoral Fellow (Theory of representational learning), School of Engineering and Applied Sciences, Harvard University 
 
 - **2022 - 2023**: Research Scientist (Vision-Language reasoning), Centre for Frontier AI Research, A*STAR
 
