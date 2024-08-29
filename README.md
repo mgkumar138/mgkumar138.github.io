@@ -84,7 +84,7 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 
 
 ### Conferences
-- Cognitive Computational Neuroscience (CCN) 2024: Kumar & Pehlevan (2024). Place fields organize along goal trajectory with reinforcement learning. CCN Abstracts 2024. [ShortPaper](https://2024.ccneuro.org/pdf/289_Paper_authored_CCN24_place_fields_goal_RL-4.pdf) <a href="./files/CCN_poster_090824.png">[Poster]</a>
+- Cognitive Computational Neuroscience (CCN) 2024: Kumar & Pehlevan (2024). Place fields organize along goal trajectory with reinforcement learning. CCN Abstracts 2024. [[ShortPaper](https://2024.ccneuro.org/pdf/289_Paper_authored_CCN24_place_fields_goal_RL-4.pdf)] <a href="./files/CCN_poster_090824.png">[Poster]</a>
 - Neuroscience Singapore 2022, Society for Neuroscience Singapore Chapter [Oral] 
 - Computational and Systems Neuroscience (COSYNE) 2022: Kumar et al. (2022). One-shot learning of paired associations by a reservoir computing model with Hebbian plasticity. Cosyne Abstracts 2022. <a href="./files/Kumar_2022_One-shot learning of paired associations by a reservoir computing model with Hebbian plasticity.pdf">[ShortPaper]</a>
 - Neuroscience meeting 2021, Society for Neuroscience (SfN) [Poster]
