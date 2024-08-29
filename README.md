@@ -5,20 +5,21 @@
 
 ### Research interests
 <p align="justify">
-We experience how the world works and learn internal world models to solve new problems quickly.
-How does the brain learn these models and use them to predict the next best action? 
-It has also been suggested that the distortion of these world models contribute to psychiatric disorders. 
-Can we develop interpretable models to understand these disorders, and eventually devise tools to alleivate them? 
+As we experience the world, our brain learns internal models of the world so that we can solve new problems quickly.
+How do neural circuits and algorithms learn these models, and how do we decide the next best action? 
+It has also been proposed that distortions to these internal models and learning algorithms contribute to psychiatric disorders. 
+Can we develop mathematical models to understand these phenomena? 
+Can we improve existing artificial systems and devise tools to alleivate disorders?
 <br>
 <br>
 To explore these questions, I develop artificially intelligent agents, grounded to theory and experiments, 
-to understand learning computations for intelligence, and how it might fail. 
+to understand learning computations for intelligence, and when it might fail. 
 Based on these insights, I hope to improve existing artificial systems, and develop technologies that can improve learning outcomes and alleviate learning disabilities.
 </p>
 
 ### Research background
 <p align="justify">
-Currently, I am a postdoctoral fellow at the Harvard Machine Learning Foundations Group, 
+Currently, I am a postdoctoral fellow in the Harvard Machine Learning Foundations Group, 
 developing reinforcement learning agents to understand representational learning in biological and artificial systems. I am advised by 
 <a href="https://pehlevan.seas.harvard.edu/people/cengiz-pehlevan">Cengiz Pehlevan</a>, 
 <a href="https://seas.harvard.edu/person/demba-ba">Demba Ba</a>,
