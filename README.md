@@ -69,6 +69,8 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 
 ### Selected Full Publications
 
+- Kumar, M. G., Bordelon, B., Veth-Zavatone, J., Pehlevan, C. (2024) A Model of Place Field Reorganization During Reward Maximization. <a href="./files/ICLR25_PlaceFields_Learning-7.pdf">[Preprint]</a>
+
 - Lin, Z.\*, Azaman, H.\*, Kumar, M. G., Tan, C. (2024). Composing Word Groups using Visually Grounded Reinforcement Learning. ***Computer Vision and Pattern Recognition (CVPR) workshops 2024*** [https://arxiv.org/abs/2309.04504](https://arxiv.org/abs/2309.04504) [[GitHub](https://github.com/haidiazaman/RL-concept-learning-project)] <a href="./files/RL_compositionality_CVPR24.pdf">[Poster]</a>
 
 - Kumar, M. G., Ayyadhury, S., Murugan, E. (2024). Trends Innovations Challenges in Employing Interdisciplinary Approaches to Biomedical Sciences. In: Parthasarathy, K., Manikkam, R. (eds) Translational Research in Biomedical Sciences: Recent Progress and Future Prospects. ***Springer, Singapore***. [https://doi.org/10.1007/978-981-97-1777-4_20](https://doi.org/10.1007/978-981-97-1777-4_20)
@@ -106,11 +108,11 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 ### Contact
 
 Look forward to connecting with you!
-+ m_ganeshkumar{at}u{dot}nus{dot}edu
++ [Email](m_ganeshkumar@u.nus.edu)
 + [ORCID](https://orcid.org/0000-0001-5559-6428) 
++ [X ](https://twitter.com/Ganeshk92)
++ [LinkedIn](https://www.linkedin.com/in/m-ganesh-kumar/)
 + [Google Scholar](https://scholar.google.com/citations?hl=en&user=sFfy1q4AAAAJ)
 + [Semantic Scholar](https://www.semanticscholar.org/author/M-Ganesh-Kumar/48465210)
 + [GitHub](https://github.com/mgkumar138)
-+ [LinkedIn](https://www.linkedin.com/in/m-ganesh-kumar/)
-+ [Twitter](https://twitter.com/Ganeshk92)
 + <a href="./files/Resume_Ganesh_200424.pdf">CV</a>
