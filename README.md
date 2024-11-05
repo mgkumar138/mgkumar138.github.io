@@ -69,7 +69,7 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 
 ### Selected Full Publications
 
-- Kumar, M. G., Bordelon, B., Zavatone-Veth, J., Pehlevan, C. (2024). A Model of Place Field Reorganization During Reward Maximization. ***Preprint*** <a href="./files/ICLR25_PlaceFields_Learning-7.pdf">[Preprint]</a>
+- Kumar, M. G., Bordelon, B., Zavatone-Veth, J., Pehlevan, C. (2024). A Model of Place Field Reorganization During Reward Maximization. <span style="color:red">***Preprint***</span> <a href="./files/ICLR25_PlaceFields_Learning-7.pdf">[Preprint]</a>
 
 - Lin, Z.\*, Azaman, H.\*, Kumar, M. G., Tan, C. (2024). Composing Word Groups using Visually Grounded Reinforcement Learning. ***Computer Vision and Pattern Recognition (CVPR) workshops 2024*** [https://arxiv.org/abs/2309.04504](https://arxiv.org/abs/2309.04504) [[GitHub](https://github.com/haidiazaman/RL-concept-learning-project)] <a href="./files/RL_compositionality_CVPR24.pdf">[Poster]</a>
 
