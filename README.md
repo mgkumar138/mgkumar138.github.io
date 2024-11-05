@@ -1,5 +1,7 @@
 ## Welcome to Ganesh's page!
 
+<span style="color: red; background-color: yellow;"> <a href="./files/ICLR25_PlaceFields_Learning-7.pdf">[New Preprint Alert! Kumar, M. G., Bordelon, B., Zavatone-Veth, J., Pehlevan, C. (2024). A Model of Place Field Reorganization During Reward Maximization.]</a> </span>
+
 <img align="left" src="./files/ganesh_informal_square.jpg" width="25%" id="hp"/> 
 
 
