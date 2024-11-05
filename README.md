@@ -107,7 +107,7 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 
 Look forward to connecting with you!
 + [Email](m_ganeshkumar{at}u{dot}nus{dot}edu)
-+ [X ](https://twitter.com/Ganeshk92)
++ [X ](https://twitter.com/mgkumar138)
 + [LinkedIn](https://www.linkedin.com/in/m-ganesh-kumar/)
 + [ORCID](https://orcid.org/0000-0001-5559-6428) 
 + [Google Scholar](https://scholar.google.com/citations?hl=en&user=sFfy1q4AAAAJ)
