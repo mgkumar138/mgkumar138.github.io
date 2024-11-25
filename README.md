@@ -67,7 +67,9 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 
 - **2013 - 2017**: [B.Sc. Life Sciences + University Scholars Programme (USP) + Special Programme in Science (SPS)](https://www.facebook.com/nus.singapore/videos/10155508729748540/)
 
-### Selected Full Publications
+### Selected Publications
+
+- Cloos, N., Kumar, M. G., Manoogian, A. Cueva, C. J. Rhoads, S. A. (2024). Generating and Validating Agent and Environment Code for Simulating Realistic Personality Profiles with Large Language Models. ***NeurIPS workshops 2024***  [Short Paper](https://openreview.net/forum?id=p3T9CtEu1S)
 
 - Lin, Z.\*, Azaman, H.\*, Kumar, M. G., Tan, C. (2024). Composing Word Groups using Visually Grounded Reinforcement Learning. ***Computer Vision and Pattern Recognition (CVPR) workshops 2024*** [https://arxiv.org/abs/2309.04504](https://arxiv.org/abs/2309.04504) [[GitHub](https://github.com/haidiazaman/RL-concept-learning-project)] <a href="./files/RL_compositionality_CVPR24.pdf">[Poster]</a>
 
