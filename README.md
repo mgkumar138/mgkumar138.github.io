@@ -5,9 +5,9 @@
 
 ### Research interests
 <p align="justify">
-As we experience the world, our brain learns internal models of the world so that we can solve new problems quickly.
+We learn internal models of the world so that we can solve new problems quickly.
 How do neural circuits and algorithms learn these models, and how do we decide the next best action? 
-It has also been proposed that distortions to these internal models and learning algorithms contribute to psychiatric disorders. 
+It has also been proposed that distortions to these internal models and learning algorithms contribute to neurological disorders. 
 Can we develop mathematical models to understand these phenomena? 
 Can we improve existing artificial systems and devise tools to alleivate disorders?
 <br>
@@ -69,6 +69,8 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 
 ### Selected Publications
 
+- Kumar, M. G., Bordelon, B. Zavatone-Veth, J. A., Pehlevan, C. (2024). A Model of Place Field Reorganization during Reward Maximization. ***bioRxiv 2024.12.12.627755*** [https://doi.org/10.1101/2024.12.12.627755](https://doi.org/10.1101/2024.12.12.627755) [[GitHub](https://github.com/Pehlevan-Group/placefield_reorg_agent)]
+
 - Cloos, N., Kumar, M. G., Manoogian, A. Cueva, C. J. Rhoads, S. A. (2024). Generating and Validating Agent and Environment Code for Simulating Realistic Personality Profiles with Large Language Models. ***NeurIPS workshops 2024***  [Short Paper](https://openreview.net/forum?id=p3T9CtEu1S)
 
 - Lin, Z.\*, Azaman, H.\*, Kumar, M. G., Tan, C. (2024). Composing Word Groups using Visually Grounded Reinforcement Learning. ***Computer Vision and Pattern Recognition (CVPR) workshops 2024*** [https://arxiv.org/abs/2309.04504](https://arxiv.org/abs/2309.04504) [[GitHub](https://github.com/haidiazaman/RL-concept-learning-project)] <a href="./files/RL_compositionality_CVPR24.pdf">[Poster]</a>
@@ -82,8 +84,6 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 - Kumar, M. G., Tan, C., Libedinsky, C., Yen, S. C., & Tan, A. Y. Y. (2022). A nonlinear hidden layer enables actor-critic agents to learn multiple paired association navigation. ***Cerebral Cortex***. [https://doi.org/10.1093/cercor/bhab456](https://doi.org/10.1093/cercor/bhab456) [[GitHub](https://github.com/mgkumar138/TDHL_6PA)]
 
 - Kumar M. G., Kai Keng Ang, Rosa Q. So. (2017). Reject Option to reduce False Detection Rates for EEG-Motor Imagery based BCI. In Engineering in Medicine and Biology Society, EMBC 2017. ***39th Annual International Conference of the IEEE***. [https://doi.org/10.1109/EMBC.2017.8037479](https://doi.org/10.1109/EMBC.2017.8037479)
-
-- Kumar M. G. (2023). Biologically plausible computations underlying one-shot learning of paired associations . ***Scholarbank@NUS***. [https://scholarbank.nus.edu.sg/handle/10635/238485](https://scholarbank.nus.edu.sg/handle/10635/238485) <a href="./files/KumarMG_2022.pdf">[Thesis]</a>
 
 
 ### Conferences
@@ -109,10 +109,11 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 
 Look forward to connecting with you!
 + [Email](m_ganeshkumar{at}u{dot}nus{dot}edu)
++ [BlueSky](https://bsky.app/profile/mgkumar138.bsky.social)
 + [X ](https://twitter.com/mgkumar138)
 + [LinkedIn](https://www.linkedin.com/in/m-ganesh-kumar/)
 + [ORCID](https://orcid.org/0000-0001-5559-6428) 
 + [Google Scholar](https://scholar.google.com/citations?hl=en&user=sFfy1q4AAAAJ)
 + [Semantic Scholar](https://www.semanticscholar.org/author/M-Ganesh-Kumar/48465210)
 + [GitHub](https://github.com/mgkumar138)
-+ <a href="./files/Resume_Ganesh_200424.pdf">CV</a>
++ <a href="./files/Resume_Ganesh_181224.pdf">CV</a>
