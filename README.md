@@ -5,7 +5,7 @@
 
 ### Research interests
 <p align="justify">
-We learn internal models of the world so that we can solve new problems quickly.
+We learn models of the world, enabling us to solve new problems quickly.
 How do neural circuits and algorithms learn these models, and how do we decide the next best action? 
 It has also been proposed that distortions to these internal models and learning algorithms contribute to neurological disorders. 
 Can we develop mathematical models to understand these phenomena? 
@@ -22,9 +22,8 @@ Based on these insights, I hope to improve existing artificial systems, and deve
 Currently, I am a postdoctoral fellow in the Harvard Machine Learning Foundations Group, 
 developing reinforcement learning agents to understand representational learning in biological and artificial systems. I am advised by 
 <a href="https://pehlevan.seas.harvard.edu/people/cengiz-pehlevan">Cengiz Pehlevan</a>, 
-<a href="https://seas.harvard.edu/person/demba-ba">Demba Ba</a>,
-<a href="http://lucasjanson.fas.harvard.edu/">Lucas Janson</a> and
-<a href="https://www.boazbarak.org/">Boaz Barak</a>. 
+<a href="https://seas.harvard.edu/person/demba-ba">Demba Ba</a> and
+<a href="http://lucasjanson.fas.harvard.edu/">Lucas Janson</a>. 
 <br>
 <br>
 Previously, I was a research scientist at the Centre for Frontier AI Research (CFAR), A*STAR developing 
@@ -41,8 +40,8 @@ I was co-advised by <a href="https://nus.edu.sg/lsi/principal-investigators-3/dr
 <a href="http://camilolibedinsky.com/">Camilo Libedinsky</a>. 
 <br>
 <br>
-I completed my B.Sc in Life Sciences in 2017 at the National University of Singapore where 
-I worked on Brain-Computer Interfaces to control wheelchair using either human EEG or macaque intracortical spike data.
+I completed my B.Sc in Life Sciences in 2017, University Scholars Programme (USP) and Special Programme in Science (SPS) at the National University of Singapore.
+My Honors project was to improve Brain-Computer Interfaces to control wheelchair using either human EEG or macaque intracortical spike data.
 <br>
 <br>
 Besides research, I co-founded <a href="https://nugen.ai">Nugen.ai</a> that hopes to characterize 
@@ -55,15 +54,15 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 
 - **2024**: Analytical Connectionism Summer School, Center for Computational Neuroscience, Flatiron Institute
 
-- **2023 - 2025**: Postdoctoral Fellow (Theory of representational learning), School of Engineering and Applied Sciences, Harvard University 
+- **2023 - 2025**: Postdoctoral Fellow, School of Engineering and Applied Sciences, Harvard University 
 
-- **2022 - 2023**: Research Scientist (Vision-Language reasoning), Centre for Frontier AI Research, A*STAR
+- **2022 - 2023**: Research Scientist, Centre for Frontier AI Research, A*STAR
 
-- **2018 - 2022**: Ph.D. Candidature (Biologically plausible One-shot learning), National Unviersity of Singapore
+- **2018 - 2022**: Ph.D. Candidature, National Unviersity of Singapore
 
 - **2019**: Center for Brains, Minds and Machines (CBMM) Summer School 2019, Massachusetts Institute of Technology
 
-- **2017 - 2018**: Research Engineer (Social roles & relationships recognition), A\*STAR Artificial Intellignce Initiative (A\*AI)
+- **2017 - 2018**: Research Engineer, A\*STAR Artificial Intellignce Initiative (A\*AI)
 
 - **2013 - 2017**: [B.Sc. Life Sciences + University Scholars Programme (USP) + Special Programme in Science (SPS)](https://www.facebook.com/nus.singapore/videos/10155508729748540/)
 
@@ -97,6 +96,7 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 
 ### Awards
 
+- Annual Symposium of the Society for Neuroscience 2024, Singapore Chapter - Best Short Talk 
 - Postdoctoral Fellowship in Computer Science 2023, Harvard University
 - Annual Symposium of the Society for Neuroscience 2022, Singapore Chapter - Best Flash Talk 
 - [CBMM-Fujitsu Laboratories Fellow 2019](https://cbmm.mit.edu/summer-school/fellows)
