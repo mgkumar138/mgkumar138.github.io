@@ -1,0 +1,162 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    margin-top: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .name h1 {
+    color: white;
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  .profile-pic img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  
+  .contact-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .contact-icons a {
+    color: white;
+    font-size: 1.2em;
+  }
+  
+  .contact-icons a:hover {
+    color: #ff6347;
+  }
+  
+  /* Navigation Bar */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  
+  nav ul li a:hover {
+    color: #ff6347;
+  }
+  
+  /* Section Styles */
+  section {
+    padding: 40px 20px;
+  }
+  
+  section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+  }
+  
+  /* Home Section */
+  #home {
+    background-color: #f9f9f9;
+  }
+  
+  .research-interests, .research-background {
+    margin-bottom: 30px;
+  }
+  
+  .research-interests h3, .research-background h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  /* Publications Section */
+  #publications {
+    background-color: #fff;
+  }
+  
+  .paper {
+    border: 2px solid #333;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .paper-title {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+  }
+  
+  /* Conferences Section */
+  #conferences {
+    background-color: #f9f9f9;
+  }
+  
+  .conference {
+    border: 2px solid #333;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .conference-title {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+  }
+  
+  /* Awards Section */
+  #awards {
+    background-color: #fff;
+  }
+  
+  #awards ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  #awards ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  }
