@@ -5,7 +5,7 @@ body {
     padding: 0;
     line-height: 1.6;
     color: #333;
-    background-color: #f9f9f9;
+    background-color: #f4f1de; /* Creme background */
   }
   
   h1, h2, h3 {
@@ -14,16 +14,16 @@ body {
   
   a {
     text-decoration: none;
-    color: #0077b5; /* LinkedIn blue for links */
+    color: #dc143c; /* Crimson for links */
   }
   
   a:hover {
-    color: #ff6347; /* Coral color on hover */
+    color: #b22222; /* Darker crimson on hover */
   }
   
   /* Header Styles */
   header {
-    background-color: #333;
+    background-color: #dc143c; /* Crimson header */
     padding: 10px 0;
     position: sticky;
     top: 0;
@@ -65,12 +65,12 @@ body {
   }
   
   .contact-icons a:hover {
-    color: #ff6347; /* Coral color on hover */
+    color: #f4f1de; /* Creme on hover */
   }
   
   /* Navigation Bar */
   nav {
-    background-color: #444;
+    background-color: #b22222; /* Darker crimson for nav */
     padding: 10px 0;
   }
   
@@ -96,7 +96,7 @@ body {
   }
   
   nav ul li a:hover {
-    color: #ff6347; /* Coral color on hover */
+    color: #f4f1de; /* Creme on hover */
   }
   
   /* Section Styles */
@@ -104,25 +104,32 @@ body {
     padding: 40px 20px;
     max-width: 1200px;
     margin: 0 auto;
+    background-color: white; /* White background for sections */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
   }
   
   section h2 {
     font-size: 2em;
     margin-bottom: 20px;
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #dc143c; /* Crimson underline */
     padding-bottom: 10px;
+    color: #dc143c; /* Crimson for section headings */
   }
   
   /* Home Section */
   #home {
     text-align: center;
     padding-top: 100px;
-    background-color: #fff;
+    background-color: #f4f1de; /* Creme background */
+    box-shadow: none;
   }
   
   #home h2 {
     font-size: 2.5em;
     margin-bottom: 10px;
+    color: #dc143c; /* Crimson for home heading */
   }
   
   #home p {
@@ -132,7 +139,7 @@ body {
   
   /* About Section */
   #about {
-    background-color: #f9f9f9;
+    background-color: white;
   }
   
   .research-background, .awards {
@@ -142,6 +149,7 @@ body {
   .research-background h3, .awards h3 {
     font-size: 1.5em;
     margin-bottom: 10px;
+    color: #dc143c; /* Crimson for subheadings */
   }
   
   .awards ul {
@@ -156,7 +164,7 @@ body {
   
   /* Research Section */
   #research {
-    background-color: #fff;
+    background-color: white;
   }
   
   .research-interests {
@@ -166,24 +174,26 @@ body {
   .research-interests h3 {
     font-size: 1.5em;
     margin-bottom: 10px;
+    color: #dc143c; /* Crimson for subheadings */
   }
   
   /* Publications Section */
   #publications {
-    background-color: #f9f9f9;
+    background-color: white;
   }
   
   .paper {
-    border: 2px solid #333;
+    border: 2px solid #dc143c; /* Crimson border */
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: #f9f9f9;
   }
   
   .paper-title {
     font-size: 1.3em;
     margin-bottom: 10px;
+    color: #dc143c; /* Crimson for paper titles */
   }
   
   .paper p {
@@ -194,7 +204,7 @@ body {
   
   /* News Section */
   #news {
-    background-color: #fff;
+    background-color: white;
   }
   
   #news ul {
@@ -208,12 +218,12 @@ body {
   }
   
   #news ul li strong {
-    color: #333;
+    color: #dc143c; /* Crimson for dates */
   }
   
   /* Experience Section */
   #experience {
-    background-color: #f9f9f9;
+    background-color: white;
   }
   
   #experience ul {
@@ -228,7 +238,7 @@ body {
   
   /* Besides Research Section */
   #besides-research {
-    background-color: #fff;
+    background-color: white;
   }
   
   #besides-research p {
