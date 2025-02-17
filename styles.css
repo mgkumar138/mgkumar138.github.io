@@ -5,6 +5,7 @@ body {
     padding: 0;
     line-height: 1.6;
     color: #333;
+    background-color: #f9f9f9;
   }
   
   h1, h2, h3 {
@@ -13,7 +14,11 @@ body {
   
   a {
     text-decoration: none;
-    color: inherit;
+    color: #0077b5; /* LinkedIn blue for links */
+  }
+  
+  a:hover {
+    color: #ff6347; /* Coral color on hover */
   }
   
   /* Header Styles */
@@ -23,6 +28,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
   .header-content {
@@ -30,11 +36,13 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
   }
   
   .name h1 {
     color: white;
-    font-size: 1.5em;
+    font-size: 1.8em;
     margin: 0;
   }
   
@@ -47,30 +55,36 @@ body {
   
   .contact-icons {
     display: flex;
-    gap: 10px;
+    gap: 15px;
   }
   
   .contact-icons a {
     color: white;
     font-size: 1.2em;
+    transition: color 0.3s ease;
   }
   
   .contact-icons a:hover {
-    color: #ff6347;
+    color: #ff6347; /* Coral color on hover */
   }
   
   /* Navigation Bar */
+  nav {
+    background-color: #444;
+    padding: 10px 0;
+  }
+  
   nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
-    background-color: #444;
+    gap: 20px;
   }
   
   nav ul li {
-    margin: 0 15px;
+    margin: 0;
   }
   
   nav ul li a {
@@ -78,15 +92,18 @@ body {
     text-decoration: none;
     font-weight: bold;
     font-size: 1.1em;
+    transition: color 0.3s ease;
   }
   
   nav ul li a:hover {
-    color: #ff6347;
+    color: #ff6347; /* Coral color on hover */
   }
   
   /* Section Styles */
   section {
     padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
   }
   
   section h2 {
@@ -98,21 +115,62 @@ body {
   
   /* Home Section */
   #home {
+    text-align: center;
+    padding-top: 100px;
+    background-color: #fff;
+  }
+  
+  #home h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  #home p {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  /* About Section */
+  #about {
     background-color: #f9f9f9;
   }
   
-  .research-interests, .research-background {
+  .research-background, .awards {
     margin-bottom: 30px;
   }
   
-  .research-interests h3, .research-background h3 {
+  .research-background h3, .awards h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .awards ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .awards ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  }
+  
+  /* Research Section */
+  #research {
+    background-color: #fff;
+  }
+  
+  .research-interests {
+    margin-bottom: 30px;
+  }
+  
+  .research-interests h3 {
     font-size: 1.5em;
     margin-bottom: 10px;
   }
   
   /* Publications Section */
   #publications {
-    background-color: #fff;
+    background-color: #f9f9f9;
   }
   
   .paper {
@@ -120,7 +178,7 @@ body {
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 5px;
-    background-color: #f9f9f9;
+    background-color: #fff;
   }
   
   .paper-title {
@@ -128,35 +186,86 @@ body {
     margin-bottom: 10px;
   }
   
-  /* Conferences Section */
-  #conferences {
-    background-color: #f9f9f9;
+  .paper p {
+    margin: 0;
+    font-size: 1em;
+    color: #555;
   }
   
-  .conference {
-    border: 2px solid #333;
-    padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 5px;
+  /* News Section */
+  #news {
     background-color: #fff;
   }
   
-  .conference-title {
-    font-size: 1.3em;
+  #news ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #news ul li {
+    font-size: 1.1em;
     margin-bottom: 10px;
   }
   
-  /* Awards Section */
-  #awards {
-    background-color: #fff;
+  #news ul li strong {
+    color: #333;
   }
   
-  #awards ul {
+  /* Experience Section */
+  #experience {
+    background-color: #f9f9f9;
+  }
+  
+  #experience ul {
     list-style-type: disc;
     padding-left: 20px;
   }
   
-  #awards ul li {
+  #experience ul li {
     font-size: 1.1em;
     margin-bottom: 10px;
+  }
+  
+  /* Besides Research Section */
+  #besides-research {
+    background-color: #fff;
+  }
+  
+  #besides-research p {
+    font-size: 1.1em;
+    color: #555;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .header-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .profile-pic img {
+      margin-top: 10px;
+    }
+  
+    .contact-icons {
+      margin-top: 10px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    section {
+      padding: 20px 10px;
+    }
+  
+    section h2 {
+      font-size: 1.8em;
+    }
+  
+    .paper-title, .conference-title {
+      font-size: 1.2em;
+    }
   }
