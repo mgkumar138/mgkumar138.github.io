@@ -1,0 +1,281 @@
+/* General Styles */
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f1de; /* Creme background */
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #a52a2a; /* Softer red for links */
+}
+
+a:hover {
+  color: #8b0000; /* Darker red on hover */
+}
+
+/* Header Styles */
+header {
+  background-color: #dc143c; /* Crimson header */
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.name h1 {
+  color: white;
+  font-size: 1.5em; /* Reduced font size */
+  margin: 0;
+}
+
+.profile-pic img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.contact-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.contact-icons a {
+  color: white;
+  font-size: 1.1em; /* Reduced font size */
+  transition: color 0.3s ease;
+}
+
+.contact-icons a:hover {
+  color: #f4f1de; /* Creme on hover */
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #b22222; /* Darker crimson for nav */
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em; /* Reduced font size */
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #f4f1de; /* Creme on hover */
+}
+
+/* Section Styles */
+section {
+  padding: 30px 20px; /* Reduced padding */
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white; /* White background for sections */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+section h2 {
+  font-size: 1.8em; /* Reduced font size */
+  margin-bottom: 15px;
+  border-bottom: 2px solid #a52a2a; /* Softer red underline */
+  padding-bottom: 8px;
+  color: #a52a2a; /* Softer red for section headings */
+}
+
+/* Home Section */
+#home {
+  text-align: center;
+  padding-top: 80px; /* Reduced padding */
+  background-color: #f4f1de; /* Creme background */
+  box-shadow: none;
+}
+
+#home h2 {
+  font-size: 2em; /* Reduced font size */
+  margin-bottom: 10px;
+  color: #a52a2a; /* Softer red for home heading */
+}
+
+#home p {
+  font-size: 1.1em; /* Reduced font size */
+  color: #666;
+}
+
+/* About Section */
+#about {
+  background-color: white;
+}
+
+.research-background, .awards {
+  margin-bottom: 25px; /* Reduced margin */
+}
+
+.research-background h3, .awards h3 {
+  font-size: 1.4em; /* Reduced font size */
+  margin-bottom: 8px;
+  color: #a52a2a; /* Softer red for subheadings */
+}
+
+.awards ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.awards ul li {
+  font-size: 1em; /* Reduced font size */
+  margin-bottom: 8px;
+}
+
+/* Research Section */
+#research {
+  background-color: white;
+}
+
+.research-interests {
+  margin-bottom: 25px; /* Reduced margin */
+}
+
+.research-interests h3 {
+  font-size: 1.4em; /* Reduced font size */
+  margin-bottom: 8px;
+  color: #a52a2a; /* Softer red for subheadings */
+}
+
+/* Publications Section */
+#publications {
+  background-color: white;
+}
+
+.paper {
+  border: 2px solid #a52a2a; /* Softer red border */
+  padding: 12px; /* Reduced padding */
+  margin-bottom: 15px; /* Reduced margin */
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.paper-title {
+  font-size: 1.2em; /* Reduced font size */
+  margin-bottom: 8px;
+  color: #a52a2a; /* Softer red for paper titles */
+}
+
+.paper p {
+  margin: 0;
+  font-size: 0.95em; /* Reduced font size */
+  color: #555;
+}
+
+/* News Section */
+#news {
+  background-color: white;
+}
+
+#news ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#news ul li {
+  font-size: 1em; /* Reduced font size */
+  margin-bottom: 8px;
+}
+
+#news ul li strong {
+  color: #a52a2a; /* Softer red for dates */
+}
+
+/* Experience Section */
+#experience {
+  background-color: white;
+}
+
+#experience ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+#experience ul li {
+  font-size: 1em; /* Reduced font size */
+  margin-bottom: 8px;
+}
+
+/* Besides Research Section */
+#besides-research {
+  background-color: white;
+}
+
+#besides-research p {
+  font-size: 1em; /* Reduced font size */
+  color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .profile-pic img {
+      margin-top: 10px;
+  }
+
+  .contact-icons {
+      margin-top: 10px;
+  }
+
+  nav ul {
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  section {
+      padding: 20px 10px;
+  }
+
+  section h2 {
+      font-size: 1.6em; /* Reduced font size */
+  }
+
+  .paper-title, .conference-title {
+      font-size: 1.1em; /* Reduced font size */
+  }
+}
