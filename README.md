@@ -116,4 +116,4 @@ Look forward to connecting with you!
 + [Google Scholar](https://scholar.google.com/citations?hl=en&user=sFfy1q4AAAAJ)
 + [Semantic Scholar](https://www.semanticscholar.org/author/M-Ganesh-Kumar/48465210)
 + [GitHub](https://github.com/mgkumar138)
-+ <a href="./files/Resume_Ganesh_181224.pdf">CV</a>
++ <a href="./files/Resume_Ganesh.pdf">CV</a>
