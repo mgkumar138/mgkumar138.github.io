@@ -68,6 +68,8 @@ and be involved in the <a href="https://news.nus.edu.sg/news-reports/sangae-muzh
 
 ### Selected Publications
 
+- Kumar, M. G.\*, Manoogian, A.\*, Qian, W., Pehlevan, C.\^, Rhoads, S.\^ (2025). Neurocomputational underpinnings of suboptimal beliefs in recurrent neural network-based agents. ***bioRxiv 2024.03.13.642273*** [https://doi.org/10.1101/2025.03.13.642273](https://doi.org/10.1101/2025.03.13.642273)
+
 - Kumar, M. G., Bordelon, B. Zavatone-Veth, J. A., Pehlevan, C. (2024). A Model of Place Field Reorganization during Reward Maximization. ***bioRxiv 2024.12.12.627755*** [https://doi.org/10.1101/2024.12.12.627755](https://doi.org/10.1101/2024.12.12.627755) [[GitHub](https://github.com/Pehlevan-Group/placefield_reorg_agent)]
 
 - Cloos, N., Kumar, M. G., Manoogian, A. Cueva, C. J. Rhoads, S. A. (2024). Generating and Validating Agent and Environment Code for Simulating Realistic Personality Profiles with Large Language Models. ***NeurIPS workshops 2024***  [Short Paper](https://openreview.net/forum?id=p3T9CtEu1S)
