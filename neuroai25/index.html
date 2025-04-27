@@ -51,6 +51,64 @@
             color: #1a365d;
             margin-top: 1.5rem;
         }
+        .section-divider {
+            border: 0;
+            height: 1px;
+            background-color: #1a365d;
+            margin: 3rem 0;
+        }
+        .section-title {
+            font-size: 1.8rem;
+            color: #1a365d;
+            margin-bottom: 1.5rem;
+        }
+        .organizing-committee {
+            margin: 3rem 0;
+        }
+        .committee-members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 2rem;
+        }
+        .member {
+            flex: 1;
+            min-width: 250px;
+            margin-bottom: 1.5rem;
+        }
+        .member-name {
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+        .member-title {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 0.5rem;
+        }
+        .speaker {
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #eee;
+        }
+        .speaker-name {
+            font-size: 1.4rem;
+            color: #1a365d;
+            margin-bottom: 0.5rem;
+        }
+        .speaker-affiliation {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        .speaker-title {
+            font-style: italic;
+            margin-bottom: 1rem;
+        }
+        .map-container {
+            width: 100%;
+            height: 400px;
+            margin: 2rem 0;
+        }
         footer {
             background-color: #1a365d;
             color: white;
@@ -62,14 +120,36 @@
 </head>
 <body>
     <div class="header">
-        <!-- Replace with your actual image -->
-        <img src="neuroai-banner.jpg" alt="NeuroAI 2025 Conference" class="header-image">
-        <h1>NeuroAI 2025 Conference</h1>
-        <p>Tuesday, 29 April 2025\nCeLS Auditorium - Life Sciences Institute\nSinergy - Singapore Consortium for Synthetic Biology\nNational University of Singapore\n28 Medical Dr, Singapore, 117456</p>
+        <img src="neuroai25_banner.png" alt="NeuroAI 2025 Conference" class="header-image">
+        <h1>Neuroscience-AI 2025 Symposium</h1>
+        <p>Tuesday, 29 April 2025</p>
+        <p>9.00AM to 4.00PM</p>
+        <p><strong>Centre for Life Sciences Auditorium</strong></p>
+        <p>National University of Singapore<p>
+        </p>28 Medical Dr, Singapore 117456</p>
     </div>
 
     <div class="container">
-        <h2>Scientific Programme</h2>
+        <!-- About the Symposium Section -->
+        <h2 class="section-title">About the Symposium</h2>
+        <p>The Neuroscience-AI 2025 Symposium brings together leading researchers at the intersection of neuroscience and artificial intelligence to explore cutting-edge developments in both fields. This event, organized by the <a href="https://sfn.sg" target="_blank">Singapore Chapter of the Society for Neuroscience (SfN.SG)</a>, aims to foster interdisciplinary collaboration and showcase the latest advances in brain-inspired computing, neural decoding, and AI applications in neuroscience.</p>
+        <p>The symposium will feature keynote talks, invited presentations, flash talks from selected posters, and networking opportunities for researchers across academia and industry.</p>
+        
+        <hr class="section-divider">
+        
+        <!-- Venue Information Section -->
+        <h2 class="section-title">Venue Information</h2>
+        <p>The symposium will be held at the <strong>Centre for Life Sciences Auditorium</strong>, located in the Life Sciences Institute at the National University of Singapore.</p>
+        <p><strong>Address:</strong> 28 Medical Dr, Singapore 117456</p>
+        
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.790347373914!2d103.77229031533187!3d1.300186999051829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1a4f1b6345a5%3A0x7e3c4c9a5a5a5a5a!2sLife%20Sciences%20Institute%2C%20National%20University%20of%20Singapore!5e0!3m2!1sen!2ssg!4v1620000000000!5m2!1sen!2ssg" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        
+        <hr class="section-divider">
+        
+        <!-- Scientific Program Section -->
+        <h2 class="section-title">Scientific Programme</h2>
         
         <table class="schedule-table">
             <tr>
@@ -82,7 +162,7 @@
             </tr>
             <tr>
                 <td>09.00 - 09.10</td>
-                <td><strong>Opening address</strong> (Serenella Tolomeo and Ganesh Kumar)</td>
+                <td><strong>Opening address: Carloine Wee</strong> (President of SfN.SG)</td>
             </tr>
             <tr>
                 <td colspan="2" class="session-title">Session 1: How AI transforms Neuroscience (Chair: M Ganesh Kumar)</td>
@@ -144,7 +224,8 @@
             </tr>
             <tr>
                 <td>13.45 - 14.10</td>
-                <td><strong>Iris Groen (University of Amsterdam)</strong></td>
+                <td><strong>Iris Groen (University of Amsterdam)</strong><br>
+                    <em>Alignment of visual representations in AI and human brains: beyond object recognition</em></td>
             </tr>
             <tr>
                 <td>14.10 - 14.35</td>
@@ -172,15 +253,16 @@
             </tr>
             <tr>
                 <td>16.00 - 16.05</td>
-                <td><strong>Welcome Remarks</strong> (Caroline Wee)</td>
+                <td><strong>Welcome Remarks: Caroline Wee</strong></td>
             </tr>
             <tr>
                 <td>16.05 - 16.35</td>
-                <td><strong>Keynote Talk</strong> (Camilo Libedinsky)</td>
+                <td><strong>Keynote Talk: Camilo Libedinsky</strong><br>
+                    <em>When we have robots that think and behave like humans, will they be conscious?</em><td>
             </tr>
             <tr>
                 <td>16.35 - 17.00</td>
-                <td><em>When we have robots that think and behave like humans, will they be conscious?</em></td>
+                <td><strong>AGM Presentation: Caroline Wee and Chris Asplund</strong></td>
             </tr>
             <tr>
                 <td>17.00 - 18.00</td>
@@ -188,10 +270,87 @@
             </tr>
         </table>
         
+        <hr class="section-divider">
+        
+        <!-- Speakers Section -->
+        <h2 class="section-title">Speakers</h2>
+        
+        <div class="speaker">
+            <h3 class="speaker-name">Mengmi Zhang</h3>
+            <div class="speaker-affiliation">Nanyang Technological University</div>
+            <div class="speaker-bio">
+                <p>Dr. Mengmi Zhang is an Assistant Professor at NTU specializing in computational neuroscience and computer vision. Her research focuses on understanding visual intelligence in both biological and artificial systems.</p>
+            </div>
+        </div>
+        
+        <div class="speaker">
+            <h3 class="speaker-name">Gerald Pao</h3>
+            <div class="speaker-affiliation">Okinawa Institute of Technology</div>
+            <div class="speaker-title">Manifolds of brain activity that predict behavior without latent variables</div>
+            <div class="speaker-abstract">
+                <p>This talk will present novel methods for analyzing high-dimensional neural data to directly predict behavior, bypassing the need for intermediate latent variable representations.</p>
+            </div>
+        </div>
+        
+        <div class="speaker">
+            <h3 class="speaker-name">Yisong Yue</h3>
+            <div class="speaker-affiliation">California Institute of Technology</div>
+            <div class="speaker-title">Foundational Models in Neuroscience</div>
+            <div class="speaker-abstract">
+                <p>Exploring how large-scale neural network models can serve as foundational models for neuroscience research, enabling new approaches to understanding brain function.</p>
+            </div>
+        </div>
+        
+        <!-- Add more speakers following the same pattern -->
+        
+        <hr class="section-divider">
+        
+        <!-- Organizing Committee Section -->
+        <h2 class="section-title">Organizing Committee</h2>
+        <div class="organizing-committee">
+            <div class="committee-members">
+                <div class="member">
+                    <div class="member-name">Caroline Wee</div>
+                    <div class="member-title">President, SfN Singapore Chapter</div>
+                    <div class="member-description">Neuroscience researcher specializing in cognitive and behavioral neuroscience with extensive experience in academic leadership.</div>
+                </div>
+                
+                <div class="member">
+                    <div class="member-name">Ajay Mathuru</div>
+                    <div class="member-title">Assistant Professor, Yale-NUS College</div>
+                    <div class="member-description">Expert in behavioral neuroscience and neural circuits, with a focus on understanding the biological basis of behavior.</div>
+                </div>
+                
+                <div class="member">
+                    <div class="member-name">Serenella Tolomeo</div>
+                    <div class="member-title">Senior Research Fellow, NUS</div>
+                    <div class="member-description">Specialist in neuroimaging and computational psychiatry, bridging neuroscience with clinical applications.</div>
+                </div>
+                
+                <div class="member">
+                    <div class="member-name">M Ganesh Kumar</div>
+                    <div class="member-title">Postdoctoral Fellow, Harvard University</div>
+                    <div class="member-description">Neuroscience and AI researcher with expertise in brain-inspired computing and neural network modeling.</div>
+                </div>
+
+                <div class="member">
+                    <div class="member-name">Valarie Tham</div>
+                    <div class="member-title">Postdoctoral Fellow, NUS</div>
+                    <div class="member-description">Neuroscience and AI researcher with expertise in brain-inspired computing and neural network modeling.</div>
+                </div>
+
+                <div class="member">
+                    <div class="member-name">Sarah Luo</div>
+                    <div class="member-title">Postdoctoral Fellow, NUS</div>
+                    <div class="member-description">Neuroscience and AI researcher with expertise in brain-inspired computing and neural network modeling.</div>
+                </div>
+            </div>
+        </div>
+        
     </div>
 
     <footer>
-        <p>&copy; 2025 NeuroAI Conference | Organized by SfN.SG</p>
+        <p>&copy; 2025 NeuroAI Symposium | Organized by SfN.SG</p>
     </footer>
 </body>
 </html>
