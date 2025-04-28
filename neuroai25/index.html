@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="styles.css">
+<!-- <link rel="stylesheet" href="styles.css"> -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -68,24 +68,26 @@
         }
         .committee-members {
             display: flex;
-            flex-wrap: wrap;
+            flex-wrap: nowrap; /* Changed from wrap to nowrap */
             justify-content: space-between;
-            gap: 2rem;
+            gap: 1rem; /* Reduced gap to fit all in one row */
+            overflow-x: auto; /* Allows horizontal scrolling if needed on small screens */
         }
         .member {
             flex: 1;
-            min-width: 250px;
+            min-width: 150px; /* Reduced min-width to fit more items */
             margin-bottom: 1.5rem;
         }
         .member-name {
             font-weight: bold;
-            font-size: 1.2rem;
+            font-size: 1.1rem; /* Slightly reduced font size */
             margin-bottom: 0.5rem;
         }
         .member-title {
             font-style: italic;
             color: #666;
             margin-bottom: 0.5rem;
+            font-size: 0.9rem; /* Slightly reduced font size */
         }
         .speaker {
             margin-bottom: 2rem;
@@ -109,6 +111,13 @@
             width: 100%;
             height: 400px;
             margin: 2rem 0;
+            display: flex;
+            justify-content: center; /* Center the map horizontally */
+        }
+        .map-container iframe {
+            width: 800px; /* Increased width */
+            height: 400px;
+            border: 0;
         }
         footer {
             background-color: #1a365d;
@@ -146,7 +155,7 @@
         <p><strong>Address:</strong> 28 Medical Dr, Singapore 117456</p>
         
         <div class="map-container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.800038996227!2d103.77834947602393!3d1.294506398693205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1a56afb18525%3A0xf4d0a7d479de82db!2sCentre%20for%20Life%20Sciences!5e0!3m2!1sen!2ssg!4v1745768051057!5m2!1sen!2ssg" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.800038996227!2d103.77834947602393!3d1.294506398693205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1a56afb18525%3A0xf4d0a7d479de82db!2sCentre%20for%20Life%20Sciences!5e0!3m2!1sen!2ssg!4v1745768051057!5m2!1sen!2ssg" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         
         <hr class="section-divider">
