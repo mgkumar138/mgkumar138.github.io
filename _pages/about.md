@@ -7,15 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-## About Me
-{: .notice--primary }
+<!-- ## About Me
+{: .notice--primary } -->
 
 I am a computational neuroscientist studying how biological and artificial systems efficiently learn models of the world and use them flexibly to make optimal decisions. My work focuses on reinforcement learning, representation learning, and biologically plausible learning rules, with the goal of identifying computational principles that support rapid generalization and adaptive behavior. I develop theory-driven agents grounded in experimental data to explain neural computation and failure modes of learning, and to translate these insights into improved artificial systems and tools that support learning and education.
 
 ---
 
-## Experience · Education · Honors
-{: .notice--info }
+<!-- ## Experience · Education · Honors
+{: .notice--info } -->
 
 ### Experience
 - **2026–Present** — Postdoctoral Fellow, Max Planck Institute for Biological Cybernetics
@@ -39,8 +39,8 @@ I am a computational neuroscientist studying how biological and artificial syste
 
 ---
 
-## News
-{: .notice--success }
+<!-- ## News
+{: .notice--success } -->
 
 - **03/2026** — Poster on scaling feature learning in hippocampal place-field model at **COSYNE 2026**  
 - **09/2025** — Talk on meta-reinforcement learning agents for suboptimal behavior at **Rick Adams Lab, UCL**  
@@ -48,10 +48,10 @@ I am a computational neuroscientist studying how biological and artificial syste
 
 ---
 
-## Selected Publications
-{: .notice--warning }
+<!-- ## Selected Publications
+{: .notice--warning } -->
 
-[→ Full publication list](/publications/)
+### Selected Publications [→ Full publication list](/publications/)
 
 <div class="archive">
 
@@ -66,7 +66,6 @@ I am a computational neuroscientist studying how biological and artificial syste
       <em style="font-size:0.9em;"><strong>Nature</strong>, 2025</em><br>
       <a href="https://doi.org/10.1038/s41586-025-09958-0">Paper</a> ·
       <a href="https://github.com/mgkumar138/backward_pf_agent">Code</a> ·
-      <a href="/publications/">Details</a>
     </div>
   </article>
 </div>
@@ -82,7 +81,6 @@ I am a computational neuroscientist studying how biological and artificial syste
       <em style="font-size:0.9em;"><strong>ICML</strong>, 2025</em><br>
       <a href="https://proceedings.mlr.press/v267/kumar25a.html">Paper</a> ·
       <a href="https://github.com/Pehlevan-Group/placefield_reorg_agent">Code</a> ·
-      <a href="/publications/">Details</a>
     </div>
   </article>
 </div>
@@ -98,7 +96,6 @@ I am a computational neuroscientist studying how biological and artificial syste
       <em style="font-size:0.9em;"><strong>ICCV</strong>, 2023</em><br>
       <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Lee_DetermiNet_A_Large-Scale_Diagnostic_Dataset_for_Complex_Visually-Grounded_Referencing_using_ICCV_2023_paper.html">Paper</a> ·
       <a href="https://github.com/clarence-lee-sheng/DetermiNet">Code</a> ·
-      <a href="/publications/">Details</a>
     </div>
   </article>
 </div>
@@ -114,7 +111,6 @@ I am a computational neuroscientist studying how biological and artificial syste
       <em style="font-size:0.9em;"><strong>Cerebral Cortex</strong>, 2022</em><br>
       <a href="https://doi.org/10.1093/cercor/bhab456">Paper</a> ·
       <a href="https://github.com/mgkumar138/backward_pf_agent">Code</a> ·
-      <a href="/publications/">Details</a>
     </div>
   </article>
 </div>
