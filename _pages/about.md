@@ -58,7 +58,7 @@ I am a computational neuroscientist studying how biological and artificial syste
 <div class="archive">
 
 <div class="list__item">
-  <article class="archive__item" style="display:flex; gap:1em;">
+  <article class="archive__item">
     <img src="/files/nature26_img.webp" style="width:120px; height:auto; flex-shrink:0;">
     <div>
       <strong>Predictive coding of reward in the hippocampus</strong><br>
@@ -73,7 +73,7 @@ I am a computational neuroscientist studying how biological and artificial syste
 </div>
 
 <div class="list__item">
-  <article class="archive__item" style="display:flex; gap:1em;">
+  <article class="archive__item">
     <img src="/files/icml25_img.webp.png" style="width:120px; height:auto; flex-shrink:0;">
     <div>
       <strong>A Model of Place Field Reorganization During Reward Maximization</strong><br>
@@ -88,7 +88,7 @@ I am a computational neuroscientist studying how biological and artificial syste
 </div>
 
 <div class="list__item">
-  <article class="archive__item" style="display:flex; gap:1em;">
+  <article class="archive__item">
     <img src="/files/iccv23.png" style="width:120px; height:auto; flex-shrink:0;">
     <div>
       <strong>DetermiNet: A Large-Scale Diagnostic Dataset for Complex Visually-Grounded Referencing using Determiners</strong><br>
@@ -103,7 +103,7 @@ I am a computational neuroscientist studying how biological and artificial syste
 </div>
 
 <div class="list__item">
-  <article class="archive__item" style="display:flex; gap:1em;">
+  <article class="archive__item">
     <img src="/files/cerebral.jpeg" style="width:120px; height:auto; flex-shrink:0;">
     <div>
       <strong>A nonlinear hidden layer enables actor–critic agents to learn multiple paired association navigation</strong><br>
