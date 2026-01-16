@@ -24,11 +24,11 @@ repository               : "mgkumar138/mgkumar138.github.io"
 author:
   # Biographic information
   avatar           : "ganesh_informal_square.jpg"
-  name             : "M Ganesh Kumar"
+  name             : "M Ganesh Kumar, Ph.D."
   pronouns         : # example: "she/her"  
   bio              : "Postdoctoral Fellow"
   location         : "Tübingen, Germany"
-  employer         : "Max Planck Institute for Biological Cybernetics"
+  employer         : "MPI for Biological Cybernetics"
   uri              : # URL
   email            : "m_ganeshkumar@u.nus.edu" 
 
