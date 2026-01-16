@@ -41,6 +41,7 @@ I am a computational neuroscientist studying how biological and artificial syste
 
 <!-- ## News
 {: .notice--success } -->
+### News
 
 - **03/2026** — Poster on scaling feature learning in hippocampal place-field model at **COSYNE 2026**  
 - **09/2025** — Talk on meta-reinforcement learning agents for suboptimal behavior at **Rick Adams Lab, UCL**  
@@ -51,7 +52,8 @@ I am a computational neuroscientist studying how biological and artificial syste
 <!-- ## Selected Publications
 {: .notice--warning } -->
 
-### Selected Publications [→ Full publication list](/publications/)
+### Selected Publications 
+[→ Full publication list](/publications/)
 
 <div class="archive">
 
