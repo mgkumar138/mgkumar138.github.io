@@ -48,73 +48,97 @@ I am a computational neuroscientist studying how biological and artificial syste
 - **08/2025** — Poster on suboptimal agents from meta-RL at **CCN 2025**  
 
 ---
-
-<!-- ## Selected Publications
-{: .notice--warning } -->
-
-### Selected Publications 
+### Selected Publications
 <!-- [→ Full publication list](/publications/) -->
 
-<!-- <div class="archive"> -->
+<div class="pub-card">
+  <img src="/files/nature26_img.webp" class="pub-thumb">
 
-<div class="list__item">
-  <article class="archive__item">
-    <img src="/files/nature26_img.webp" style="width:120px; height:auto; flex-shrink:0;">
-    <div>
-      <strong>Predictive coding of reward in the hippocampus</strong><br>
-      <span style="font-size:0.9em;">
-        Yaghoubi, M., <strong>Kumar, M. G.</strong>, Nieto-Posadas, A., et al.
-      </span><br>
-      <em style="font-size:0.9em;"><strong>Nature</strong>, 2025</em><br>
+  <div class="pub-content">
+    <div class="pub-title">
+      Predictive coding of reward in the hippocampus
+    </div>
+
+    <div class="pub-authors">
+      Yaghoubi, M., <strong>Kumar, M. G.</strong>, Nieto-Posadas, A., et al.
+    </div>
+
+    <div class="pub-venue">
+      <em>Nature</em>, 2025
+    </div>
+
+    <div class="pub-links">
       <a href="https://doi.org/10.1038/s41586-025-09958-0">Paper</a> ·
-      <a href="https://github.com/mgkumar138/backward_pf_agent">Code</a> ·
+      <a href="https://github.com/mgkumar138/backward_pf_agent">Code</a>
     </div>
-  </article>
+  </div>
 </div>
 
-<div class="list__item">
-  <article class="archive__item">
-    <img src="/files/icml25_img.webp" style="width:120px; height:auto; flex-shrink:0;">
-    <div>
-      <strong>A Model of Place Field Reorganization During Reward Maximization</strong><br>
-      <span style="font-size:0.9em;">
-        <strong>Kumar, M. G.</strong>, Bordelon, B., Zavatone-Veth, J., Pehlevan, C.
-      </span><br>
-      <em style="font-size:0.9em;"><strong>ICML</strong>, 2025</em><br>
+<div class="pub-card">
+  <img src="/files/icml25_img.webp" class="pub-thumb">
+
+  <div class="pub-content">
+    <div class="pub-title">
+      A Model of Place Field Reorganization During Reward Maximization
+    </div>
+
+    <div class="pub-authors">
+      <strong>Kumar, M. G.</strong>, Bordelon, B., Zavatone-Veth, J., Pehlevan, C.
+    </div>
+
+    <div class="pub-venue">
+      <em>ICML</em>, 2025
+    </div>
+
+    <div class="pub-links">
       <a href="https://proceedings.mlr.press/v267/kumar25a.html">Paper</a> ·
-      <a href="https://github.com/Pehlevan-Group/placefield_reorg_agent">Code</a> ·
+      <a href="https://github.com/Pehlevan-Group/placefield_reorg_agent">Code</a>
     </div>
-  </article>
+  </div>
 </div>
 
-<div class="list__item">
-  <article class="archive__item">
-    <img src="/files/iccv23.png" style="width:120px; height:auto; flex-shrink:0;">
-    <div>
-      <strong>DetermiNet: A Large-Scale Diagnostic Dataset for Complex Visually-Grounded Referencing using Determiners</strong><br>
-      <span style="font-size:0.9em;">
-        Lee, C., <strong>Kumar, M. G.</strong>, Tan, C.
-      </span><br>
-      <em style="font-size:0.9em;"><strong>ICCV</strong>, 2023</em><br>
+<div class="pub-card">
+  <img src="/files/iccv23.png" class="pub-thumb">
+
+  <div class="pub-content">
+    <div class="pub-title">
+      DetermiNet: A Large-Scale Diagnostic Dataset for Complex Visually-Grounded Referencing using Determiners
+    </div>
+
+    <div class="pub-authors">
+      Lee, C., <strong>Kumar, M. G.</strong>, Tan, C.
+    </div>
+
+    <div class="pub-venue">
+      <em>ICCV</em>, 2023
+    </div>
+
+    <div class="pub-links">
       <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Lee_DetermiNet_A_Large-Scale_Diagnostic_Dataset_for_Complex_Visually-Grounded_Referencing_using_ICCV_2023_paper.html">Paper</a> ·
-      <a href="https://github.com/clarence-lee-sheng/DetermiNet">Code</a> ·
+      <a href="https://github.com/clarence-lee-sheng/DetermiNet">Code</a>
     </div>
-  </article>
+  </div>
 </div>
 
-<div class="list__item">
-  <article class="archive__item">
-    <img src="/files/cerebral22.jpeg" style="width:120px; height:auto; flex-shrink:0;">
-    <div>
-      <strong>A nonlinear hidden layer enables actor–critic agents to learn multiple paired association navigation</strong><br>
-      <span style="font-size:0.9em;">
-        <strong>Kumar, M. G.</strong>, et al.
-      </span><br>
-      <em style="font-size:0.9em;"><strong>Cerebral Cortex</strong>, 2022</em><br>
+<div class="pub-card">
+  <img src="/files/cerebral22.jpeg" class="pub-thumb">
+
+  <div class="pub-content">
+    <div class="pub-title">
+      A nonlinear hidden layer enables actor–critic agents to learn multiple paired association navigation
+    </div>
+
+    <div class="pub-authors">
+      <strong>Kumar, M. G.</strong>, et al.
+    </div>
+
+    <div class="pub-venue">
+      <em>Cerebral Cortex</em>, 2022
+    </div>
+
+    <div class="pub-links">
       <a href="https://doi.org/10.1093/cercor/bhab456">Paper</a> ·
-      <a href="https://github.com/mgkumar138/backward_pf_agent">Code</a> ·
+      <a href="https://github.com/mgkumar138/backward_pf_agent">Code</a>
     </div>
-  </article>
+  </div>
 </div>
-
-<!-- </div> -->
