@@ -19,7 +19,7 @@ I am a computational neuroscientist studying how biological and artificial syste
 
 ### Experience
 - **2026–Present** — Postdoctoral Fellow, Max Planck Institute for Biological Cybernetics
-- **2023–2025** — Postdoctoral Fellow, School of Engineering and Applied Sciences, Harvard University  
+- **2023–2025** — Postdoctoral Fellow, SEAS, Harvard University  
 - **2022–2023** — Research Scientist, Centre for Frontier AI Research (CFAR), A\*STAR  
 - **2017–2018** — Research Engineer, A\*STAR Artificial Intelligence Initiative  
 
@@ -32,10 +32,10 @@ I am a computational neuroscientist studying how biological and artificial syste
 - Spotlight Talk, Computational Psychiatry Conference (2025)
 - Best Flash Talk, Society for Neuroscience Singapore Chapter (2024)  
 - [MIT Center for Brains, Minds, Machines–Fujitsu Laboratories Fellow (2019)](https://cbmm.mit.edu/summer-school/fellows)  
-- Graduate School Scholarship 2018, National University of Singapore
+- Graduate School Scholarship, National University of Singapore (2018)
 - [NUSSU Medal for Outstanding Achievement 2017](https://www.usp.nus.edu.sg/curriculum/awards-and-recognition/award-winners-of-class-2017/)
 - University Scholars Programme (USP) Senior Honor Roll 2017
-- Undergraduate Scholarship 2013, A\*STAR  
+- Undergraduate Scholarship, A\*STAR (2013)
 
 ---
 
