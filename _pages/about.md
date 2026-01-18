@@ -53,7 +53,7 @@ I am a computational neuroscientist studying how biological and artificial syste
 {: .notice--warning } -->
 
 ### Selected Publications 
-[→ Full publication list](/publications/)
+<!-- [→ Full publication list](/publications/) -->
 
 <div class="archive">
 
