@@ -33,8 +33,8 @@ I am a computational neuroscientist studying how biological and artificial syste
 - Best Flash Talk, Society for Neuroscience Singapore Chapter (2024)  
 - [MIT Center for Brains, Minds, Machines–Fujitsu Laboratories Fellow (2019)](https://cbmm.mit.edu/summer-school/fellows)  
 - Graduate School Scholarship, National University of Singapore (2018)
-- [NUSSU Medal for Outstanding Achievement 2017](https://www.usp.nus.edu.sg/curriculum/awards-and-recognition/award-winners-of-class-2017/)
-- University Scholars Programme (USP) Senior Honor Roll 2017
+- [NUSSU Medal for Outstanding Achievement (2017)](https://www.usp.nus.edu.sg/curriculum/awards-and-recognition/award-winners-of-class-2017/)
+- University Scholars Programme (USP) Senior Honor Roll (2017)
 - Undergraduate Scholarship, A\*STAR (2013)
 
 ---
