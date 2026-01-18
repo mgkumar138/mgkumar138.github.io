@@ -55,7 +55,7 @@ I am a computational neuroscientist studying how biological and artificial syste
 ### Selected Publications 
 <!-- [→ Full publication list](/publications/) -->
 
-<div class="archive">
+<!-- <div class="archive"> -->
 
 <div class="list__item">
   <article class="archive__item">
