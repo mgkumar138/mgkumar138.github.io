@@ -74,7 +74,7 @@ I am a computational neuroscientist studying how biological and artificial syste
 
 <div class="list__item">
   <article class="archive__item">
-    <img src="/files/icml25_img.webp.png" style="width:120px; height:auto; flex-shrink:0;">
+    <img src="/files/icml25_img.webp" style="width:120px; height:auto; flex-shrink:0;">
     <div>
       <strong>A Model of Place Field Reorganization During Reward Maximization</strong><br>
       <span style="font-size:0.9em;">
@@ -104,7 +104,7 @@ I am a computational neuroscientist studying how biological and artificial syste
 
 <div class="list__item">
   <article class="archive__item">
-    <img src="/files/cerebral.jpeg" style="width:120px; height:auto; flex-shrink:0;">
+    <img src="/files/cerebral22.jpeg" style="width:120px; height:auto; flex-shrink:0;">
     <div>
       <strong>A nonlinear hidden layer enables actor–critic agents to learn multiple paired association navigation</strong><br>
       <span style="font-size:0.9em;">
