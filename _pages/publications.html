@@ -5,32 +5,300 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<p style="font-size:0.9em; margin-bottom:0.5em;">
+  Tags: 
+  <span class="pub-category-tag tag-B">B</span> Biological Intelligence &nbsp;
+  <span class="pub-category-tag tag-A">A</span> Artificial Intelligence &nbsp;
+  <span class="pub-category-tag tag-D">D</span> Neurological Disorders
+</p>
+<p style="font-size:0.9em; margin-bottom:1.5em;">
+  * Equal contribution &nbsp;·&nbsp; ^ Equal senior authorship &nbsp;·&nbsp;
+  <a href="https://scholar.google.com/citations?user=sFfy1q4AAAAJ&hl=en">Google Scholar</a>
+</p>
 
-{% include base_path %}
+<h2 class="pub-section-header">Journal Articles</h2>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<div class="pub-card">
+  <div class="pub-content">
+    <div class="pub-title">
+      <span class="pub-category-tag tag-B">B</span>
+      Hierarchical Spiking Computation with Feedback Alignment for Task-Driven Learning
+      <span class="pub-status status-prep">In Preparation</span>
+    </div>
+    <div class="pub-authors">Overweining, J., <strong>Kumar, M. G.</strong>, Sompolinsky, H.</div>
+    <div class="pub-venue"><em>Nature Neuroscience</em> [H5-Index: 153]</div>
+  </div>
+</div>
 
+<div class="pub-card">
+  <div class="pub-content">
+    <div class="pub-title">
+      <span class="pub-category-tag tag-B">B</span><span class="pub-category-tag tag-A">A</span>
+      One-Shot Learning of Paired Association Navigation using Biologically Plausible Schemas
+      <span class="pub-status status-revision">Under Revision</span>
+    </div>
+    <div class="pub-authors"><strong>Kumar, M. G.</strong>, Tan, C., Libedinsky, C., Yen, S-C., Tan, A. Y.</div>
+    <div class="pub-venue"><em>Journal of Neuroscience</em> [H5-Index: 89]</div>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2106.03580">Preprint</a>
+    </div>
+  </div>
+</div>
 
+<div class="pub-card">
+  <div class="pub-content">
+    <div class="pub-title">
+      <span class="pub-category-tag tag-B">B</span><span class="pub-category-tag tag-A">A</span>
+      Hippocampal Neurogenesis with Cbln-4 Deletion Impairs Fear Conditioning
+      <span class="pub-status status-revision">Under Revision</span>
+    </div>
+    <div class="pub-authors">Wang, J.*, Jagadeesh, V. S.*, <strong>Kumar, M. G.</strong>, Libedinsky, C., Yen, S-C., Tan, A. Y., Polepalli, J. S.</div>
+    <div class="pub-venue"><em>Communications Biology</em> [H5-Index: 106]</div>
+  </div>
+</div>
 
+<div class="pub-card">
+  <img src="/files/nature26_img.webp" class="pub-thumb" alt="Nature 2026">
+  <div class="pub-content">
+    <div class="pub-title">
+      <span class="pub-category-tag tag-B">B</span>
+      Predictive Coding of Reward in the Hippocampus
+      <span class="pub-status status-published">Published</span>
+    </div>
+    <div class="pub-authors">Yaghoubi, M., <strong>Kumar, M. G.</strong>, Nieto-Posadas, A., Mosser, C-A., Gisiger, T., Wilson, E., Pehlevan, C., Williams, S., Brandon, M.</div>
+    <div class="pub-venue"><em>Nature</em> 651, 414–420 [H5-Index: 490] &nbsp;·&nbsp; 2026</div>
+    <div class="pub-links">
+      <a href="https://doi.org/10.1038/s41586-025-09958-0">Paper</a>
+      <a href="https://github.com/mgkumar138/backward_pf_agent">Code</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-card">
+  <img src="/files/cerebral22.jpeg" class="pub-thumb" alt="Cerebral Cortex 2022">
+  <div class="pub-content">
+    <div class="pub-title">
+      <span class="pub-category-tag tag-B">B</span><span class="pub-category-tag tag-A">A</span>
+      A Nonlinear Hidden Layer Enables Actor–Critic Agents to Learn Multiple Paired Association Navigation
+      <span class="pub-status status-published">Published</span>
+    </div>
+    <div class="pub-authors"><strong>Kumar, M. G.</strong>, Tan, C., Libedinsky, C., Yen, S-C., Tan, A. Y.</div>
+    <div class="pub-venue"><em>Cerebral Cortex</em> 32(18), 3917–3936 [H5-Index: 67] &nbsp;·&nbsp; 2022</div>
+    <div class="pub-links">
+      <a href="https://doi.org/10.1093/cercor/bhab456">Paper</a>
+      <a href="https://github.com/mgkumar138/TDHL_6PA">Code</a>
+    </div>
+  </div>
+</div>
+
+<h2 class="pub-section-header">Peer-Reviewed Conference Proceedings</h2>
+
+<div class="pub-card">
+  <div class="pub-content">
+    <div class="pub-title">
+      <span class="pub-category-tag tag-B">B</span><span class="pub-category-tag tag-A">A</span><span class="pub-category-tag tag-D">D</span>
+      Scalable yet Interpretable Meta-RL for Decision-Making with Uncertainty
+      <span class="pub-status status-prep">In Preparation</span>
+    </div>
+    <div class="pub-authors">Singh, A., Binz, M., Dayan, P., <strong>Kumar, M. G.</strong></div>
+    <div class="pub-venue"><em>ICLR 2027</em> [H5-Index: 362]</div>
+  </div>
+</div>
+
+<div class="pub-card">
+  <div class="pub-content">
+    <div class="pub-title">
+      <span class="pub-category-tag tag-A">A</span>
+      CompleteP for RL: Mitigating Inconsistencies when Scaling Reinforcement Learning
+      <span class="pub-status status-inpress">In Press</span>
+    </div>
+    <div class="pub-authors">Lee, A.*, <strong>Kumar, M. G.*</strong>, Bordelon, B., Pehlevan, C.</div>
+    <div class="pub-venue"><em>ICML</em>, Seoul [H5-Index: 272] &nbsp;·&nbsp; 2026</div>
+  </div>
+</div>
+
+<div class="pub-card">
+  <img src="/files/icml25_img.webp" class="pub-thumb" alt="ICML 2025">
+  <div class="pub-content">
+    <div class="pub-title">
+      <span class="pub-category-tag tag-B">B</span><span class="pub-category-tag tag-A">A</span>
+      A Model of Place Field Reorganization During Reward Maximization
+      <span class="pub-status status-published">Published</span>
+    </div>
+    <div class="pub-authors"><strong>Kumar, M. G.</strong>, Bordelon, B., Zavatone-Veth, J., Pehlevan, C.</div>
+    <div class="pub-venue"><em>ICML</em>, Vancouver [H5-Index: 272] &nbsp;·&nbsp; 2025</div>
+    <div class="pub-links">
+      <a href="https://proceedings.mlr.press/v267/kumar25a.html">Paper</a>
+      <a href="https://github.com/Pehlevan-Group/placefield_reorg_agent">Code</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-card">
+  <div class="pub-content">
+    <div class="pub-title">
+      <span class="pub-category-tag tag-B">B</span><span class="pub-category-tag tag-D">D</span>
+      Neurocomputational Underpinnings of Suboptimal Beliefs in Reinforcement Learning Agents
+      <span class="pub-status status-published">Published</span>
+      <span class="pub-status status-spotlight">Spotlight Talk</span>
+    </div>
+    <div class="pub-authors"><strong>Kumar, M. G.*</strong>, Manoogian, A.*, Pehlevan, C.^, Roads, S.^</div>
+    <div class="pub-venue"><em>CCN</em>, Amsterdam (25% accept) &nbsp;·&nbsp; 2025</div>
+    <div class="pub-links">
+      <a href="https://doi.org/10.32470/3kpf810">Paper</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-card">
+  <img src="/files/iccv23.png" class="pub-thumb" alt="ICCV 2023">
+  <div class="pub-content">
+    <div class="pub-title">
+      <span class="pub-category-tag tag-B">B</span><span class="pub-category-tag tag-A">A</span>
+      DetermiNet: A Large-Scale Diagnostic Dataset for Complex Visually-Grounded Referencing using Determiners
+      <span class="pub-status status-published">Published</span>
+    </div>
+    <div class="pub-authors">Lee, C.*, <strong>Kumar, M. G.*</strong>, Tan, C.</div>
+    <div class="pub-venue"><em>ICCV</em>, Paris [H5-Index: 256] &nbsp;·&nbsp; 2023</div>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2309.03483">Paper</a>
+      <a href="https://github.com/clarence-lee-sheng/DetermiNet">Code</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-card">
+  <div class="pub-content">
+    <div class="pub-title">
+      <span class="pub-category-tag tag-A">A</span><span class="pub-category-tag tag-D">D</span>
+      Reject Option to Reduce False Detection Rates for EEG-Motor Imagery Based BCI
+      <span class="pub-status status-published">Published</span>
+    </div>
+    <div class="pub-authors"><strong>Kumar, M. G.</strong>, Ang, K. K., So, R. Q.</div>
+    <div class="pub-venue"><em>EMBC</em>, Korea [H5-Index: 47] &nbsp;·&nbsp; 2017</div>
+    <div class="pub-links">
+      <a href="https://doi.org/10.1109/EMBC.2017.8037479">Paper</a>
+    </div>
+  </div>
+</div>
+
+<h2 class="pub-section-header">Workshop Proceedings</h2>
+
+<div class="pub-card">
+  <div class="pub-content">
+    <div class="pub-title">
+      <span class="pub-category-tag tag-B">B</span><span class="pub-category-tag tag-D">D</span>
+      Unsupervised Hebbian Learning Drives Biologically Interpretable Pattern Separation in a Hippocampal–Striatal Network
+      <span class="pub-status status-published">Published</span>
+      <span class="pub-status status-spotlight">Spotlight</span>
+    </div>
+    <div class="pub-authors">Wang, J., Jagadeesh, V. S., <strong>Kumar, M. G.</strong>, Libedinsky, C., Yen, S-C., Tan, A. Y., Polepalli, J. S.</div>
+    <div class="pub-venue"><em>AAAI Workshops</em>, Singapore &nbsp;·&nbsp; 2026</div>
+  </div>
+</div>
+
+<div class="pub-card">
+  <div class="pub-content">
+    <div class="pub-title">
+      <span class="pub-category-tag tag-A">A</span>
+      Tiny Personal Critic: A Lightweight Critic for Low-Compute Language Model Personalization
+      <span class="pub-status status-published">Published</span>
+    </div>
+    <div class="pub-authors">Singh, A., <strong>Kumar, M. G.</strong></div>
+    <div class="pub-venue"><em>AAAI Workshops</em>, Singapore &nbsp;·&nbsp; 2026</div>
+  </div>
+</div>
+
+<div class="pub-card">
+  <div class="pub-content">
+    <div class="pub-title">
+      <span class="pub-category-tag tag-B">B</span><span class="pub-category-tag tag-A">A</span>
+      Human-like Compositional Learning of Visually Grounded Concepts using Synthetic Environments
+      <span class="pub-status status-published">Published</span>
+    </div>
+    <div class="pub-authors">Lim, Z., <strong>Kumar, M. G.</strong>, Tan, C.</div>
+    <div class="pub-venue"><em>ICLR Workshops</em>, Singapore &nbsp;·&nbsp; 2025</div>
+    <div class="pub-links">
+      <a href="https://openreview.net/forum?id=vq39RX6xIU">Paper</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-card">
+  <div class="pub-content">
+    <div class="pub-title">
+      <span class="pub-category-tag tag-A">A</span><span class="pub-category-tag tag-D">D</span>
+      Generating and Validating Agent and Environment Code for Simulating Realistic Personality Profiles with LLMs
+      <span class="pub-status status-published">Published</span>
+    </div>
+    <div class="pub-authors">Cloos, N., <strong>Kumar, M. G.</strong>, Manoogian, A., Cueva, C., Roads, S.</div>
+    <div class="pub-venue"><em>NeurIPS Workshops: Foundation Models For Science</em>, Vancouver &nbsp;·&nbsp; 2024</div>
+    <div class="pub-links">
+      <a href="https://openreview.net/pdf?id=oeIvS0ULNl">Paper</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-card">
+  <div class="pub-content">
+    <div class="pub-title">
+      <span class="pub-category-tag tag-B">B</span><span class="pub-category-tag tag-A">A</span>
+      Compositional Visual Grounding of Word Concepts through Embodied Reinforcement Learning
+      <span class="pub-status status-published">Published</span>
+    </div>
+    <div class="pub-authors">Lim, Z.*, Azaman, H.*, <strong>Kumar, M. G.</strong>, Tan, C.</div>
+    <div class="pub-venue"><em>CVPR Workshops</em>, Seattle &nbsp;·&nbsp; 2024</div>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2309.04504">Paper</a>
+    </div>
+  </div>
+</div>
+
+<h2 class="pub-section-header">Book Chapters</h2>
+
+<div class="pub-card">
+  <div class="pub-content">
+    <div class="pub-title">
+      <span class="pub-category-tag tag-B">B</span><span class="pub-category-tag tag-A">A</span><span class="pub-category-tag tag-D">D</span>
+      Trends, Innovations and Challenges in Employing Interdisciplinary Approaches to Biomedical Sciences
+      <span class="pub-status status-published">Published</span>
+    </div>
+    <div class="pub-authors"><strong>Kumar, M. G.</strong>, Ayyadhury, S., Murugan, E.</div>
+    <div class="pub-venue">In <em>Translational Research in Biomedical Sciences: Recent Progress and Future Prospects</em>, Ch. 20. Springer Nature &nbsp;·&nbsp; 2024</div>
+    <div class="pub-links">
+      <a href="https://doi.org/10.1007/978-981-97-1777-4_20">Chapter</a>
+    </div>
+  </div>
+</div>
+
+<h2 class="pub-section-header">Ongoing Projects</h2>
+
+<div class="pub-card">
+  <div class="pub-content">
+    <div class="pub-title">
+      <span class="pub-category-tag tag-B">B</span><span class="pub-category-tag tag-A">A</span><span class="pub-category-tag tag-D">D</span>
+      Online EEG-Based Classification using Reservoir Computing during Timbre Perception
+    </div>
+    <div class="pub-authors">Satkunarajah, P., <strong>Kumar, M. G.</strong>, Power, S., Zendel, B.</div>
+  </div>
+</div>
+
+<div class="pub-card">
+  <div class="pub-content">
+    <div class="pub-title">
+      <span class="pub-category-tag tag-B">B</span><span class="pub-category-tag tag-D">D</span>
+      Interpretable Dictionaries for Seizure Detection
+    </div>
+    <div class="pub-authors">Pacheco, N., <strong>Kumar, M. G.</strong>, Ba, D.</div>
+  </div>
+</div>
+
+<div class="pub-card">
+  <div class="pub-content">
+    <div class="pub-title">
+      <span class="pub-category-tag tag-A">A</span>
+      TellMe What You See: Using LLMs to Explain Neurons in Vision Models
+    </div>
+    <div class="pub-authors">Guertler, L., <strong>Kumar, M. G.</strong>, Luu, A. T., Tan, C.</div>
+  </div>
+</div>

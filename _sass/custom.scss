@@ -1,0 +1,223 @@
+/* ==========================================================================
+   CUSTOM STYLES — mgkumar138.github.io
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Publication cards (used on About and Publications pages)
+   -------------------------------------------------------------------------- */
+
+.pub-card {
+  display: flex;
+  gap: 1.1em;
+  margin-bottom: 1.5em;
+  padding: 1em 1.1em;
+  background: #fff;
+  border: 1px solid var(--global-border-color);
+  border-left: 4px solid var(--global-base-color);
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  transition: box-shadow 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 3px 10px rgba(0,0,0,0.10);
+  }
+
+  .pub-thumb {
+    width: 90px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 3px;
+    flex-shrink: 0;
+    background: #f0ece6;
+  }
+
+  .pub-content {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .pub-title {
+    font-weight: 600;
+    font-size: 0.95em;
+    line-height: 1.4;
+    color: var(--global-text-color);
+    margin-bottom: 0.2em;
+  }
+
+  .pub-authors {
+    font-size: 0.84em;
+    color: var(--global-text-color-light);
+    margin-bottom: 0.15em;
+  }
+
+  .pub-venue {
+    font-size: 0.84em;
+    color: var(--global-text-color-light);
+    margin-bottom: 0.4em;
+  }
+
+  .pub-links {
+    font-size: 0.82em;
+
+    a {
+      display: inline-block;
+      margin-right: 0.6em;
+      padding: 1px 8px;
+      border: 1px solid var(--global-base-color);
+      border-radius: 3px;
+      color: var(--global-base-color);
+      text-decoration: none;
+      transition: all 0.15s ease;
+
+      &:hover {
+        background: var(--global-base-color);
+        color: #fff;
+      }
+    }
+  }
+
+  .pub-status {
+    display: inline-block;
+    font-size: 0.72em;
+    font-weight: 600;
+    padding: 1px 7px;
+    border-radius: 10px;
+    margin-left: 0.4em;
+    vertical-align: middle;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+
+    &.status-published   { background: #e8f5e9; color: #2e7d32; }
+    &.status-inpress     { background: #fff3e0; color: #e65100; }
+    &.status-revision    { background: #e3f2fd; color: #1565c0; }
+    &.status-prep        { background: #f3e5f5; color: #6a1b9a; }
+    &.status-spotlight   { background: #fff8e1; color: #f57f17; }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Publications page — category headers
+   -------------------------------------------------------------------------- */
+
+.pub-section-header {
+  font-size: 1.1em;
+  font-weight: 700;
+  color: var(--global-base-color);
+  border-bottom: 2px solid var(--global-base-color);
+  padding-bottom: 0.3em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  letter-spacing: 0.01em;
+}
+
+.pub-category-tag {
+  display: inline-block;
+  font-size: 0.70em;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 3px;
+  margin-right: 0.35em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  vertical-align: middle;
+
+  &.tag-B  { background: #e8f4f0; color: #007A87; }  /* Bio */
+  &.tag-A  { background: #fef3f4; color: #A51C30; }  /* AI  */
+  &.tag-D  { background: #f0f0f8; color: #4a4a9a; }  /* Disorders */
+}
+
+/* --------------------------------------------------------------------------
+   Beyond Research page — section cards
+   -------------------------------------------------------------------------- */
+
+.beyond-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.3em;
+  margin-top: 1.2em;
+}
+
+.beyond-card {
+  background: #fff;
+  border: 1px solid var(--global-border-color);
+  border-radius: 6px;
+  padding: 1.2em 1.3em;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+
+  .beyond-icon {
+    font-size: 1.6em;
+    margin-bottom: 0.3em;
+  }
+
+  h3 {
+    font-size: 1em;
+    font-weight: 700;
+    color: var(--global-base-color);
+    margin: 0 0 0.5em 0;
+    border: none;
+  }
+
+  p, li {
+    font-size: 0.88em;
+    color: var(--global-text-color);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  ul {
+    padding-left: 1.1em;
+    margin: 0.3em 0 0 0;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   About page — section dividers & news
+   -------------------------------------------------------------------------- */
+
+.section-rule {
+  border: none;
+  border-top: 1px solid var(--global-border-color);
+  margin: 1.8em 0 1.4em 0;
+}
+
+.news-item {
+  display: flex;
+  gap: 0.9em;
+  margin-bottom: 0.5em;
+  font-size: 0.88em;
+  align-items: flex-start;
+
+  .news-date {
+    min-width: 5.5em;
+    color: var(--global-base-color);
+    font-weight: 600;
+    font-size: 0.9em;
+    padding-top: 0.05em;
+  }
+
+  .news-text { flex: 1; }
+}
+
+/* --------------------------------------------------------------------------
+   General polish
+   -------------------------------------------------------------------------- */
+
+/* Tighten h3 margins used as section headers on the about page */
+.page__content h3 {
+  margin-top: 1.3em;
+  margin-bottom: 0.4em;
+}
+
+/* Google Scholar link style */
+.scholar-link {
+  display: inline-block;
+  margin-bottom: 1.2em;
+  font-size: 0.9em;
+  color: var(--global-link-color);
+}
+
+/* Masthead title: slightly bolder */
+.masthead__menu-item a,
+.site-title {
+  font-weight: 600;
+}

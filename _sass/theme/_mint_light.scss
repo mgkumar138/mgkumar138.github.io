@@ -1,28 +1,29 @@
 /* ==========================================================================
-  MINT THEME - LIGHT VERSION
+  CRIMSON & CREAM THEME (Harvard · MPI · NUS)
   ========================================================================== */
 /* Color codes used for the theme */
-$primary-color              : #11999e;
-$dark-primary-color         : mix(#000, $primary-color, 40%);
-$darker-primary-color       : mix(#000, $primary-color, 60%);
-$light-primary-color        : mix(#fff, $primary-color, 50%);
-$lighter-primary-color      : mix(#fff, $primary-color, 90%);
-$background                 : #f3f6f6;
+$primary-color              : #A51C30;          /* Harvard crimson */
+$dark-primary-color         : mix(#000, $primary-color, 30%);
+$darker-primary-color       : mix(#000, $primary-color, 55%);
+$light-primary-color        : mix(#fff, $primary-color, 55%);
+$lighter-primary-color      : mix(#fff, $primary-color, 88%);
+$teal-color                 : #007A87;          /* MPI teal */
+$background                 : #FAF8F5;          /* warm cream */
 $background-light           : #ffffff;
-$background-lighter        : #fafbfb;
-$text                      : #40514e;
-$text-muted                : #5c6d6a;
-$link                      : #11999e;
-$link-dark                 : mix(#000, $link, 25%);
-$link-light                : mix(#fff, $link, 25%);
-$footer                    : #30e3ca;
-$border                    : mix(#fff, #40514e, 75%);
-$border-dark               : mix(#fff, #40514e, 60%);
+$background-lighter         : #fdfcfb;
+$text                       : #2C2C2C;
+$text-muted                 : #5a5a5a;
+$link                       : #A51C30;
+$link-dark                  : mix(#000, $link, 25%);
+$link-light                 : mix(#fff, $link, 30%);
+$footer                     : #8a1726;          /* darker crimson footer */
+$border                     : #ddd8d0;
+$border-dark                : #c5bfb5;
 
 /* Color codes used for the site */
 $danger-color               : #e74c3c;
-$info-color                 : #11999e;
-$notice-color               : #30e3ca;
+$info-color                 : #007A87;
+$notice-color               : $teal-color;
 $success-color              : #2ecc71;
 $warning-color              : #f39c12;
 
@@ -58,7 +59,13 @@ $sidebar-screen-min-width   : 1024px;
 }
 
 footer {
-  color: #{$text};
+  color: #f5f0eb;
+  background-color: #{$footer};
+
+  a {
+    color: #f5f0eb;
+    &:hover { color: #ffffff; }
+  }
 }
 
 
