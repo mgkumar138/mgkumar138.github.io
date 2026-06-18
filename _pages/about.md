@@ -11,6 +11,10 @@ I am a computational neuroscientist studying how biological and artificial syste
 
 I develop theory-driven agents grounded in experimental data to explain neural computation and its failure modes, and to translate these insights into improved artificial systems and tools for learning and education.
 
+<p style="margin-top:1em;">
+  <a href="/files/Resume_Ganesh_260526.pdf" class="btn btn--inverse btn--small" download>⬇ Download CV</a>
+</p>
+
 <hr class="section-rule">
 
 ### Experience & Education
