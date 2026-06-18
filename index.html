@@ -49,8 +49,15 @@
       height: var(--masthead-height);
       display: flex;
       align-items: center;
-      padding: 0 1.5rem;
+      justify-content: center;
+    }
+    .masthead__inner {
+      width: 100%;
+      max-width: 1200px;
+      display: flex;
+      align-items: center;
       gap: 2rem;
+      padding: 0 1.5rem;
     }
     .masthead__title {
       font-size: 1rem;
@@ -81,8 +88,14 @@
     .nav-btn.active { color: var(--crimson); font-weight: 600; background: #fef3f4; }
 
     /* ── Page layout ────────────────────────────────────────── */
+    .page-outer {
+      display: flex;
+      justify-content: center;
+    }
     .page-wrap {
       display: flex;
+      width: 100%;
+      max-width: 1200px;
       min-height: calc(100vh - var(--masthead-height));
     }
 
@@ -366,15 +379,18 @@
 
 <!-- ── Masthead ─────────────────────────────────────────────── -->
 <header class="masthead">
+ <div class="masthead__inner">
   <div class="masthead__title"><a href="#" onclick="switchTab('about');return false;">M Ganesh Kumar</a></div>
   <nav class="masthead__nav">
     <button class="nav-btn active" id="btn-about"   onclick="switchTab('about')">About</button>
     <button class="nav-btn"        id="btn-pubs"    onclick="switchTab('pubs')">Publications</button>
     <button class="nav-btn"        id="btn-beyond"  onclick="switchTab('beyond')">Beyond Research</button>
   </nav>
+ </div>
 </header>
 
 <!-- ── Page wrap ─────────────────────────────────────────────── -->
+<div class="page-outer">
 <div class="page-wrap">
 
   <!-- ── Sidebar ──────────────────────────────────────────────── -->
@@ -782,6 +798,9 @@
 
   </main>
 </div>
+
+</div><!-- /page-wrap -->
+</div><!-- /page-outer -->
 
 <!-- ── Footer ──────────────────────────────────────────────── -->
 <footer>
