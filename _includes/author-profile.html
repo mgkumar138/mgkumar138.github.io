@@ -20,15 +20,10 @@
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
 
-  <div class="author__cv-download">
-    <a href="/files/Resume_Ganesh_260526.pdf" class="btn btn--inverse btn--small" download style="width:100%; text-align:center; margin-bottom:0.5em; display:block;">
-      <i class="fas fa-download icon-pad-right" aria-hidden="true"></i>Download CV
-    </a>
-  </div>
-
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">Connect</button>
     <ul class="author__urls social-icons">
+      <li><a href="/files/Resume_Ganesh_260526.pdf" download><i class="fas fa-fw fa-file-pdf icon-pad-right" aria-hidden="true"></i>Curriculum Vitae</a></li>
       <!-- Font Awesome icons / Biographic information  -->
       {% if author.location %}
         <li class="author__desktop"><i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>

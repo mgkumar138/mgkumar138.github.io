@@ -7,9 +7,17 @@ redirect_from:
   - /about.html
 ---
 
-I am a computational neuroscientist studying how biological and artificial systems efficiently learn models of the world and use them flexibly for decision-making under uncertainty. My work bridges **reinforcement learning**, **representation learning**, and **biologically plausible learning rules**, with the goal of identifying computational principles that support rapid generalization and adaptive behavior.
+I am a computational neuroscientist studying how biological and artificial systems efficiently learn models of the world and use them flexibly for decision-making under uncertainty. My work bridges **reinforcement learning**, **representation learning**, and **biologically plausible learning rules** — developing theory-driven agents grounded in experimental data to explain neural computation and translate these insights into improved AI systems and educational tools. I hope this work improves the quality of life for my family and wider community.
 
-I develop theory-driven agents grounded in experimental data to explain neural computation and its failure modes, and to translate these insights into improved artificial systems and tools for learning and education.
+<hr class="section-rule">
+
+### News
+
+<div class="news-item"><span class="news-date">08/2026</span><span class="news-text">Invited talk at Ministry of Education, Singapore Tamil Teachers Conference</span></div>
+<div class="news-item"><span class="news-date">06/2026</span><span class="news-text">Poster: <em>Preserving TD-Driven Place-Field Reorganization at Scale</em> at <strong>COSYNE 2026</strong>, Lisbon</span></div>
+<div class="news-item"><span class="news-date">02/2026</span><span class="news-text">Invited talk at Department of Physiology, National University of Singapore</span></div>
+<div class="news-item"><span class="news-date">09/2025</span><span class="news-text">Invited talk at Institute of Cognitive Neuroscience, <strong>UCL</strong></span></div>
+<div class="news-item"><span class="news-date">08/2025</span><span class="news-text">Spotlight talk at <strong>Computational Psychiatry Conference 2025</strong>, Tübingen — €1,000 travel award</span></div>
 
 <hr class="section-rule">
 
@@ -18,11 +26,11 @@ I develop theory-driven agents grounded in experimental data to explain neural c
 <ul class="exp-list">
   <li class="exp-item">
     <span class="exp-period">2026 – Present</span>
-    <span class="exp-detail"><strong>Postdoctoral Fellow</strong> · Max Planck Institute for Biological Cybernetics<span class="exp-sub">Advisor: Peter Dayan</span></span>
+    <span class="exp-detail"><strong>Postdoctoral Fellow</strong> · Max Planck Institute for Biological Cybernetics<span class="exp-sub">Advisor: <a href="https://en.wikipedia.org/wiki/Peter_Dayan">Peter Dayan</a></span></span>
   </li>
   <li class="exp-item">
     <span class="exp-period">2023 – 2025</span>
-    <span class="exp-detail"><strong>Postdoctoral Fellow</strong> · Harvard University SEAS<span class="exp-sub">Advisor: Cengiz Pehlevan</span></span>
+    <span class="exp-detail"><strong>Postdoctoral Fellow</strong> · Harvard University SEAS<span class="exp-sub">Advisor: <a href="https://pehlevan.seas.harvard.edu/people/cengiz-pehlevan">Cengiz Pehlevan</a></span></span>
   </li>
   <li class="exp-item">
     <span class="exp-period">2022 – 2023</span>
@@ -43,7 +51,7 @@ I develop theory-driven agents grounded in experimental data to explain neural c
 <ul class="exp-list">
   <li class="exp-item">
     <span class="exp-period">Ph.D. 2023</span>
-    <span class="exp-detail"><strong>Computational Neuroscience</strong> · National University of Singapore<span class="exp-sub">Biologically Plausible Computations Underlying One-Shot Learning of Paired Associations</span></span>
+    <span class="exp-detail"><strong>Computational Neuroscience</strong> · National University of Singapore<span class="exp-sub">Advisor: <a href="https://medicine.nus.edu.sg/phys/about-us/academic-staff/educator-track/tan-yong-yi-andrew/">Andrew Tan</a> &nbsp;·&nbsp; Biologically Plausible Computations Underlying One-Shot Learning of Paired Associations</span></span>
   </li>
   <li class="exp-item">
     <span class="exp-period">B.Sc. 2017</span>
@@ -67,21 +75,12 @@ I develop theory-driven agents grounded in experimental data to explain neural c
 
 <hr class="section-rule">
 
-### News
-
-<div class="news-item"><span class="news-date">08/2026</span><span class="news-text">Invited talk at Ministry of Education, Singapore Tamil Teachers Conference</span></div>
-<div class="news-item"><span class="news-date">06/2026</span><span class="news-text">Poster: <em>Preserving TD-Driven Place-Field Reorganization at Scale</em> at <strong>COSYNE 2026</strong>, Lisbon</span></div>
-<div class="news-item"><span class="news-date">02/2026</span><span class="news-text">Invited talk at Department of Physiology, National University of Singapore</span></div>
-<div class="news-item"><span class="news-date">09/2025</span><span class="news-text">Invited talk at Institute of Cognitive Neuroscience, <strong>UCL</strong></span></div>
-<div class="news-item"><span class="news-date">08/2025</span><span class="news-text">Spotlight talk at <strong>Computational Psychiatry Conference 2025</strong>, Tübingen — €1,000 travel award</span></div>
-
-<hr class="section-rule">
-
 ### Selected Publications
 
 <div class="pub-card">
+  <img src="/files/nature26_img.webp" class="pub-thumb" alt="Nature 2026">
   <div class="pub-content">
-    <div class="pub-title">Predictive Coding of Reward in the Hippocampus <span class="pub-status status-published">Published</span></div>
+    <div class="pub-title">Predictive Coding of Reward in the Hippocampus</div>
     <div class="pub-authors">Yaghoubi, M., <strong>Kumar, M. G.</strong>, Nieto-Posadas, A., Mosser, C-A., et al.</div>
     <div class="pub-venue"><em>Nature</em> 651, 414–420 · 2026</div>
     <div class="pub-links">
@@ -92,8 +91,9 @@ I develop theory-driven agents grounded in experimental data to explain neural c
 </div>
 
 <div class="pub-card">
+  <img src="/files/icml25_img.webp" class="pub-thumb" alt="ICML 2025">
   <div class="pub-content">
-    <div class="pub-title">A Model of Place Field Reorganization During Reward Maximization <span class="pub-status status-published">Published</span></div>
+    <div class="pub-title">A Model of Place Field Reorganization During Reward Maximization</div>
     <div class="pub-authors"><strong>Kumar, M. G.</strong>, Bordelon, B., Zavatone-Veth, J., Pehlevan, C.</div>
     <div class="pub-venue"><em>ICML</em>, Vancouver · 2025</div>
     <div class="pub-links">
@@ -104,8 +104,9 @@ I develop theory-driven agents grounded in experimental data to explain neural c
 </div>
 
 <div class="pub-card">
+  <img src="/files/cerebral22.jpeg" class="pub-thumb" alt="Cerebral Cortex 2022">
   <div class="pub-content">
-    <div class="pub-title">A Nonlinear Hidden Layer Enables Actor–Critic Agents to Learn Multiple Paired Association Navigation <span class="pub-status status-published">Published</span></div>
+    <div class="pub-title">A Nonlinear Hidden Layer Enables Actor–Critic Agents to Learn Multiple Paired Association Navigation</div>
     <div class="pub-authors"><strong>Kumar, M. G.</strong>, Tan, C., Libedinsky, C., Yen, S-C., Tan, A. Y.</div>
     <div class="pub-venue"><em>Cerebral Cortex</em> 32(18), 3917–3936 · 2022</div>
     <div class="pub-links">

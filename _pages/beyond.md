@@ -13,7 +13,7 @@ Research is only part of who I am. Here is a glimpse into the other things I car
 
 <div class="beyond-card" style="max-width:600px; margin-bottom:1.5em;">
   <h3>🎖️ Singapore Armed Forces</h3>
-  <p><strong>Service:</strong> February 2011 – Present</p>
+  <p><strong>Service:</strong> February 2011 – Present &nbsp;·&nbsp; <strong>Current Appointment:</strong> S3 Operations Officer</p>
   <p style="margin-top:0.5em;">National Service is a cornerstone of Singaporean identity. Over more than a decade of reservist service, I served as Platoon Commander and Company Commander — roles requiring clear decision-making under uncertainty and leading teams under pressure. Skills that turn out to be surprisingly useful in research too.</p>
 </div>
 
@@ -24,7 +24,11 @@ Research is only part of who I am. Here is a glimpse into the other things I car
 <div class="beyond-card" style="max-width:600px; margin-bottom:1em;">
   <h3>🚀 Nugen.ai &nbsp;<span style="font-weight:400; font-size:0.85em; color:#666">2019 – 2024</span></h3>
   <p>Co-Founder and Principal Scientist. Built AI-driven tools for personalized learning and adaptive assessment, translating neuroscience principles of memory consolidation into practical educational products.</p>
-  <p style="margin-top:0.6em; font-size:0.88em; color:#555;"><strong>Certified Scrum Product Owner (CSPO)</strong> &nbsp;·&nbsp; <strong>Certified Scrum Master (CSM)</strong><br>
+</div>
+
+<div class="beyond-card" style="max-width:600px; margin-bottom:1em;">
+  <h3>📋 Agile Practitioner</h3>
+  <p><strong>Certified Scrum Product Owner (CSPO)</strong> &nbsp;·&nbsp; <strong>Certified Scrum Master (CSM)</strong><br>
   I enjoy sitting with people, understanding their problem statements, and figuring out what actually needs to be built.</p>
 </div>
 
@@ -75,17 +79,9 @@ I love exploring the world — preferably under my own power.
   </div>
 
   <div class="beyond-card">
-    <div class="beyond-icon">⚓</div>
-    <h3>Sea — Coming Soon</h3>
-    <p>The next frontier. Sailing certification is on the list — completing the set of air, land, and sea.</p>
+    <div class="beyond-icon">🏋️</div>
+    <h3>CrossFit</h3>
+    <p>My wife convinced me it was fun. She was right.</p>
   </div>
 
 </div>
-
-<hr class="section-rule">
-
-### Personal
-
-**CrossFit** — My wife convinced me it was fun. She was right.
-
-**Family** — I hope to translate my research into tools that improve the quality of life of my family (wife and newborn son) and wider community. That is the long game.
