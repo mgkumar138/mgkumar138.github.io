@@ -13,9 +13,8 @@ Research is only part of who I am. Here is a glimpse into the other things I car
 
 <div class="beyond-card" style="max-width:600px; margin-bottom:1.5em;">
   <h3>🎖️ Singapore Armed Forces</h3>
-  <p><strong>Rank:</strong> Major (NSman) &nbsp;·&nbsp; <strong>Appointment:</strong> S3 Operations Officer<br>
-  <strong>Service:</strong> February 2011 – Present</p>
-  <p style="margin-top:0.5em;">National Service is a cornerstone of Singaporean identity. Over more than a decade of reservist service, I have held operational planning roles that require clear decision-making under uncertainty — skills that turn out to be surprisingly useful in research too.</p>
+  <p><strong>Service:</strong> February 2011 – Present</p>
+  <p style="margin-top:0.5em;">National Service is a cornerstone of Singaporean identity. Over more than a decade of reservist service, I served as Platoon Commander and Company Commander — roles requiring clear decision-making under uncertainty and leading teams under pressure. Skills that turn out to be surprisingly useful in research too.</p>
 </div>
 
 <hr class="section-rule">
@@ -24,7 +23,9 @@ Research is only part of who I am. Here is a glimpse into the other things I car
 
 <div class="beyond-card" style="max-width:600px; margin-bottom:1em;">
   <h3>🚀 Nugen.ai &nbsp;<span style="font-weight:400; font-size:0.85em; color:#666">2019 – 2024</span></h3>
-  <p>Co-Founder and Principal Scientist. Built AI-driven tools aimed at personalized learning and adaptive assessment, translating neuroscience principles of memory consolidation into practical educational products.</p>
+  <p>Co-Founder and Principal Scientist. Built AI-driven tools for personalized learning and adaptive assessment, translating neuroscience principles of memory consolidation into practical educational products.</p>
+  <p style="margin-top:0.6em; font-size:0.88em; color:#555;"><strong>Certified Scrum Product Owner (CSPO)</strong> &nbsp;·&nbsp; <strong>Certified Scrum Master (CSM)</strong><br>
+  I enjoy sitting with people, understanding their problem statements, and figuring out what actually needs to be built.</p>
 </div>
 
 <div class="beyond-card" style="max-width:600px; margin-bottom:1.5em;">
@@ -32,16 +33,19 @@ Research is only part of who I am. Here is a glimpse into the other things I car
   <p>Consultant. Advising on AI strategy and product development at the intersection of neuroscience and technology.</p>
 </div>
 
-<p>I am a <strong>Certified Scrum Product Owner (CSPO)</strong> and <strong>Certified Scrum Master (CSM)</strong>. I enjoy sitting with people, understanding their problem statements, and figuring out what actually needs to be built.</p>
-
 <hr class="section-rule">
 
 ### Community
 
-<div class="beyond-card" style="max-width:600px; margin-bottom:1.5em;">
+<div class="beyond-card" style="max-width:600px; margin-bottom:1em;">
   <h3>🌺 NUS Tamil Language Society</h3>
   <p><strong>Advisory Panel / Ex-President</strong> &nbsp;·&nbsp; August 2014 – Present</p>
   <p style="margin-top:0.5em;">Mentoring student leaders and preserving Tamil language and culture on campus. I have produced, directed, and acted in student theatre productions — a creative outlet that keeps me honest about storytelling and communication.</p>
+</div>
+
+<div class="beyond-card" style="max-width:600px; margin-bottom:1.5em;">
+  <h3>🤖 Tamil + AI</h3>
+  <p>Collaborating with <strong>AI Singapore</strong> to create educational videos for the <em>AI for Everyone</em> initiative in Tamil, making AI literacy accessible to Tamil-speaking communities. I served as <strong>Chairman of the Tamil+AI Conference 2019</strong> — bringing together technologists and language community members to explore the intersection of AI and Tamil culture.</p>
 </div>
 
 <hr class="section-rule">

@@ -183,41 +183,110 @@
 .news-item {
   display: flex;
   gap: 0.9em;
-  margin-bottom: 0.5em;
-  font-size: 0.88em;
+  margin-bottom: 0.55em;
+  font-size: 0.9em;
   align-items: flex-start;
+  line-height: 1.5;
 
   .news-date {
     min-width: 5.5em;
     color: var(--global-base-color);
     font-weight: 600;
-    font-size: 0.9em;
     padding-top: 0.05em;
+    flex-shrink: 0;
   }
 
   .news-text { flex: 1; }
 }
 
 /* --------------------------------------------------------------------------
+   Experience timeline (about page)
+   -------------------------------------------------------------------------- */
+
+.exp-list {
+  margin: 0.8em 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.exp-item {
+  display: flex;
+  gap: 1.2em;
+  margin-bottom: 0.85em;
+  font-size: 0.9em;
+  align-items: flex-start;
+  line-height: 1.5;
+
+  .exp-period {
+    min-width: 7em;
+    flex-shrink: 0;
+    color: var(--global-base-color);
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .exp-detail {
+    flex: 1;
+
+    .exp-sub {
+      display: block;
+      color: var(--global-text-color-light);
+      font-size: 0.92em;
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
    General polish
    -------------------------------------------------------------------------- */
 
-/* Tighten h3 margins used as section headers on the about page */
-.page__content h3 {
-  margin-top: 1.3em;
-  margin-bottom: 0.4em;
+/* Uniform font size & spacing for all body sections */
+.page__content {
+  font-size: 0.95em;
+
+  h3 {
+    font-size: 1.05em;
+    font-weight: 700;
+    margin-top: 2em;
+    margin-bottom: 0.6em;
+    color: var(--global-text-color);
+    letter-spacing: 0.01em;
+  }
+
+  ul li, p {
+    font-size: 1em;  /* relative to parent 0.95em = uniform */
+    line-height: 1.65;
+    margin-bottom: 0.3em;
+  }
 }
 
-/* Google Scholar link style */
-.scholar-link {
-  display: inline-block;
-  margin-bottom: 1.2em;
-  font-size: 0.9em;
-  color: var(--global-link-color);
+/* section-rule: more breathing room */
+.section-rule {
+  border: none;
+  border-top: 1px solid var(--global-border-color);
+  margin: 2.2em 0 1.8em 0;
 }
 
-/* Masthead title: slightly bolder */
+/* Masthead: slightly bolder site title */
 .masthead__menu-item a,
 .site-title {
   font-weight: 600;
+}
+
+/* Force light theme always — no dark mode */
+html[data-theme="dark"] {
+  --global-base-color                : #A51C30;
+  --global-bg-color                  : #FAFAFA;
+  --global-text-color                : #2C2C2C;
+  --global-text-color-light          : #606060;
+  --global-link-color                : #A51C30;
+  --global-link-color-hover          : #7a1424;
+  --global-masthead-link-color       : #2C2C2C;
+  --global-masthead-link-color-hover : #A51C30;
+  --global-border-color              : #e0e0e0;
+  --global-dark-border-color         : #cccccc;
+  --global-code-background-color     : #ffffff;
+  --global-code-text-color           : #2C2C2C;
+  background-color: #FAFAFA !important;
+  color: #2C2C2C !important;
 }

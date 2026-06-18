@@ -7,18 +7,18 @@ $dark-primary-color         : mix(#000, $primary-color, 30%);
 $darker-primary-color       : mix(#000, $primary-color, 55%);
 $light-primary-color        : mix(#fff, $primary-color, 55%);
 $lighter-primary-color      : mix(#fff, $primary-color, 88%);
-$teal-color                 : #007A87;          /* MPI teal */
-$background                 : #FAF8F5;          /* warm cream */
+$teal-color                 : #3A8FA3;          /* soft pastel teal */
+$background                 : #FAFAFA;          /* clean near-white */
 $background-light           : #ffffff;
-$background-lighter         : #fdfcfb;
+$background-lighter         : #fefefe;
 $text                       : #2C2C2C;
-$text-muted                 : #5a5a5a;
+$text-muted                 : #606060;
 $link                       : #A51C30;
 $link-dark                  : mix(#000, $link, 25%);
 $link-light                 : mix(#fff, $link, 30%);
 $footer                     : #8a1726;          /* darker crimson footer */
-$border                     : #ddd8d0;
-$border-dark                : #c5bfb5;
+$border                     : #e0e0e0;
+$border-dark                : #cccccc;
 
 /* Color codes used for the site */
 $danger-color               : #e74c3c;

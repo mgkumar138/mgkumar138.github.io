@@ -11,23 +11,45 @@ I am a computational neuroscientist studying how biological and artificial syste
 
 I develop theory-driven agents grounded in experimental data to explain neural computation and its failure modes, and to translate these insights into improved artificial systems and tools for learning and education.
 
-<p style="margin-top:1em;">
-  <a href="/files/Resume_Ganesh_260526.pdf" class="btn btn--inverse btn--small" download>⬇ Download CV</a>
-</p>
-
 <hr class="section-rule">
 
-### Experience & Education
+### Experience
 
-| Period | Role |
-|---|---|
-| **2026 – Present** | Postdoctoral Fellow, Max Planck Institute for Biological Cybernetics · *Advisor: Peter Dayan* |
-| **2023 – 2025** | Postdoctoral Fellow, Harvard University SEAS · *Advisor: Cengiz Pehlevan* |
-| **2022 – 2023** | Research Scientist I, CFAR, A\*STAR |
-| **2019 – 2024** | Co-Founder & Principal Scientist, Nugen.ai |
-| **2017 – 2018** | Research Engineer, A\*STAR AI Initiative |
-| **Ph.D. 2023** | Computational Neuroscience, National University of Singapore |
-| **B.Sc. 2017** | Life Sciences (Hons. Distinction), NUS · Double Minor: USP & SPS |
+<ul class="exp-list">
+  <li class="exp-item">
+    <span class="exp-period">2026 – Present</span>
+    <span class="exp-detail"><strong>Postdoctoral Fellow</strong> · Max Planck Institute for Biological Cybernetics<span class="exp-sub">Advisor: Peter Dayan</span></span>
+  </li>
+  <li class="exp-item">
+    <span class="exp-period">2023 – 2025</span>
+    <span class="exp-detail"><strong>Postdoctoral Fellow</strong> · Harvard University SEAS<span class="exp-sub">Advisor: Cengiz Pehlevan</span></span>
+  </li>
+  <li class="exp-item">
+    <span class="exp-period">2022 – 2023</span>
+    <span class="exp-detail"><strong>Research Scientist I</strong> · CFAR, A*STAR</span>
+  </li>
+  <li class="exp-item">
+    <span class="exp-period">2019 – 2024</span>
+    <span class="exp-detail"><strong>Co-Founder & Principal Scientist</strong> · Nugen.ai</span>
+  </li>
+  <li class="exp-item">
+    <span class="exp-period">2017 – 2018</span>
+    <span class="exp-detail"><strong>Research Engineer</strong> · A*STAR AI Initiative</span>
+  </li>
+</ul>
+
+### Education
+
+<ul class="exp-list">
+  <li class="exp-item">
+    <span class="exp-period">Ph.D. 2023</span>
+    <span class="exp-detail"><strong>Computational Neuroscience</strong> · National University of Singapore<span class="exp-sub">Biologically Plausible Computations Underlying One-Shot Learning of Paired Associations</span></span>
+  </li>
+  <li class="exp-item">
+    <span class="exp-period">B.Sc. 2017</span>
+    <span class="exp-detail"><strong>Life Sciences</strong> (Hons. Distinction) · National University of Singapore<span class="exp-sub">Double Minor: University Scholars Programme & Special Programme in Science</span></span>
+  </li>
+</ul>
 
 <hr class="section-rule">
 
@@ -41,7 +63,6 @@ I develop theory-driven agents grounded in experimental data to explain neural c
 - [**MIT CBMM–Fujitsu Laboratories Fellow**](https://cbmm.mit.edu/summer-school/fellows) (2019)
 - **NUS Graduate School Scholarship** (2018)
 - [**NUSS Gold Medal for Outstanding Achievement**](https://www.usp.nus.edu.sg/curriculum/awards-and-recognition/award-winners-of-class-2017/) (2017)
-- **USP Senior Honor Roll** (2017)
 - **A\*STAR Undergraduate Scholarship** (2013)
 
 <hr class="section-rule">
@@ -52,20 +73,17 @@ I develop theory-driven agents grounded in experimental data to explain neural c
 <div class="news-item"><span class="news-date">06/2026</span><span class="news-text">Poster: <em>Preserving TD-Driven Place-Field Reorganization at Scale</em> at <strong>COSYNE 2026</strong>, Lisbon</span></div>
 <div class="news-item"><span class="news-date">02/2026</span><span class="news-text">Invited talk at Department of Physiology, National University of Singapore</span></div>
 <div class="news-item"><span class="news-date">09/2025</span><span class="news-text">Invited talk at Institute of Cognitive Neuroscience, <strong>UCL</strong></span></div>
-<div class="news-item"><span class="news-date">08/2025</span><span class="news-text">Spotlight talk on suboptimal meta-RL agents at <strong>Computational Psychiatry Conference 2025</strong>, Tübingen</span></div>
-<div class="news-item"><span class="news-date">06/2025</span><span class="news-text">Invited talk at LMU–Harvard Young Scientist's Forum, Munich</span></div>
-<div class="news-item"><span class="news-date">03/2025</span><span class="news-text">Invited talk at Department of Computational Neuroscience, <strong>MPI for Biological Cybernetics</strong></span></div>
+<div class="news-item"><span class="news-date">08/2025</span><span class="news-text">Spotlight talk at <strong>Computational Psychiatry Conference 2025</strong>, Tübingen — €1,000 travel award</span></div>
 
 <hr class="section-rule">
 
 ### Selected Publications
 
 <div class="pub-card">
-  <img src="/files/nature26_img.webp" class="pub-thumb" alt="Nature 2026">
   <div class="pub-content">
     <div class="pub-title">Predictive Coding of Reward in the Hippocampus <span class="pub-status status-published">Published</span></div>
     <div class="pub-authors">Yaghoubi, M., <strong>Kumar, M. G.</strong>, Nieto-Posadas, A., Mosser, C-A., et al.</div>
-    <div class="pub-venue"><em>Nature</em> 651, 414–420 &nbsp;·&nbsp; 2026</div>
+    <div class="pub-venue"><em>Nature</em> 651, 414–420 · 2026</div>
     <div class="pub-links">
       <a href="https://doi.org/10.1038/s41586-025-09958-0">Paper</a>
       <a href="https://github.com/mgkumar138/backward_pf_agent">Code</a>
@@ -74,11 +92,10 @@ I develop theory-driven agents grounded in experimental data to explain neural c
 </div>
 
 <div class="pub-card">
-  <img src="/files/icml25_img.webp" class="pub-thumb" alt="ICML 2025">
   <div class="pub-content">
     <div class="pub-title">A Model of Place Field Reorganization During Reward Maximization <span class="pub-status status-published">Published</span></div>
     <div class="pub-authors"><strong>Kumar, M. G.</strong>, Bordelon, B., Zavatone-Veth, J., Pehlevan, C.</div>
-    <div class="pub-venue"><em>ICML</em>, Vancouver &nbsp;·&nbsp; 2025</div>
+    <div class="pub-venue"><em>ICML</em>, Vancouver · 2025</div>
     <div class="pub-links">
       <a href="https://proceedings.mlr.press/v267/kumar25a.html">Paper</a>
       <a href="https://github.com/Pehlevan-Group/placefield_reorg_agent">Code</a>
@@ -87,24 +104,10 @@ I develop theory-driven agents grounded in experimental data to explain neural c
 </div>
 
 <div class="pub-card">
-  <img src="/files/iccv23.png" class="pub-thumb" alt="ICCV 2023">
-  <div class="pub-content">
-    <div class="pub-title">DetermiNet: A Large-Scale Diagnostic Dataset for Complex Visually-Grounded Referencing using Determiners <span class="pub-status status-published">Published</span></div>
-    <div class="pub-authors">Lee, C.*, <strong>Kumar, M. G.*</strong>, Tan, C.</div>
-    <div class="pub-venue"><em>ICCV</em>, Paris &nbsp;·&nbsp; 2023</div>
-    <div class="pub-links">
-      <a href="https://arxiv.org/abs/2309.03483">Paper</a>
-      <a href="https://github.com/clarence-lee-sheng/DetermiNet">Code</a>
-    </div>
-  </div>
-</div>
-
-<div class="pub-card">
-  <img src="/files/cerebral22.jpeg" class="pub-thumb" alt="Cerebral Cortex 2022">
   <div class="pub-content">
     <div class="pub-title">A Nonlinear Hidden Layer Enables Actor–Critic Agents to Learn Multiple Paired Association Navigation <span class="pub-status status-published">Published</span></div>
     <div class="pub-authors"><strong>Kumar, M. G.</strong>, Tan, C., Libedinsky, C., Yen, S-C., Tan, A. Y.</div>
-    <div class="pub-venue"><em>Cerebral Cortex</em> 32(18), 3917–3936 &nbsp;·&nbsp; 2022</div>
+    <div class="pub-venue"><em>Cerebral Cortex</em> 32(18), 3917–3936 · 2022</div>
     <div class="pub-links">
       <a href="https://doi.org/10.1093/cercor/bhab456">Paper</a>
       <a href="https://github.com/mgkumar138/TDHL_6PA">Code</a>
@@ -112,7 +115,7 @@ I develop theory-driven agents grounded in experimental data to explain neural c
   </div>
 </div>
 
-<p style="margin-top:0.5em; font-size:0.88em;">
+<p style="margin-top:1em; font-size:0.9em;">
   <a href="/publications/">→ Full publication list</a> &nbsp;·&nbsp;
   <a href="https://scholar.google.com/citations?user=sFfy1q4AAAAJ&hl=en">Google Scholar</a>
 </p>
