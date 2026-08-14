@@ -11,6 +11,15 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Tamil Open Data Repository (#tamilrepo): PDF rendering for the redaction tool, and Firebase config -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js" crossorigin="anonymous"></script>
+  <script>
+    if (window.pdfjsLib) {
+      window.pdfjsLib.GlobalWorkerOptions.workerSrc =
+        "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+    }
+  </script>
+  <script src="tamilrepo-config.js"></script>
   <style>
     /* ── Reset & base ─────────────────────────────────────── */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -340,6 +349,166 @@
     }
     .beyond-grid .beyond-card { max-width: none; margin-bottom: 0; }
     .beyond-icon { font-size: 1.4em; margin-bottom: 0.3em; }
+
+    /* ══════════════ Tamil Repository (#tamilrepo) ══════════════ */
+    .tr-hero {
+      background: linear-gradient(135deg, #0F5C6B 0%, #14727f 100%);
+      color: #fff; border-radius: 8px; padding: 1.6em 1.6em 1.4em; margin-bottom: 1.6em;
+    }
+    .tr-hero h1 { font-size: 1.45rem; font-weight: 700; line-height: 1.25; margin-bottom: 0.35em; }
+    .tr-hero .tr-tamil { font-size: 1.05rem; font-weight: 600; opacity: 0.93; margin-bottom: 0.6em; }
+    .tr-hero p { font-size: 0.89rem; line-height: 1.6; opacity: 0.95; max-width: 62ch; }
+    .tr-pill {
+      display: inline-block; background: rgba(255,255,255,.18); border: 1px solid rgba(255,255,255,.35);
+      font-size: 0.7rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase;
+      padding: 2px 9px; border-radius: 11px; margin-bottom: 0.7em;
+    }
+    .tr-back { font-size: 0.82rem; margin-bottom: 1em; display: inline-block; }
+
+    .tr-card {
+      background: var(--bg-card); border: 1px solid var(--border); border-radius: 7px;
+      padding: 1.2em 1.4em; margin-bottom: 1.2em; box-shadow: 0 1px 4px rgba(0,0,0,.05);
+    }
+    .tr-card h3 { font-size: 1rem; font-weight: 700; color: #0F5C6B; margin-bottom: 0.55em; }
+    .tr-card h4 { font-size: 0.88rem; font-weight: 700; color: var(--text); margin: 1em 0 0.4em; }
+    .tr-card p, .tr-card li { font-size: 0.87rem; line-height: 1.62; }
+    .tr-card p + p { margin-top: 0.6em; }
+    .tr-card ul { margin: 0.4em 0 0.2em; }
+    .tr-card ul li { position: relative; padding-left: 1.05em; margin-bottom: 0.3em; }
+    .tr-card ul li::before { content: "▸"; position: absolute; left: 0; color: #3A8FA3; font-size: 0.8em; top: 0.15em; }
+
+    .tr-note {
+      background: #FFF8E7; border-left: 3px solid #E8A33D; border-radius: 4px;
+      padding: 0.75em 1em; font-size: 0.83rem; line-height: 1.6; margin: 0.9em 0;
+    }
+    .tr-note strong { color: #8a5a00; }
+    .tr-define {
+      background: #EAF4F6; border-left: 3px solid #3A8FA3; border-radius: 4px;
+      padding: 0.85em 1em; font-size: 0.85rem; line-height: 1.62; margin: 0.9em 0;
+    }
+    .tr-danger {
+      background: #FDEEF0; border-left: 3px solid var(--crimson); border-radius: 4px;
+      padding: 0.8em 1em; font-size: 0.84rem; line-height: 1.6; margin: 0.9em 0;
+    }
+
+    /* Language bar chart */
+    .tr-bars { margin: 0.9em 0 0.3em; }
+    .tr-bar-row { display: grid; grid-template-columns: 78px 1fr 128px; align-items: center; gap: 0.6em; margin-bottom: 0.45em; }
+    .tr-bar-lang { font-size: 0.8rem; font-weight: 600; }
+    .tr-bar-track { background: #EDF1F3; border-radius: 3px; height: 17px; overflow: hidden; }
+    .tr-bar-fill { height: 100%; background: #3A8FA3; border-radius: 3px; min-width: 2px; transition: width 1.1s cubic-bezier(.2,.8,.2,1); }
+    .tr-bar-row.is-tamil .tr-bar-fill { background: var(--crimson); }
+    .tr-bar-row.is-tamil .tr-bar-lang { color: var(--crimson); }
+    .tr-bar-val { font-size: 0.76rem; color: var(--text-light); text-align: right; font-variant-numeric: tabular-nums; }
+
+    /* Counter */
+    .tr-counter-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(148px, 1fr)); gap: 0.8em; margin: 0.9em 0; }
+    .tr-stat { background: #F6F9FA; border: 1px solid #DCE6E9; border-radius: 6px; padding: 0.8em 0.9em; text-align: center; }
+    .tr-stat-num { font-size: 1.4rem; font-weight: 700; color: #0F5C6B; line-height: 1.15; font-variant-numeric: tabular-nums; }
+    .tr-stat-lbl { font-size: 0.72rem; color: var(--text-light); text-transform: uppercase; letter-spacing: .04em; margin-top: 0.25em; }
+    .tr-progress-track { background: #EDF1F3; border-radius: 4px; height: 11px; overflow: hidden; margin: 0.5em 0 0.35em; }
+    .tr-progress-fill { height: 100%; background: linear-gradient(90deg, #3A8FA3, #0F5C6B); border-radius: 4px; min-width: 3px; transition: width 1s ease; }
+
+    /* Forms */
+    .tr-field { margin-bottom: 0.8em; }
+    .tr-field label { display: block; font-size: 0.79rem; font-weight: 600; margin-bottom: 0.25em; color: var(--text); }
+    .tr-field .tr-hint { font-weight: 400; color: var(--text-light); font-size: 0.75rem; }
+    .tr-input, .tr-select, .tr-textarea {
+      width: 100%; font-family: inherit; font-size: 0.85rem; color: var(--text);
+      padding: 0.5em 0.65em; border: 1px solid #cfd8dc; border-radius: 5px; background: #fff;
+    }
+    .tr-input:focus, .tr-select:focus, .tr-textarea:focus { outline: none; border-color: #3A8FA3; box-shadow: 0 0 0 3px rgba(58,143,163,.14); }
+    .tr-textarea { min-height: 62px; resize: vertical; }
+    .tr-row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8em; }
+    .tr-btn {
+      display: inline-block; font-family: inherit; font-size: 0.85rem; font-weight: 600;
+      padding: 0.55em 1.15em; border-radius: 5px; border: 1px solid #0F5C6B;
+      background: #0F5C6B; color: #fff; cursor: pointer; transition: all .15s;
+    }
+    .tr-btn:hover:not(:disabled) { background: #0b4753; border-color: #0b4753; }
+    .tr-btn:disabled { opacity: .45; cursor: not-allowed; }
+    .tr-btn-ghost { background: #fff; color: #0F5C6B; }
+    .tr-btn-ghost:hover:not(:disabled) { background: #EAF4F6; color: #0F5C6B; }
+    .tr-btn-sm { font-size: 0.78rem; padding: 0.38em 0.8em; }
+    .tr-btn-danger { background: var(--crimson); border-color: var(--crimson); }
+    .tr-btn-danger:hover:not(:disabled) { background: var(--crimson-dark); border-color: var(--crimson-dark); }
+    .tr-check { display: flex; gap: 0.55em; align-items: flex-start; font-size: 0.82rem; line-height: 1.5; margin-bottom: 0.6em; }
+    .tr-check input { margin-top: 0.25em; flex-shrink: 0; width: 15px; height: 15px; accent-color: #0F5C6B; }
+    .tr-msg { font-size: 0.82rem; padding: 0.6em 0.85em; border-radius: 5px; margin: 0.7em 0; display: none; line-height: 1.55; }
+    .tr-msg.show { display: block; }
+    .tr-msg.ok { background: #E9F6EC; border-left: 3px solid #2E7D32; color: #1b5e20; }
+    .tr-msg.err { background: #FDEEF0; border-left: 3px solid var(--crimson); color: #8c1526; }
+    .tr-msg.info { background: #EAF4F6; border-left: 3px solid #3A8FA3; color: #0F5C6B; }
+
+    /* Tabs within uploader */
+    .tr-tabs { display: flex; gap: 0.35em; border-bottom: 1px solid var(--border); margin-bottom: 1em; flex-wrap: wrap; }
+    .tr-tab {
+      background: none; border: none; border-bottom: 2px solid transparent; cursor: pointer;
+      font-family: inherit; font-size: 0.84rem; font-weight: 600; color: var(--text-light);
+      padding: 0.45em 0.85em; margin-bottom: -1px;
+    }
+    .tr-tab:hover { color: #0F5C6B; }
+    .tr-tab.active { color: #0F5C6B; border-bottom-color: #0F5C6B; }
+    .tr-pane { display: none; }
+    .tr-pane.active { display: block; }
+
+    /* Dropzone */
+    .tr-drop {
+      border: 2px dashed #b8c8cd; border-radius: 7px; background: #FBFDFD;
+      padding: 1.6em 1em; text-align: center; cursor: pointer; transition: all .15s;
+    }
+    .tr-drop:hover, .tr-drop.dragover { border-color: #3A8FA3; background: #EFF7F9; }
+    .tr-drop-icon { font-size: 1.6rem; margin-bottom: 0.25em; }
+    .tr-drop-main { font-size: 0.88rem; font-weight: 600; color: #0F5C6B; }
+    .tr-drop-sub { font-size: 0.76rem; color: var(--text-light); margin-top: 0.2em; }
+
+    /* Redaction editor */
+    .tr-redact { margin-top: 1em; display: none; }
+    .tr-redact.show { display: block; }
+    .tr-redact-toolbar {
+      display: flex; gap: 0.5em; align-items: center; flex-wrap: wrap;
+      background: #F2F6F7; border: 1px solid #DCE6E9; border-radius: 6px 6px 0 0;
+      padding: 0.5em 0.7em; border-bottom: none;
+    }
+    .tr-redact-hint { font-size: 0.76rem; color: var(--text-light); margin-left: auto; }
+    .tr-canvas-wrap {
+      border: 1px solid #DCE6E9; border-radius: 0 0 6px 6px; background: #E9EFF1;
+      max-height: 520px; overflow: auto; text-align: center; padding: 0.5em;
+    }
+    #trCanvas { max-width: 100%; cursor: crosshair; background: #fff; box-shadow: 0 1px 6px rgba(0,0,0,.12); display: block; margin: 0 auto; }
+    .tr-page-nav { display: flex; gap: 0.4em; align-items: center; justify-content: center; margin-top: 0.5em; font-size: 0.8rem; }
+
+    .tr-filelist { margin-top: 0.8em; }
+    .tr-fileitem {
+      display: flex; align-items: center; gap: 0.7em; font-size: 0.82rem;
+      background: #F6F9FA; border: 1px solid #DCE6E9; border-radius: 5px;
+      padding: 0.5em 0.75em; margin-bottom: 0.4em;
+    }
+    .tr-fileitem .tr-fi-name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .tr-fi-meta { color: var(--text-light); font-size: 0.76rem; white-space: nowrap; }
+
+    .tr-userbar {
+      display: flex; align-items: center; gap: 0.7em; flex-wrap: wrap;
+      background: #EAF4F6; border: 1px solid #CFE3E8; border-radius: 6px;
+      padding: 0.6em 0.9em; font-size: 0.82rem; margin-bottom: 1.1em;
+    }
+    .tr-userbar .tr-ub-name { font-weight: 600; color: #0F5C6B; }
+    .tr-userbar .tr-ub-spacer { margin-left: auto; }
+
+    .tr-table { width: 100%; border-collapse: collapse; font-size: 0.82rem; margin-top: 0.6em; }
+    .tr-table th { text-align: left; font-weight: 700; padding: 0.45em 0.6em; background: #F2F6F7; border-bottom: 1px solid #DCE6E9; }
+    .tr-table td { padding: 0.45em 0.6em; border-bottom: 1px solid #EDF1F3; }
+    .tr-table td.num { text-align: right; font-variant-numeric: tabular-nums; }
+    .tr-table tr.is-tamil td { color: var(--crimson); font-weight: 600; }
+
+    .tr-src { font-size: 0.75rem; color: var(--text-light); line-height: 1.55; margin-top: 0.7em; }
+    .tr-src a { color: var(--text-light); text-decoration: underline; }
+
+    @media (max-width: 620px) {
+      .tr-row2 { grid-template-columns: 1fr; }
+      .tr-bar-row { grid-template-columns: 62px 1fr 92px; }
+      .tr-hero h1 { font-size: 1.2rem; }
+    }
 
     /* ── Footer ─────────────────────────────────────────────── */
     footer {
@@ -782,6 +951,11 @@
       <div class="beyond-card">
         <h3>🤖 Tamil + AI</h3>
         <p>Collaborating with <strong>AI Singapore</strong> to create educational videos for the <em>AI for Everyone</em> initiative in <a href="https://youtu.be/uHxBreYWQjg?si=h1zgrUhSbdiU2OzE" target="_blank">Tamil</a>. making AI literacy accessible to Tamil-speaking communities. I served as <strong>Chairman of the Tamil+AI Conference 2019</strong> — bringing together technologists and language community members to explore the intersection of AI and Tamil culture.</p>
+        <p>In August 2026 I delivered the keynote at the <strong>Seminar for Tamil Language Teachers</strong> (தமிழாசிரியர்களுக்குரிய கருத்தரங்கம்), Ministry of Education, Singapore, on the integration of AI in teaching and learning.</p>
+        <p style="margin-top:0.8em;padding-top:0.8em;border-top:1px solid var(--border);">
+          <strong>📚 Tamil Open Data Repository</strong> — Tamil makes up just 0.05% of the web data that AI systems learn from, against 40.6% for English. I am piloting an open repository for Tamil teachers to contribute high-quality, anonymised teaching material so that future AI can learn Tamil properly.<br>
+          <a href="#tamilrepo" onclick="switchTab('tamilrepo');return false;"><strong>Contribute to the repository →</strong></a>
+        </p>
       </div>
 
       <h2 class="section-header">Travel &amp; Adventure</h2>
@@ -811,8 +985,343 @@
 
     </section>
 
+    <!-- ══════════════════════════ TAMIL REPOSITORY ══════════════════════════ -->
+    <section class="tab-panel" id="panel-tamilrepo">
+
+      <a href="#beyond" class="tr-back" onclick="switchTab('beyond');return false;">← Back to Beyond Research</a>
+
+      <div class="tr-hero">
+        <span class="tr-pill">Pilot · Proof of concept</span>
+        <h1>Tamil Open Data Repository</h1>
+        <div class="tr-tamil">தமிழ்த் திறந்த தரவுக் களஞ்சியம்</div>
+        <p>A pilot collection of high-quality, teacher-created Tamil teaching material — built so that future AI systems can actually learn Tamil properly. Every contribution is credited, anonymised, and openly licensed.</p>
+      </div>
+
+      <div class="tr-note">
+        <strong>Please read before contributing.</strong> This is a preliminary pilot, not a government platform. Its purpose is to demonstrate that Tamil teachers can collectively produce a high-quality corpus — evidence we intend to take to MOE, IMDA and AI Singapore to argue for a properly funded national repository. Contribute only material you own or are entitled to share, and only after removing every student name.
+      </div>
+
+      <!-- ─────────── Why: the token gap ─────────── -->
+      <h2 class="section-header">Why this matters</h2>
+
+      <div class="tr-card">
+        <h3>First — what is a "token"?</h3>
+        <div class="tr-define">
+          A <strong>token</strong> is the unit an AI language model reads and writes. It is roughly a word or a piece of a word — "வகுப்பறை" might be split into two or three tokens, and an English word like "teaching" into two. A single A4 page of text is roughly <strong>1,000 tokens</strong>. Everything a model knows about a language, it learned by reading tokens of that language. <em>Fewer Tamil tokens in, worse Tamil out.</em> That is the entire problem in one sentence.
+        </div>
+        <p>Large language models are trained largely on <strong>Common Crawl</strong>, an open snapshot of the public web. The July 2026 crawl contains about 2.14 billion web pages. Here is how the languages divide it up.</p>
+
+        <div class="tr-bars" id="trBars"></div>
+
+        <table class="tr-table">
+          <thead><tr><th>Language</th><th class="num">Share of pages</th><th class="num">Est. pages</th><th class="num">Est. tokens</th></tr></thead>
+          <tbody id="trLangTable"></tbody>
+        </table>
+
+        <p class="tr-src">
+          Percentage figures are Common Crawl's own published statistics for crawl CC-MAIN-2026-30 (July 2026), which identifies the primary language of each page.
+          Page and token counts are estimates derived from the 2.14 billion page total, assuming roughly 1,000 tokens of extracted text per page.
+          Source: <a href="https://commoncrawl.github.io/cc-crawl-statistics/plots/languages" target="_blank" rel="noopener">Common Crawl language statistics</a>.
+        </p>
+      </div>
+
+      <div class="tr-card">
+        <h3>The goal: get Tamil to 1%</h3>
+        <p>Around <strong>80 million people speak Tamil</strong>, and it is one of the world's oldest living classical languages. Yet it makes up <strong>0.0488%</strong> of Common Crawl — while English makes up <strong>40.6%</strong>. English has roughly <strong>830 times</strong> more presence on the web that AI systems learn from.</p>
+
+        <div class="tr-counter-grid">
+          <div class="tr-stat"><div class="tr-stat-num">0.0488%</div><div class="tr-stat-lbl">Tamil today</div></div>
+          <div class="tr-stat"><div class="tr-stat-num">1.00%</div><div class="tr-stat-lbl">Our target</div></div>
+          <div class="tr-stat"><div class="tr-stat-num">~20.4B</div><div class="tr-stat-lbl">Tokens still needed</div></div>
+        </div>
+
+        <p>To reach 1% of Common Crawl, Tamil needs roughly <strong>20 million more pages</strong> of text — about <strong>20 billion additional tokens</strong>.</p>
+
+        <div class="tr-note">
+          <strong>An honest note on scale.</strong> Teacher uploads alone will not produce 20 billion tokens, and we should not pretend otherwise. What this pilot proves is something different and, for the pitch, more useful: that <em>corrected, curriculum-aligned, expert-annotated</em> Tamil can be collected systematically. Data of that quality is worth far more per token than scraped web text — a single marked composition teaches a model something no amount of scraped forum posts can. We are demonstrating the method so that it can be funded at national scale.
+        </div>
+      </div>
+
+      <div class="tr-card">
+        <h3>What this repository has collected so far</h3>
+        <div class="tr-counter-grid">
+          <div class="tr-stat"><div class="tr-stat-num" id="trStatTokens">0</div><div class="tr-stat-lbl">Estimated tokens</div></div>
+          <div class="tr-stat"><div class="tr-stat-num" id="trStatPages">0</div><div class="tr-stat-lbl">Pages</div></div>
+          <div class="tr-stat"><div class="tr-stat-num" id="trStatItems">0</div><div class="tr-stat-lbl">Contributions</div></div>
+          <div class="tr-stat"><div class="tr-stat-num" id="trStatTeachers">0</div><div class="tr-stat-lbl">Teachers</div></div>
+        </div>
+        <div>
+          <div style="font-size:.79rem;color:var(--text-light);display:flex;justify-content:space-between;">
+            <span>Progress toward the 20.4 billion tokens needed for 1%</span>
+            <span id="trProgressPct">0.0000%</span>
+          </div>
+          <div class="tr-progress-track"><div class="tr-progress-fill" id="trProgressFill" style="width:0"></div></div>
+        </div>
+        <p class="tr-src">Token counts are estimates: approximately 1,200 tokens per page of digital text and 600 tokens per page of handwritten or scanned material. They are indicative of scale, not exact measurements.</p>
+      </div>
+
+      <!-- ─────────── What to contribute ─────────── -->
+      <h2 class="section-header">What we are looking for</h2>
+
+      <div class="tr-card">
+        <h3>The teacher's markings are the point</h3>
+        <p>A clean, unmarked worksheet teaches an AI model very little. What is genuinely rare — and what no web scraper can ever collect — is <strong>your judgement made visible</strong>: the error identified, the correction supplied, and the reasoning behind it. Please contribute material that carries your input, whether as red ink, margin comments, tracked changes, rubric scores or annotations.</p>
+
+        <h4>📄 Digital files</h4>
+        <ul>
+          <li>Word documents, PDFs, PowerPoint, plain text, spreadsheets</li>
+          <li>Worksheets and comprehension passages with model answers</li>
+          <li>Exam or assessment questions paired with correct answers and marking schemes</li>
+          <li>Student compositions with tracked changes or inserted comments</li>
+          <li>Lesson plans, grammar explanations, vocabulary lists, rubrics</li>
+          <li>Anything reflecting Singapore Tamil usage, register, or local context</li>
+        </ul>
+
+        <h4>📷 Handwritten and scanned material</h4>
+        <ul>
+          <li>Photographs or scans of marked student work — red ink corrections are ideal</li>
+          <li>Compositions with your annotations in the margins</li>
+          <li>Marked answer scripts showing what was wrong and what the correct answer is</li>
+          <li>Handwritten model answers and worked examples</li>
+          <li>Whiteboard or blackboard explanations you have photographed</li>
+        </ul>
+
+        <h4>Especially valuable</h4>
+        <ul>
+          <li><strong>Question → student answer → teacher's correct answer</strong> triples. This is the single most useful format for training and evaluating AI.</li>
+          <li>Composition drafts showing the <strong>before and after</strong> of your feedback.</li>
+          <li>Anything involving <strong>spoken or colloquial Singapore Tamil</strong>, which current AI handles poorly.</li>
+          <li>Classical and literary Tamil with commentary — where AI is least reliable today.</li>
+        </ul>
+      </div>
+
+      <!-- ─────────── Anonymity ─────────── -->
+      <h2 class="section-header">Student privacy is mandatory</h2>
+
+      <div class="tr-card">
+        <h3>Remove every student name before you upload</h3>
+        <div class="tr-danger">
+          <strong>This is not optional.</strong> Student names, class registers, index numbers, NRIC or FIN numbers, addresses, photographs of faces, and parent or guardian details must all be removed or blacked out before a file is submitted. Please also remove your school's identifying marks if the material is sensitive. If in doubt, leave it out.
+        </div>
+        <p><strong>A redaction tool is built into the uploader below.</strong> For photographs and scans, you can drag black boxes over any name directly in your browser. The redaction is permanently burned into the image, and the original file never leaves your computer — only the redacted version is uploaded. Camera and location metadata are stripped automatically in the process.</p>
+
+        <div class="tr-note">
+          <strong>Why we do not erase names automatically.</strong> You may reasonably ask whether this could be automated. It can be attempted — handwriting recognition followed by name detection — but for handwritten Tamil it is unreliable, and an automated tool that misses one name in fifty is worse than no tool at all, because it invites people to stop checking. A teacher taking ten seconds to black out a name is both more accurate and more defensible. We would rather be slow and correct.
+        </div>
+
+        <p>Where a name is part of the pedagogical content — a composition <em>about</em> a person, for instance — replace it with a generic name such as மாறன் or கமலா rather than deleting it, so the sentence still reads naturally.</p>
+      </div>
+
+      <!-- ─────────── Auth ─────────── -->
+      <h2 class="section-header">Teacher access</h2>
+
+      <div class="tr-msg info show" id="trDemoBanner" style="display:none;">
+        <strong>Demo mode.</strong> This repository is not yet connected to its storage backend, so sign-in and uploads are disabled. The interface below is fully functional for demonstration — including the redaction tool — but nothing is transmitted or stored.
+      </div>
+
+      <!-- Signed out -->
+      <div class="tr-card" id="trAuthCard">
+        <h3>Sign in or register</h3>
+        <p>Access is limited to Tamil language teachers and educators. Enter your details and we will email you a secure sign-in link — clicking it verifies your address. There is no password to remember.</p>
+
+        <div class="tr-msg" id="trAuthMsg"></div>
+
+        <div class="tr-field">
+          <label for="trEmail">Email address</label>
+          <input class="tr-input" type="email" id="trEmail" placeholder="teacher@school.edu.sg" autocomplete="email">
+        </div>
+        <div class="tr-row2">
+          <div class="tr-field">
+            <label for="trName">Full name <span class="tr-hint">— for attribution</span></label>
+            <input class="tr-input" type="text" id="trName" placeholder="e.g. Kamala Devi" autocomplete="name">
+          </div>
+          <div class="tr-field">
+            <label for="trRole">Role</label>
+            <select class="tr-select" id="trRole">
+              <option value="">Select…</option>
+              <option>Tamil Language Teacher</option>
+              <option>Head of Department / Subject Head</option>
+              <option>Curriculum / Resource Developer</option>
+              <option>Lecturer / Teacher Educator</option>
+              <option>Community Tamil Educator</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="tr-row2">
+          <div class="tr-field">
+            <label for="trInstitution">Institution <span class="tr-hint">— required</span></label>
+            <input class="tr-input" type="text" id="trInstitution" placeholder="e.g. Umar Pulavar Tamil Language Centre">
+          </div>
+          <div class="tr-field">
+            <label for="trCountry">Country / region</label>
+            <select class="tr-select" id="trCountry">
+              <option>Singapore</option>
+              <option>Malaysia</option>
+              <option>India</option>
+              <option>Sri Lanka</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="tr-check">
+          <input type="checkbox" id="trAgreeTeacher">
+          <label for="trAgreeTeacher">I confirm that I am a Tamil language teacher or educator at the institution stated above.</label>
+        </div>
+        <div class="tr-check">
+          <input type="checkbox" id="trAgreeLicence">
+          <label for="trAgreeLicence">I understand that material I contribute may be openly released for research and AI development, with attribution to me, and I confirm I have the right to share it.</label>
+        </div>
+
+        <button class="tr-btn" id="trSendLink">Email me a sign-in link</button>
+        <p class="tr-src">We store your name, email, role and institution solely to verify contributors and to credit contributions. Your email address is never published.</p>
+      </div>
+
+      <!-- Signed in -->
+      <div id="trAppArea" style="display:none;">
+        <div class="tr-userbar">
+          <span>Signed in as <span class="tr-ub-name" id="trUbName">—</span></span>
+          <span style="color:var(--text-light);" id="trUbInst"></span>
+          <span class="tr-ub-spacer"></span>
+          <button class="tr-btn tr-btn-ghost tr-btn-sm" id="trSignOut">Sign out</button>
+        </div>
+
+        <div class="tr-card">
+          <h3>Contribute material</h3>
+
+          <div class="tr-tabs">
+            <button class="tr-tab active" data-pane="digital">📄 Digital files</button>
+            <button class="tr-tab" data-pane="scan">📷 Handwritten / photos</button>
+          </div>
+
+          <!-- Digital pane -->
+          <div class="tr-pane active" id="trPaneDigital">
+            <p style="margin-bottom:.8em;">Word documents, PDFs, slides, spreadsheets or plain text. Keeping the original file preserves the text layer, which is far more useful for training than an image — so please redact by editing the document itself before uploading.</p>
+            <div class="tr-drop" id="trDropDigital">
+              <div class="tr-drop-icon">📄</div>
+              <div class="tr-drop-main">Choose files or drag them here</div>
+              <div class="tr-drop-sub">PDF, DOCX, DOC, PPTX, XLSX, TXT, RTF, ODT — up to 25 MB each</div>
+            </div>
+            <input type="file" id="trFileDigital" multiple accept=".pdf,.doc,.docx,.ppt,.pptx,.xls,.xlsx,.txt,.rtf,.odt,.odp,.ods" style="display:none;">
+            <div class="tr-filelist" id="trListDigital"></div>
+          </div>
+
+          <!-- Scan pane -->
+          <div class="tr-pane" id="trPaneScan">
+            <p style="margin-bottom:.8em;">Photographs or scans of marked work. Each image opens in the redaction tool so you can black out names before it is uploaded. PDFs are rendered page by page for redaction and submitted as images.</p>
+            <div class="tr-drop" id="trDropScan">
+              <div class="tr-drop-icon">📷</div>
+              <div class="tr-drop-main">Choose an image or PDF to redact</div>
+              <div class="tr-drop-sub">JPG, PNG, HEIC, WEBP, PDF — one file at a time</div>
+            </div>
+            <input type="file" id="trFileScan" accept="image/*,.pdf" style="display:none;">
+
+            <!-- Redaction editor -->
+            <div class="tr-redact" id="trRedact">
+              <div class="tr-redact-toolbar">
+                <button class="tr-btn tr-btn-danger tr-btn-sm" id="trRedactUndo">Undo box</button>
+                <button class="tr-btn tr-btn-ghost tr-btn-sm" id="trRedactClear">Clear all</button>
+                <button class="tr-btn tr-btn-sm" id="trRedactAccept">Looks good — add page</button>
+                <span class="tr-redact-hint">Drag across any student name to black it out</span>
+              </div>
+              <div class="tr-canvas-wrap"><canvas id="trCanvas"></canvas></div>
+              <div class="tr-page-nav" id="trPageNav" style="display:none;">
+                <button class="tr-btn tr-btn-ghost tr-btn-sm" id="trPagePrev">‹ Prev</button>
+                <span id="trPageLabel">Page 1 of 1</span>
+                <button class="tr-btn tr-btn-ghost tr-btn-sm" id="trPageNext">Next ›</button>
+              </div>
+            </div>
+            <div class="tr-filelist" id="trListScan"></div>
+          </div>
+
+          <!-- Shared metadata -->
+          <h4>Describe the contribution</h4>
+          <div class="tr-row2">
+            <div class="tr-field">
+              <label for="trMatType">Type of material</label>
+              <select class="tr-select" id="trMatType">
+                <option value="">Select…</option>
+                <option>Marked student composition</option>
+                <option>Question + student answer + correct answer</option>
+                <option>Worksheet with model answers</option>
+                <option>Assessment / exam paper with marking scheme</option>
+                <option>Lesson plan or teaching notes</option>
+                <option>Grammar explanation or reference</option>
+                <option>Vocabulary or comprehension material</option>
+                <option>Literature or classical Tamil commentary</option>
+                <option>Spoken / colloquial Tamil transcript</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="tr-field">
+              <label for="trLevel">Student level</label>
+              <select class="tr-select" id="trLevel">
+                <option value="">Select…</option>
+                <option>Primary 1–3</option>
+                <option>Primary 4–6</option>
+                <option>Secondary 1–2</option>
+                <option>Secondary 3–5</option>
+                <option>Junior College / Pre-U</option>
+                <option>Tertiary / Adult</option>
+                <option>Mixed / Not applicable</option>
+              </select>
+            </div>
+          </div>
+          <div class="tr-field">
+            <label for="trPages">Approximate number of pages <span class="tr-hint">— used to estimate the token count</span></label>
+            <input class="tr-input" type="number" id="trPages" min="1" max="2000" value="1">
+          </div>
+          <div class="tr-field">
+            <label for="trNotes">Notes <span class="tr-hint">— optional, but helpful</span></label>
+            <textarea class="tr-textarea" id="trNotes" placeholder="e.g. Secondary 3 Express compositions with my corrections in red. Common errors are case endings and verb agreement."></textarea>
+          </div>
+
+          <div class="tr-check">
+            <input type="checkbox" id="trConfirmAnon">
+            <label for="trConfirmAnon"><strong>I have removed or blacked out every student name</strong> and all other identifying details — index numbers, NRIC/FIN, addresses, faces and contact details.</label>
+          </div>
+          <div class="tr-check">
+            <input type="checkbox" id="trConfirmRights">
+            <label for="trConfirmRights">I created this material, or I have the right to share it. It does not contain third-party copyrighted content that I am not permitted to redistribute.</label>
+          </div>
+
+          <div class="tr-msg" id="trUploadMsg"></div>
+          <button class="tr-btn" id="trSubmit" disabled>Submit contribution</button>
+          <span id="trTokenPreview" style="font-size:.79rem;color:var(--text-light);margin-left:.7em;"></span>
+        </div>
+
+        <div class="tr-card" id="trMyCard">
+          <h3>Your contributions</h3>
+          <div id="trMyList"><p style="color:var(--text-light);">Nothing submitted yet.</p></div>
+        </div>
+      </div>
+
+      <!-- ─────────── FAQ ─────────── -->
+      <h2 class="section-header">Questions</h2>
+      <div class="tr-card">
+        <h4>Who can see what I upload?</h4>
+        <p>During the pilot, only the project maintainer. Nothing is published automatically. Before any material is released or shared with a partner organisation, contributors will be told what is being released and given the opportunity to withdraw their material.</p>
+
+        <h4>Will I be credited?</h4>
+        <p>Yes. Your name and institution are recorded with every contribution, and any published dataset will carry a contributor list. If you would prefer to contribute anonymously, say so in the notes field and we will honour it.</p>
+
+        <h4>Can I withdraw material later?</h4>
+        <p>Yes. Email <a href="mailto:m.ganeshkumar138@gmail.com">m.ganeshkumar138@gmail.com</a> and it will be removed. Once a dataset has been publicly released, prior copies cannot be recalled — which is why nothing is released without notifying contributors first.</p>
+
+        <h4>What licence will the data carry?</h4>
+        <p>The intention is an open licence permitting research and AI development with attribution required — most likely CC BY 4.0. This will be settled in consultation with contributors and any institutional partner before release, not decided unilaterally.</p>
+
+        <h4>Is this an official MOE project?</h4>
+        <p>No. This is an independent pilot run by Dr M Ganesh Kumar to demonstrate feasibility. If it succeeds, the case for a properly resourced national repository becomes much easier to make.</p>
+
+        <h4>I have material but I am not a teacher — writers, publishers, historians?</h4>
+        <p>Please get in touch directly. High-quality Tamil prose of any kind is valuable; this pilot is simply scoped to teachers first because classroom material with corrections is the rarest and most useful kind.</p>
+      </div>
+
+    </section>
+
   </main>
-</div>
 
 </div><!-- /page-wrap -->
 </div><!-- /page-outer -->
@@ -823,23 +1332,601 @@
 </footer>
 
 <script>
+  // Panels reachable by URL. "tamilrepo" has no masthead button — it is reached
+  // from the Tamil + AI card on the Beyond Research page, or directly by hash.
+  const TAB_PARENT = { tamilrepo: "beyond" };
+
   function switchTab(tab) {
-    // Hide all panels, deactivate all buttons
+    const panel = document.getElementById("panel-" + tab);
+    if (!panel) return;
     document.querySelectorAll(".tab-panel").forEach(el => el.classList.remove("active"));
     document.querySelectorAll(".nav-btn").forEach(el => el.classList.remove("active"));
-    // Show target
-    document.getElementById("panel-" + tab).classList.add("active");
-    document.getElementById("btn-" + tab).classList.add("active");
+    panel.classList.add("active");
+    // Highlight this tab's own button, or its parent's if it is a sub-page.
+    const btn = document.getElementById("btn-" + (TAB_PARENT[tab] || tab));
+    if (btn) btn.classList.add("active");
     window.scrollTo({ top: 0, behavior: "smooth" });
-    // Update hash
     history.replaceState(null, "", "#" + tab);
   }
 
-  // Handle direct hash links on load
+  const VALID_TABS = ["about", "pubs", "beyond", "tamilrepo"];
+
   (function() {
-    const hash = window.location.hash.replace("#", "");
-    const valid = ["about", "pubs", "beyond"];
-    if (valid.includes(hash)) switchTab(hash);
+    const hash = window.location.hash.replace("#", "").split("?")[0];
+    if (VALID_TABS.includes(hash)) switchTab(hash);
+  })();
+
+  window.addEventListener("hashchange", function () {
+    const hash = window.location.hash.replace("#", "").split("?")[0];
+    if (VALID_TABS.includes(hash)) switchTab(hash);
+  });
+
+  /* ══════════════════════════════════════════════════════════════════════
+     TAMIL OPEN DATA REPOSITORY  (#tamilrepo)
+     ══════════════════════════════════════════════════════════════════════ */
+  (function () {
+
+    /* ---------- Reference data: Common Crawl CC-MAIN-2026-30 (July 2026) ---------- */
+    const CRAWL_PAGES  = 2.14e9;      // total pages in the July 2026 crawl
+    const TOKENS_PAGE  = 1000;        // assumed tokens of extracted text per web page
+    const TARGET_SHARE = 1.0;         // our goal: 1% of Common Crawl
+
+    const LANGS = [
+      { name: "English",  pct: 40.5782 },
+      { name: "Spanish",  pct: 4.6418  },
+      { name: "Mandarin", pct: 4.4292  },
+      { name: "Hindi",    pct: 0.2223  },
+      { name: "Malay",    pct: 0.0897  },
+      { name: "Tamil",    pct: 0.0488, tamil: true }
+    ];
+
+    const TAMIL_PCT      = 0.0488;
+    const TOKENS_TO_GOAL = CRAWL_PAGES * (TARGET_SHARE - TAMIL_PCT) / 100 * TOKENS_PAGE; // ≈ 20.4e9
+
+    // Token estimates per page of contributed material
+    const TOK_DIGITAL = 1200;
+    const TOK_SCAN    = 600;
+
+    /* ---------- Small helpers ---------- */
+    const $ = id => document.getElementById(id);
+
+    function human(n) {
+      if (n >= 1e12) return (n / 1e12).toFixed(2) + "T";
+      if (n >= 1e9)  return (n / 1e9).toFixed(2)  + "B";
+      if (n >= 1e6)  return (n / 1e6).toFixed(1)  + "M";
+      if (n >= 1e3)  return (n / 1e3).toFixed(1)  + "K";
+      return String(Math.round(n));
+    }
+    function commas(n) { return Math.round(n).toLocaleString("en-SG"); }
+
+    function msg(el, text, kind) {
+      if (!el) return;
+      el.textContent = text;
+      el.className = "tr-msg show " + (kind || "info");
+    }
+    function clearMsg(el) { if (el) el.className = "tr-msg"; }
+
+    /* ---------- Language chart + table ---------- */
+    function renderLangs() {
+      const bars = $("trBars"), tbody = $("trLangTable");
+      if (!bars || !tbody) return;
+      const max = LANGS[0].pct;
+      bars.innerHTML = "";
+      tbody.innerHTML = "";
+
+      LANGS.forEach(function (l) {
+        const pages  = CRAWL_PAGES * l.pct / 100;
+        const tokens = pages * TOKENS_PAGE;
+
+        const row = document.createElement("div");
+        row.className = "tr-bar-row" + (l.tamil ? " is-tamil" : "");
+        row.innerHTML =
+          '<span class="tr-bar-lang">' + l.name + '</span>' +
+          '<span class="tr-bar-track"><span class="tr-bar-fill" style="width:0"></span></span>' +
+          '<span class="tr-bar-val">' + l.pct.toFixed(l.pct < 1 ? 4 : 2) + '% · ' + human(tokens) + ' tok</span>';
+        bars.appendChild(row);
+        // Animate on next frame so the transition is visible.
+        const fill = row.querySelector(".tr-bar-fill");
+        requestAnimationFrame(function () {
+          // Square-root scale, otherwise Tamil is an invisible sliver next to English.
+          fill.style.width = (Math.sqrt(l.pct / max) * 100).toFixed(2) + "%";
+        });
+
+        const tr = document.createElement("tr");
+        if (l.tamil) tr.className = "is-tamil";
+        tr.innerHTML =
+          "<td>" + l.name + "</td>" +
+          '<td class="num">' + l.pct.toFixed(l.pct < 1 ? 4 : 2) + "%</td>" +
+          '<td class="num">' + human(pages) + "</td>" +
+          '<td class="num">~' + human(tokens) + "</td>";
+        tbody.appendChild(tr);
+      });
+
+      const note = document.createElement("p");
+      note.className = "tr-src";
+      note.style.margin = "0.5em 0 0";
+      note.innerHTML = "Bars use a square-root scale so that the smaller languages remain visible. " +
+                       "On a true linear scale, the Tamil bar would be about one pixel wide next to English.";
+      bars.appendChild(note);
+    }
+
+    /* ---------- Contribution counter ---------- */
+    function renderStats(s) {
+      const stats = s || { tokens: 0, pages: 0, items: 0, teachers: 0 };
+      if ($("trStatTokens"))   $("trStatTokens").textContent   = human(stats.tokens);
+      if ($("trStatPages"))    $("trStatPages").textContent    = commas(stats.pages);
+      if ($("trStatItems"))    $("trStatItems").textContent    = commas(stats.items);
+      if ($("trStatTeachers")) $("trStatTeachers").textContent = commas(stats.teachers);
+
+      const pct = Math.min(100, stats.tokens / TOKENS_TO_GOAL * 100);
+      if ($("trProgressPct"))  $("trProgressPct").textContent  = pct.toFixed(4) + "%";
+      if ($("trProgressFill")) $("trProgressFill").style.width = Math.max(0.3, pct) + "%";
+    }
+
+    /* ══════════════ Redaction editor ══════════════
+       Draws the image to a canvas, lets the teacher drag black rectangles over
+       names, then exports the flattened canvas. The original file is never sent —
+       re-encoding through the canvas also discards EXIF (camera, GPS) metadata. */
+    const Redactor = (function () {
+      let canvas, ctx, baseImg = null, boxes = [], drawing = false, start = null;
+      let scale = 1;                       // displayed px per source px
+      let pdfPages = [], pageIdx = 0;      // when the source is a PDF
+      let onAccept = null;
+
+      function init() {
+        canvas = $("trCanvas");
+        if (!canvas) return;
+        ctx = canvas.getContext("2d");
+
+        canvas.addEventListener("pointerdown", down);
+        canvas.addEventListener("pointermove", move);
+        window.addEventListener("pointerup", up);
+
+        $("trRedactUndo").addEventListener("click", function () { boxes.pop(); repaint(); });
+        $("trRedactClear").addEventListener("click", function () { boxes = []; repaint(); });
+        $("trRedactAccept").addEventListener("click", accept);
+        $("trPagePrev").addEventListener("click", function () { gotoPage(pageIdx - 1); });
+        $("trPageNext").addEventListener("click", function () { gotoPage(pageIdx + 1); });
+      }
+
+      function pos(e) {
+        const r = canvas.getBoundingClientRect();
+        return { x: (e.clientX - r.left) / r.width * canvas.width,
+                 y: (e.clientY - r.top)  / r.height * canvas.height };
+      }
+      function down(e) { if (!baseImg) return; drawing = true; start = pos(e); canvas.setPointerCapture(e.pointerId); }
+      function move(e) {
+        if (!drawing) return;
+        const p = pos(e);
+        repaint();
+        ctx.fillStyle = "rgba(0,0,0,.55)";
+        ctx.fillRect(start.x, start.y, p.x - start.x, p.y - start.y);
+        ctx.strokeStyle = "#A51C30"; ctx.lineWidth = 2;
+        ctx.strokeRect(start.x, start.y, p.x - start.x, p.y - start.y);
+      }
+      function up(e) {
+        if (!drawing) return;
+        drawing = false;
+        const p = pos(e);
+        const x = Math.min(start.x, p.x), y = Math.min(start.y, p.y);
+        const w = Math.abs(p.x - start.x), h = Math.abs(p.y - start.y);
+        if (w > 4 && h > 4) boxes.push({ x: x, y: y, w: w, h: h });
+        repaint();
+      }
+      function repaint() {
+        if (!baseImg) return;
+        ctx.drawImage(baseImg, 0, 0, canvas.width, canvas.height);
+        ctx.fillStyle = "#000";
+        boxes.forEach(function (b) { ctx.fillRect(b.x, b.y, b.w, b.h); });
+      }
+
+      function setSource(img) {
+        baseImg = img;
+        boxes = [];
+        // Cap the working resolution so very large phone photos stay responsive.
+        const MAXW = 1600;
+        scale = Math.min(1, MAXW / img.width);
+        canvas.width  = Math.round(img.width  * scale);
+        canvas.height = Math.round(img.height * scale);
+        repaint();
+        $("trRedact").classList.add("show");
+      }
+
+      function gotoPage(i) {
+        if (i < 0 || i >= pdfPages.length) return;
+        pageIdx = i;
+        setSource(pdfPages[i]);
+        $("trPageLabel").textContent = "Page " + (i + 1) + " of " + pdfPages.length;
+      }
+
+      function loadImageFile(file, cb) {
+        const url = URL.createObjectURL(file);
+        const img = new Image();
+        img.onload = function () { URL.revokeObjectURL(url); cb(null, img); };
+        img.onerror = function () { URL.revokeObjectURL(url); cb(new Error("Could not read that image.")); };
+        img.src = url;
+      }
+
+      async function loadPdfFile(file) {
+        if (!window.pdfjsLib) throw new Error("PDF support is still loading — please try again in a moment.");
+        const buf = await file.arrayBuffer();
+        const pdf = await window.pdfjsLib.getDocument({ data: buf }).promise;
+        const pages = [];
+        const limit = Math.min(pdf.numPages, 30);
+        for (let n = 1; n <= limit; n++) {
+          const page = await pdf.getPage(n);
+          const vp = page.getViewport({ scale: 2 });
+          const c = document.createElement("canvas");
+          c.width = vp.width; c.height = vp.height;
+          await page.render({ canvasContext: c.getContext("2d"), viewport: vp }).promise;
+          const img = new Image();
+          await new Promise(function (res) { img.onload = res; img.src = c.toDataURL("image/jpeg", 0.9); });
+          pages.push(img);
+        }
+        return pages;
+      }
+
+      function accept() {
+        if (!baseImg || !onAccept) return;
+        repaint();
+        canvas.toBlob(function (blob) {
+          onAccept(blob, boxes.length);
+          if (pdfPages.length > 1 && pageIdx < pdfPages.length - 1) {
+            gotoPage(pageIdx + 1);
+          } else {
+            reset();
+          }
+        }, "image/jpeg", 0.88);
+      }
+
+      function reset() {
+        baseImg = null; boxes = []; pdfPages = []; pageIdx = 0;
+        $("trRedact").classList.remove("show");
+        $("trPageNav").style.display = "none";
+        if (ctx) ctx.clearRect(0, 0, canvas.width, canvas.height);
+      }
+
+      async function open(file, cb) {
+        onAccept = cb;
+        if (file.type === "application/pdf" || /\.pdf$/i.test(file.name)) {
+          pdfPages = await loadPdfFile(file);
+          if (!pdfPages.length) throw new Error("No pages found in that PDF.");
+          $("trPageNav").style.display = pdfPages.length > 1 ? "flex" : "none";
+          gotoPage(0);
+        } else {
+          pdfPages = [];
+          $("trPageNav").style.display = "none";
+          await new Promise(function (res, rej) {
+            loadImageFile(file, function (err, img) {
+              if (err) return rej(err);
+              setSource(img); res();
+            });
+          });
+        }
+      }
+
+      return { init: init, open: open, reset: reset };
+    })();
+
+    /* ══════════════ Upload staging ══════════════ */
+    const staged = { digital: [], scan: [] };
+
+    function refreshList(kind) {
+      const el = $(kind === "digital" ? "trListDigital" : "trListScan");
+      const arr = staged[kind];
+      if (!el) return;
+      if (!arr.length) { el.innerHTML = ""; return; }
+      el.innerHTML = arr.map(function (f, i) {
+        return '<div class="tr-fileitem">' +
+                 '<span>' + (kind === "digital" ? "📄" : "📷") + '</span>' +
+                 '<span class="tr-fi-name">' + f.label + '</span>' +
+                 '<span class="tr-fi-meta">' + (f.blob.size / 1024 / 1024).toFixed(2) + ' MB' +
+                   (f.redactions ? ' · ' + f.redactions + ' redacted' : '') + '</span>' +
+                 '<button class="tr-btn tr-btn-ghost tr-btn-sm" data-kind="' + kind + '" data-i="' + i + '">Remove</button>' +
+               '</div>';
+      }).join("");
+      el.querySelectorAll("button").forEach(function (b) {
+        b.addEventListener("click", function () {
+          staged[b.dataset.kind].splice(Number(b.dataset.i), 1);
+          refreshList(b.dataset.kind);
+          syncSubmit();
+        });
+      });
+    }
+
+    function totalFiles() { return staged.digital.length + staged.scan.length; }
+
+    function estimateTokens() {
+      const pages = Math.max(1, Number($("trPages") ? $("trPages").value : 1) || 1);
+      const rate  = staged.scan.length > staged.digital.length ? TOK_SCAN : TOK_DIGITAL;
+      return { pages: pages, tokens: pages * rate };
+    }
+
+    function syncSubmit() {
+      const btn = $("trSubmit");
+      if (!btn) return;
+      const ok = totalFiles() > 0 &&
+                 $("trConfirmAnon").checked &&
+                 $("trConfirmRights").checked &&
+                 $("trMatType").value !== "";
+      btn.disabled = !ok;
+      const est = estimateTokens();
+      $("trTokenPreview").textContent = totalFiles()
+        ? "≈ " + commas(est.tokens) + " tokens from " + totalFiles() + " file" + (totalFiles() === 1 ? "" : "s")
+        : "";
+    }
+
+    /* ---------- Wire up the uploader UI (works with or without a backend) ---------- */
+    function initUploadUI() {
+      if (!$("trDropDigital")) return;
+
+      document.querySelectorAll(".tr-tab").forEach(function (t) {
+        t.addEventListener("click", function () {
+          document.querySelectorAll(".tr-tab").forEach(x => x.classList.remove("active"));
+          document.querySelectorAll(".tr-pane").forEach(x => x.classList.remove("active"));
+          t.classList.add("active");
+          $("trPane" + t.dataset.pane.charAt(0).toUpperCase() + t.dataset.pane.slice(1)).classList.add("active");
+        });
+      });
+
+      // Digital: straight through, no redaction editor (preserves the text layer).
+      const dd = $("trDropDigital"), df = $("trFileDigital");
+      dd.addEventListener("click", () => df.click());
+      dd.addEventListener("dragover", e => { e.preventDefault(); dd.classList.add("dragover"); });
+      dd.addEventListener("dragleave", () => dd.classList.remove("dragover"));
+      dd.addEventListener("drop", e => {
+        e.preventDefault(); dd.classList.remove("dragover");
+        addDigital(e.dataTransfer.files);
+      });
+      df.addEventListener("change", () => { addDigital(df.files); df.value = ""; });
+
+      function addDigital(files) {
+        Array.from(files).forEach(function (f) {
+          if (f.size > 25 * 1024 * 1024) {
+            msg($("trUploadMsg"), '"' + f.name + '" is larger than 25 MB and was skipped.', "err");
+            return;
+          }
+          staged.digital.push({ blob: f, label: f.name, kind: "digital", redactions: 0 });
+        });
+        refreshList("digital"); syncSubmit();
+      }
+
+      // Scans: always go through the redaction editor.
+      const sd = $("trDropScan"), sf = $("trFileScan");
+      sd.addEventListener("click", () => sf.click());
+      sd.addEventListener("dragover", e => { e.preventDefault(); sd.classList.add("dragover"); });
+      sd.addEventListener("dragleave", () => sd.classList.remove("dragover"));
+      sd.addEventListener("drop", e => {
+        e.preventDefault(); sd.classList.remove("dragover");
+        if (e.dataTransfer.files[0]) openRedactor(e.dataTransfer.files[0]);
+      });
+      sf.addEventListener("change", () => { if (sf.files[0]) openRedactor(sf.files[0]); sf.value = ""; });
+
+      async function openRedactor(file) {
+        clearMsg($("trUploadMsg"));
+        try {
+          const base = file.name.replace(/\.[^.]+$/, "");
+          let n = 0;
+          await Redactor.open(file, function (blob, redactions) {
+            n++;
+            staged.scan.push({
+              blob: blob,
+              label: base + (n > 1 || /\.pdf$/i.test(file.name) ? " — page " + n : "") + ".jpg",
+              kind: "scan",
+              redactions: redactions
+            });
+            refreshList("scan"); syncSubmit();
+          });
+        } catch (err) {
+          msg($("trUploadMsg"), err.message || "Could not open that file.", "err");
+        }
+      }
+
+      ["trConfirmAnon", "trConfirmRights", "trMatType", "trPages"].forEach(function (id) {
+        const el = $(id);
+        if (el) el.addEventListener("change", syncSubmit);
+      });
+      if ($("trPages")) $("trPages").addEventListener("input", syncSubmit);
+
+      Redactor.init();
+    }
+
+    /* ══════════════ Backend ══════════════
+       Firebase config lives in tamilrepo-config.js (not committed with real keys
+       until the project is created). Without it the page runs in demo mode:
+       the full interface works, including redaction, but nothing is transmitted. */
+    async function initBackend() {
+      const cfg = window.TAMILREPO_FIREBASE;
+      const configured = cfg && cfg.apiKey && cfg.apiKey.indexOf("PASTE_") !== 0;
+
+      if (!configured) {
+        $("trDemoBanner").style.display = "block";
+        $("trSendLink").disabled = true;
+        $("trSendLink").textContent = "Sign-in unavailable in demo mode";
+        renderStats({ tokens: 0, pages: 0, items: 0, teachers: 0 });
+        return;
+      }
+
+      const [{ initializeApp }, auth, fs, st] = await Promise.all([
+        import("https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js"),
+        import("https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js"),
+        import("https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js"),
+        import("https://www.gstatic.com/firebasejs/10.12.2/firebase-storage.js")
+      ]);
+
+      const app     = initializeApp(cfg);
+      const A       = auth.getAuth(app);
+      const db      = fs.getFirestore(app);
+      const storage = st.getStorage(app);
+
+      const REDIRECT = window.location.origin + window.location.pathname + "#tamilrepo";
+
+      /* ---- Live stats ---- */
+      fs.onSnapshot(fs.doc(db, "stats", "corpus"), function (snap) {
+        renderStats(snap.exists() ? snap.data() : { tokens: 0, pages: 0, items: 0, teachers: 0 });
+      }, function () { renderStats(null); });
+
+      /* ---- Send the sign-in link ---- */
+      $("trSendLink").addEventListener("click", async function () {
+        const email = $("trEmail").value.trim().toLowerCase();
+        const name  = $("trName").value.trim();
+        const inst  = $("trInstitution").value.trim();
+        const role  = $("trRole").value;
+
+        if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return msg($("trAuthMsg"), "Please enter a valid email address.", "err");
+        if (name.length < 2)  return msg($("trAuthMsg"), "Please enter your full name — contributions are credited to you.", "err");
+        if (inst.length < 2)  return msg($("trAuthMsg"), "Please enter your institution. This is how we verify contributors.", "err");
+        if (!role)            return msg($("trAuthMsg"), "Please select your role.", "err");
+        if (!$("trAgreeTeacher").checked) return msg($("trAuthMsg"), "Please confirm that you are a Tamil language teacher or educator.", "err");
+        if (!$("trAgreeLicence").checked) return msg($("trAuthMsg"), "Please confirm you have the right to share the material you contribute.", "err");
+
+        // Held locally so the profile can be written once the emailed link is opened.
+        localStorage.setItem("tr_pending", JSON.stringify({
+          email: email, name: name, institution: inst, role: role, country: $("trCountry").value
+        }));
+
+        $("trSendLink").disabled = true;
+        try {
+          await auth.sendSignInLinkToEmail(A, email, { url: REDIRECT, handleCodeInApp: true });
+          msg($("trAuthMsg"), "Check your inbox — we have sent a sign-in link to " + email +
+                              ". Opening it verifies your address and signs you in. The link expires in about an hour, " +
+                              "and it may land in your spam folder.", "ok");
+        } catch (err) {
+          msg($("trAuthMsg"), "Could not send the link: " + (err.message || err.code), "err");
+          $("trSendLink").disabled = false;
+        }
+      });
+
+      /* ---- Complete sign-in when the emailed link is opened ---- */
+      if (auth.isSignInWithEmailLink(A, window.location.href)) {
+        const pending = JSON.parse(localStorage.getItem("tr_pending") || "{}");
+        let email = pending.email;
+        if (!email) email = window.prompt("Please confirm the email address you registered with:");
+        if (email) {
+          try {
+            await auth.signInWithEmailLink(A, email, window.location.href);
+            const u = A.currentUser;
+            await fs.setDoc(fs.doc(db, "teachers", u.uid), {
+              email:       u.email,
+              name:        pending.name        || "",
+              institution: pending.institution || "",
+              role:        pending.role        || "",
+              country:     pending.country     || "",
+              verifiedAt:  fs.serverTimestamp()
+            }, { merge: true });
+            localStorage.removeItem("tr_pending");
+            history.replaceState(null, "", window.location.pathname + "#tamilrepo");
+          } catch (err) {
+            msg($("trAuthMsg"), "That sign-in link is invalid or has expired. Please request a new one.", "err");
+          }
+        }
+      }
+
+      /* ---- Auth state ---- */
+      let profile = null;
+      auth.onAuthStateChanged(A, async function (user) {
+        if (!user) {
+          $("trAuthCard").style.display = "block";
+          $("trAppArea").style.display  = "none";
+          profile = null;
+          return;
+        }
+        const snap = await fs.getDoc(fs.doc(db, "teachers", user.uid));
+        profile = snap.exists() ? snap.data() : { name: user.email, institution: "" };
+        $("trAuthCard").style.display = "none";
+        $("trAppArea").style.display  = "block";
+        $("trUbName").textContent = profile.name || user.email;
+        $("trUbInst").textContent = profile.institution ? "· " + profile.institution : "";
+        loadMine(user);
+      });
+
+      $("trSignOut").addEventListener("click", function () { auth.signOut(A); });
+
+      /* ---- Submit ---- */
+      $("trSubmit").addEventListener("click", async function () {
+        const user = A.currentUser;
+        if (!user) return;
+        const btn = $("trSubmit");
+        btn.disabled = true;
+
+        const est   = estimateTokens();
+        const all   = staged.digital.concat(staged.scan);
+        const stamp = Date.now();
+
+        try {
+          msg($("trUploadMsg"), "Uploading " + all.length + " file" + (all.length === 1 ? "" : "s") + "…", "info");
+          const paths = [];
+          for (let i = 0; i < all.length; i++) {
+            const f = all[i];
+            const safe = f.label.replace(/[^\w.\-]+/g, "_");
+            const path = "contributions/" + user.uid + "/" + stamp + "_" + i + "_" + safe;
+            await st.uploadBytes(st.ref(storage, path), f.blob, { contentType: f.blob.type || "application/octet-stream" });
+            paths.push({ path: path, name: f.label, kind: f.kind, redactions: f.redactions || 0, bytes: f.blob.size });
+            msg($("trUploadMsg"), "Uploaded " + (i + 1) + " of " + all.length + "…", "info");
+          }
+
+          await fs.addDoc(fs.collection(db, "contributions"), {
+            uid: user.uid, email: user.email,
+            name: profile && profile.name, institution: profile && profile.institution,
+            materialType: $("trMatType").value,
+            level:        $("trLevel").value,
+            pages:        est.pages,
+            tokens:       est.tokens,
+            notes:        $("trNotes").value.trim(),
+            files:        paths,
+            createdAt:    fs.serverTimestamp()
+          });
+
+          await fs.setDoc(fs.doc(db, "stats", "corpus"), {
+            tokens: fs.increment(est.tokens),
+            pages:  fs.increment(est.pages),
+            items:  fs.increment(1)
+          }, { merge: true });
+
+          msg($("trUploadMsg"), "Thank you — your contribution has been received. " +
+                                "Estimated " + commas(est.tokens) + " tokens added to the corpus.", "ok");
+          staged.digital = []; staged.scan = [];
+          refreshList("digital"); refreshList("scan");
+          $("trConfirmAnon").checked = false; $("trConfirmRights").checked = false;
+          $("trNotes").value = ""; $("trPages").value = 1;
+          Redactor.reset(); syncSubmit(); loadMine(user);
+        } catch (err) {
+          msg($("trUploadMsg"), "Upload failed: " + (err.message || err.code) + ". Nothing was saved — please try again.", "err");
+          btn.disabled = false;
+        }
+      });
+
+      /* ---- The teacher's own contributions ---- */
+      async function loadMine(user) {
+        try {
+          const q = fs.query(fs.collection(db, "contributions"), fs.where("uid", "==", user.uid));
+          const snap = await fs.getDocs(q);
+          if (snap.empty) { $("trMyList").innerHTML = '<p style="color:var(--text-light);">Nothing submitted yet.</p>'; return; }
+          const rows = [];
+          snap.forEach(function (d) {
+            const v = d.data();
+            rows.push("<tr><td>" + (v.materialType || "—") + "</td><td>" + (v.level || "—") +
+                      '</td><td class="num">' + (v.files ? v.files.length : 0) +
+                      '</td><td class="num">' + commas(v.tokens || 0) + "</td></tr>");
+          });
+          $("trMyList").innerHTML =
+            '<table class="tr-table"><thead><tr><th>Material</th><th>Level</th>' +
+            '<th class="num">Files</th><th class="num">Est. tokens</th></tr></thead><tbody>' +
+            rows.join("") + "</tbody></table>";
+        } catch (e) { /* index may not exist yet — not fatal */ }
+      }
+    }
+
+    /* ---------- Boot ---------- */
+    function boot() {
+      renderLangs();
+      renderStats(null);
+      initUploadUI();
+      initBackend().catch(function (e) { console.error("Tamil repo backend:", e); });
+    }
+
+    if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot);
+    else boot();
   })();
 </script>
 
