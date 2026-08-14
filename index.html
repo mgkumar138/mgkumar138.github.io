@@ -406,6 +406,24 @@
     .tr-tok-count { font-size: 0.8rem; color: var(--text-light); margin-top: 0.15em; }
     .tr-tok-count strong { color: var(--text); }
     .tr-tok-rule { border: none; border-top: 1px dashed #C9D8DC; margin: 0.85em 0; }
+    .tr-try {
+      background: #E9F6EC; border-left: 3px solid #2E7D32; border-radius: 4px;
+      padding: 0.85em 1em; font-size: 0.85rem; line-height: 1.62; margin: 0.9em 0;
+    }
+    .tr-try strong { color: #1b5e20; }
+    .tr-try ol { margin: 0.5em 0 0.4em; padding-left: 1.3em; list-style: decimal; }
+    .tr-try ol li { margin-bottom: 0.3em; font-size: 0.85rem; }
+    .tr-try code {
+      font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 0.85em;
+      background: #fff; border: 1px solid #C5E0C9; border-radius: 3px; padding: 0 5px;
+    }
+    .tr-try-btn {
+      display: inline-block; margin-top: 0.5em; font-size: 0.83rem; font-weight: 600;
+      padding: 0.45em 0.95em; border-radius: 5px; background: #2E7D32; color: #fff !important;
+      border: 1px solid #2E7D32;
+    }
+    .tr-try-btn:hover { background: #1b5e20; border-color: #1b5e20; text-decoration: none; }
+
     .tr-myth {
       background: #F3F0FA; border-left: 3px solid #6A5ACD; border-radius: 4px;
       padding: 0.8em 1em; font-size: 0.84rem; line-height: 1.6; margin: 0.9em 0;
@@ -1057,6 +1075,21 @@
             <span class="tr-chip byte">▪</span><span class="tr-chip byte">▪</span><span class="tr-chip byte">▪</span><span class="tr-chip byte">▪</span><span class="tr-chip byte">▪</span><span class="tr-chip byte">▪</span><span class="tr-chip byte">▪</span><span class="tr-chip byte">▪</span><span class="tr-chip byte">▪</span><span class="tr-chip byte">▪</span><span class="tr-chip byte">▪</span><span class="tr-chip byte">▪</span>
           </div>
           <div class="tr-tok-count"><strong>About 12 tokens</strong> under the GPT-3.5 and GPT-4 tokenizer — for the same single word. Each red chip is a fragment too small to be a letter, let alone a word. Measured across matched sentences, Tamil costs <strong>9.9 times</strong> what English costs for identical content.</div>
+        </div>
+
+        <div class="tr-try">
+          <strong>Don't take our word for it — count them yourself.</strong> OpenAI publishes a free tokenizer tool that shows you exactly how any text is chopped up. No account needed. It is worth five minutes, and it makes an excellent classroom demonstration.
+          <ol>
+            <li>Type an English sentence. Watch the token count sit close to the word count.</li>
+            <li>Now type the same sentence in Tamil. The count jumps several times higher.</li>
+            <li>Try a single word — <code>teacher</code>, then <code>ஆசிரியர்</code>. Same meaning, wildly different cost.</li>
+            <li>Click <strong>"Show token IDs"</strong> to see the fragments. For Tamil, many will be meaningless slivers rather than letters.</li>
+            <li>Switch the tokenizer between <strong>GPT-4o</strong> and <strong>GPT-3.5 &amp; GPT-4</strong> using the selector, and watch the Tamil count drop by roughly two-thirds. Nothing about the Tamil changed — only the dictionary did. That is the whole argument for this repository in one click.</li>
+          </ol>
+          <a href="https://platform.openai.com/tokenizer" target="_blank" rel="noopener" class="tr-try-btn">Open the OpenAI tokenizer →</a>
+          <div style="font-size:.76rem;color:var(--text-light);margin-top:.6em;">
+            This is OpenAI's own tool and shows OpenAI's tokenizers. Other companies use different ones, so the exact numbers will vary — but the pattern holds across all of them.
+          </div>
         </div>
 
         <div class="tr-myth">
